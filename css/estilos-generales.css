@@ -1,0 +1,300 @@
+/*fuentes*/
+
+@font-face {
+    font-family: 'Telefonica';
+    src: url('../fuentes/Telefonica-Regular.woff2') format('woff2'),
+        url('../fuentes/Telefonica-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Telefonica-bold';
+    src: url('../fuentes/Telefonica-Bold.woff2') format('woff2'),
+        url('../fuentes/Telefonica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Telefonica-light';
+    src: url('../fuentes/Telefonica-Light.woff2') format('woff2'),
+        url('../fuentes/Telefonica-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Telefonica-ExtraLight';
+    src: url('../fuentes/Telefonica-ExtraLight.woff2') format('woff2'),
+        url('../fuentes/Telefonica-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+.cabezera-azul{
+	width: 100%;
+	height: 30px;
+	background: #019DF4;
+}
+
+.cabezera-azul p{
+	color: #FFF;
+	text-align: center;
+}
+.header-1 #main-menu .nav.navbar-nav{
+	margin-right: 0 !important;
+}
+.logo-2 img{
+	width: 100%;
+    max-width: 70px;
+    display: block;
+        float: right;
+            position: relative;
+    right: -45px;
+
+    
+}
+#main-menu .navbar {
+    background: none;
+    border: 0 none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header.no-transparent .logo-2{
+	padding: 0 !important;
+}
+
+.header-1 #main-menu .navbar .nav > li.current > a {
+    padding: 18px 3px 5px 3px !important;
+    margin: 0 12px 17px 12px;
+    border-bottom: 2px solid rgba(45,78,83,1);
+    color: #4b4e53;
+    
+}
+#main-menu .navbar .nav > li > a {
+    padding: 18px 3px 5px 3px !important;
+          margin: 0 6px 17px 7px !important;
+    border-bottom: 2px solid rgba(45,78,83,0);
+    color: #4b4e53;
+    letter-spacing: 0px !important;
+    background-color: transparent;
+    font-size:0.83em !important;
+    font-family: 'Telefonica';
+}
+
+
+#main-menu .navbar .nav > li > a .main-menu-title {
+    line-height: 20px;
+    color: #019DF4;
+}
+
+
+.cd-search-trigger::before {
+    top: 11px;
+    left: 11px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #019df4 !important;
+}
+
+.cd-search-trigger::after {
+    height: 1px;
+    width: 10px;
+    background: #008cda !important;
+    bottom: 16px;
+    right: 13px;
+    -webkit-transform: rotate(
+45deg
+);
+    -ms-transform: rotate(45deg);
+    transform: rotate(
+45deg
+);
+}	
+
+ul.cd-header-buttons {
+    top: 7px;
+    right: 140px;
+}
+.affix .cd-header-buttons{
+	top: 7px;
+}
+
+.contenido-header{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.caja-texto h1{
+	font-size: 15em;
+	font-family: 'Telefonica-ExtraLight';
+	color: #0B2739;
+	
+
+}
+
+.caja-texto h2{
+font-family: 'Telefonica-ExtraLight';
+color: #019df4;
+font-size: 5em;
+font-weight: 500;
+}
+
+.caja-texto h3{
+	color: #019df4;
+	font-weight: 400;
+	font-family: 'Telefonica';
+
+}
+
+.header-1 #main-menu .navbar .nav > li.current > a {
+    padding: 38px 3px 5px 3px;
+    margin: 0 12px 17px 12px;
+    border-bottom: 2px solid rgb(12 203 232) !important;
+    color: #1766e9 !important;
+}
+
+
+
+.columnas-caja{
+	display: flex;
+    justify-content:space-around;
+    width: 100%;
+    max-width: 1428px;
+        margin: 0 auto;
+    
+}
+
+.texto-boton-izq{
+	    position: relative;
+    left: -100px;
+
+}
+
+
+.texto-boton-izq h3{
+	color: #019df4;
+	font-size:2.5em;
+	font-weight: 400;
+	font-family: 'Telefonica';
+	margin: 0;
+    margin-top: 10px;
+}
+
+.texto-boton-izq p{
+	width: 100%;
+    max-width: 385px;
+    margin-top: 22px;
+}
+
+.texto-boton-der{
+	    position: relative;
+    right: -65px;
+}
+
+
+.texto-boton-der h3{
+	color: #019df4;
+	font-size:2.5em;
+	font-weight: 400;
+	font-family: 'Telefonica';
+	margin: 0;
+    margin-top: 50px;
+}
+
+.texto-boton-der p{
+	width: 100%;
+    max-width: 420px;
+    margin-top: 22px;
+}
+
+.imagen-caja{
+	width: 100%;
+	max-width: 610px;
+}
+
+.imagen-caja img{
+	width: 100%;
+	max-width: 610px;
+}
+
+footer{
+	background: #0B2739;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+	ul.cd-header-buttons {
+    top: 20px;
+    right: 40px;
+}
+
+	.texto-boton-der{
+		right: 0;
+		order: 2;
+	}
+
+	.texto-boton-izq{
+		left: 0;
+	}
+	.columnas-caja{
+		flex-direction: column;
+	}
+	.logo-2 img{
+		float: none;
+		right: 0;
+	}
+	.main-menu-container {
+    
+    position: relative;
+    
+}
+
+.main-menu-container{
+	background-color: transparent !important;
+}
+
+#main-menu .navbar-collapse.in {
+    overflow: visible !important;
+    background-color: #4b4e53;
+}
+   
+    .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        left: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        transition: all 0.4s ease;
+        display: block;
+    }
+    .navbar-collapse.collapsing {
+        height: auto !important;
+        margin-left: 100%;
+        left: 50%;
+        transition: all 0.2s ease;
+    }
+    .navbar-collapse.show {
+        left: 0;
+    }
+}
+
+
