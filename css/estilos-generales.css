@@ -314,6 +314,48 @@ footer.page-section.pt-80.pb-50 {
 
 
 
+.boton-ver-mas{
+    width: 100%;
+    padding: 7px;
+    max-width: 119px;
+    border: 1px solid #019df4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:35px;
+    color: #019df4;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.boton-ver-mas:hover{
+    background: #019df4;
+    color: #FFF;
+
+
+}
+
+.boton-navegador-seccion{
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -167px;
+}
+.boton-navegador-seccion img{
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+    display: block;
+    cursor: pointer;
+}
+
+
+
+
+
+
 @media screen and (max-width: 800px) {
 
     .row.caja-footer {
