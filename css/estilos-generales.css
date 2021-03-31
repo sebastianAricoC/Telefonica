@@ -1,4 +1,11 @@
 /*fuentes*/
+body{
+     background-image: url(../img/fondo-header.jpg);
+         background-position: 344px -305px;
+    background-size: 1048px 1499px;
+    background-repeat: no-repeat;
+}
+
 
 @font-face {
     font-family: 'Telefonica';
@@ -134,11 +141,17 @@ ul.cd-header-buttons {
 
 .contenido-header{
 	margin-top: 100px;
-	margin-bottom: 100px;
-}
+	margin-bottom: 300px;
 
+}
+.caja-texto{
+        width: 100%;
+    max-width: 1036px;
+    margin: 0 auto;
+
+}
 .caja-texto h1{
-	font-size: 15em;
+	font-size: 14em;
 	font-family: 'Telefonica-ExtraLight';
 	color: #0B2739;
 	
@@ -148,7 +161,7 @@ ul.cd-header-buttons {
 .caja-texto h2{
 font-family: 'Telefonica-ExtraLight';
 color: #019df4;
-font-size: 5em;
+font-size: 6em;
 font-weight: 500;
 }
 
@@ -190,7 +203,7 @@ font-weight: 500;
 	font-weight: 400;
 	font-family: 'Telefonica';
 	margin: 0;
-    margin-top: 10px;
+    margin-top: 35px;
 }
 
 .texto-boton-izq p{
@@ -232,14 +245,80 @@ font-weight: 500;
 
 footer{
 	background: #0B2739;
+    margin-top: 120px;
+}
+
+.logo-footer img{
+    width: 100%;
+    max-width: 60px;
+    display: block;
+        margin-bottom: 29px;
+}
+
+footer.page-section.pt-80.pb-50 {
+    padding-bottom: 150px;
+}
+.logo-footer p{
+    color: #FFF;
+    font-family: 'Telefonica';
+}
+
+
+
+.row.caja-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1058px;
+    margin: 0 auto;
+}
+
+.logo-footer{
+        width: 100%;
+            max-width: 580px;
+}
+
+.titulo-navegar h4{
+    color: #019df4;
+    margin:0;
 }
 
 
 
 
+.cols-contains {
+    display: flex;
+        justify-content: space-between;
+}
+
+
+.col1-1 ul{
+    padding: 0;
+    list-style: none;
+    margin-top:30px;
+    color: #FFF;
+    font-family: 'Telefonica';
+        line-height: 30px;
+}
+
+.columnas-footer {
+    width: 100%;
+    max-width: 384px;
+    position: relative;
+    top: 70px;
+}
+
+.logo-footer {
+    max-height: 100% !important;
+}
+
 
 
 @media screen and (max-width: 800px) {
+
+    .row.caja-footer {
+        flex-direction: column;
+    }
 	ul.cd-header-buttons {
     top: 20px;
     right: 40px;
