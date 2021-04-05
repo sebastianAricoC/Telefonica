@@ -81,3 +81,21 @@ jQuery.fn.extend({
             zoom -= 0.1;
             $('.target').css('zoom', zoom);
         });
+
+
+
+ $(document).ready(function() {
+  var $window = $(window);
+  var div2 = $('#div2');
+  var div1 = $('footer');
+  var div1_top = div1.offset().top;
+  var div1_height = div1.height();
+  var div1_bottom = div1_top + div1_height;
+  console.log(div1_bottom);
+  $window.on('scroll', function() {
+    var scrollTop = $window.scrollTop();
+    var viewport_height = $(window).height();
+    var scrollTop_bottom = scrollTop + viewport_height;
+    div2.toggleClass('hide', scrollTop_bottom > div1_bottom);
+  });
+});       
