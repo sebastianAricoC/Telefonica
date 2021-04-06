@@ -42,6 +42,46 @@ body {
     font-style: normal;
     font-display: swap;
 }
+
+/*ul.navbar-nav li {
+  list-style: none;
+  position: relative;
+  display: inline;
+}
+
+ul.navbar-nav li a {
+  color: #333;
+  text-decoration: none;
+}*/
+#main-menu .sub {
+    background: #0B2739 !important;
+    -webkit-box-shadow: 0 4px 5px rgb(0 0 0 / 20%);
+    box-shadow: 0 4px 5px rgb(0 0 0 / 20%);
+    display: none;
+    margin: 0;
+    padding: 10px 10px 10px 24px;
+    position: absolute;
+    z-index: 905;
+}
+ul.navbar-nav li.parent-t:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 16px;
+  width: 0px;
+  height: 2px;
+  background: #019df4;
+  transition: all 0.45s;
+}
+
+ul.navbar-nav li.parent-t:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+ul.navbar-nav li.parent-t a:hover {
+  text-decoration: none;
+}
 .header .container-m-30 {
     position: relative;
     width: 100%;
@@ -454,6 +494,19 @@ border-top-right-radius: 50px;
 
 
 @media screen and (max-width: 1024px) {
+    #main-menu .navbar .nav>li>a .main-menu-title {
+    line-height: 20px;
+    color: #ffffff;
+}
+#main-menu .sub, #main-menu .parent .sub, #main-menu .parent:hover .sub {
+    display: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background: #019df4 !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
     ul.cd-header-buttons {
     top: 7px;
     right: 65px;
@@ -635,7 +688,7 @@ border-top-right-radius: 50px;
 
     #main-menu .navbar-collapse.in {
         overflow: visible !important;
-        background-color: #4b4e53;
+        background-color: #019df4;
     }
 
     .navbar-collapse {
