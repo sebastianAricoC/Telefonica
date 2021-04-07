@@ -1,5 +1,6 @@
 /*fuentes*/
-body {
+
+body.home{
     background-image: url(../img/fondo-header.jpg);
     background-position: 344px -305px;
     background-size: 1048px 1499px;
@@ -550,7 +551,52 @@ border-top-right-radius: 50px;
 }
 
 
+.caja-anualmente{
+        display: flex;
+    width: 100%;
+    max-width: 970px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: #c3c4c6;
+    margin-top:70px;
+}
 
+.imagen-anualmente{
+    background: #c8cccf;
+        width: 100%;
+    max-width: 370px;
+}
+
+.imagen-anualmente img{
+    width: 100%;
+    max-width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+
+.caja-texto-anualmente-interna {
+    width: 100%;
+    max-width: 558px;
+    padding-top: 32px;
+    padding-bottom: 41px;
+    
+}
+
+.caja-texto-anualmente-interna h2, .caja-texto-anualmente-interna p {
+        padding-left: 46px;
+    margin: 0;
+}
+
+.caja-texto-anualmente-interna h2{
+    color: #019df4;
+}
+
+.caja-texto-anualmente-interna p{
+    margin-top:12px;
+        width: 100%;
+    max-width: 500px;
+}
 
 
 
@@ -568,6 +614,18 @@ border-top-right-radius: 50px;
 
 
 @media screen and (max-width: 1024px) {
+
+
+/*seccion interna 1 estilos responsive*/
+
+.caja-anualmente{
+    flex-direction: column;
+}
+
+
+
+
+
     #main-menu .navbar .nav>li>a .main-menu-title {
     line-height: 20px;
     color: #ffffff;
