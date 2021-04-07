@@ -547,6 +547,10 @@ border-top-right-radius: 50px;
         width: 1235px !important;
 }
 
+.contenedor-seccion{
+     width: 1235px !important;
+}
+
 
 }
 
@@ -603,11 +607,14 @@ border-top-right-radius: 50px;
 .caja-proceso-informe{
     width: 100%;
     max-width: 970px;
+        margin: 0 auto;
 }
 
 
 .columnas-proceso-informe{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .caja-texto-proceso-informe{
@@ -616,10 +623,23 @@ border-top-right-radius: 50px;
 }
 
 
+.cuadros-procesos img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 
+.spacer-arround{
+    width: 100%;
+    max-width: 100px;
+}
 
-
+.caja-texto-proceso-informe h3{
+    font-family: 'Telefonica';
+    color: #019df4;
+}
 
 
 @media screen and (max-width: 1024px) {
