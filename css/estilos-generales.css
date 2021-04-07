@@ -726,6 +726,28 @@ border-top-right-radius: 50px;
     margin-top: 28px;
 }
 
+
+.caja-asuntos-materiales{
+        width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.imagen-asuntos-materiales img{
+        width: 100%;
+    max-width: 967px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1024px) {
 
 
