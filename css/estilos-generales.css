@@ -641,6 +641,90 @@ border-top-right-radius: 50px;
     color: #019df4;
 }
 
+.caja-plan-negocio-rentable{
+    background: #019df4;
+        padding-bottom: 65px;
+
+}
+
+.caja-iconos-negocio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.imagen-podio img {
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    margin:  0 auto;
+}
+
+.imagen-lapiz img{
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    margin:0 auto;
+}
+
+.flecha img{
+    width: 100%;
+    max-width: 60px;
+    display: block;
+    margin:0 auto;
+}
+
+.imagenes-podio-lapiz {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 340px;
+}
+
+.imagen-podio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.caja-texto-invitados h2{
+    color:#FFF;
+        font-size: 3em;
+         
+             margin: 0;
+             font-family: 'Telefonica-bold';
+}
+.imagen-podio h4{
+    margin: 0;
+     font-family: 'Telefonica-bold';
+}
+
+.imagen-lapiz h4{
+    margin: 0;
+     font-family: 'Telefonica-bold';
+}
+
+.caja-texto-invitados h4{
+    margin: 0;
+    font-family: 'Telefonica-bold';
+}
+.caja-texto-invitados p{
+    color: #FFF;
+}
+
+.caja-plan-negocio-rentable h1{
+        color: #FFF;
+    padding: 30px;
+    margin-left:88px;
+}
+
+.invitados {
+    margin-top: 28px;
+}
 
 @media screen and (max-width: 1024px) {
 
