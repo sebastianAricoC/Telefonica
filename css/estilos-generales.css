@@ -730,9 +730,12 @@ border-top-right-radius: 50px;
 .caja-asuntos-materiales{
         width: 100%;
     max-width: 970px;
-    margin: 0 auto;
+    margin: 58px auto;
 }
-
+.caja-asuntos-materiales h1{
+        font-family: 'Telefonica';
+    color: #019df4;
+}
 .imagen-asuntos-materiales img{
         width: 100%;
     max-width: 967px;
