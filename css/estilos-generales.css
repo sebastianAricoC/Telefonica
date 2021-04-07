@@ -493,6 +493,80 @@ border-top-right-radius: 50px;
 
 
 
+
+/*Secciones Internas*/
+
+
+.banner-secciones-internas{
+    background: url(../img/imagen1-interna.jpg);
+    width: 100%;
+    background-position: 0px -1px;
+    background-size: cover;
+        height: 339px;
+        margin-top: 113px;
+
+
+}
+
+
+.caja-texto-seccion-banner h1{
+    font-size: 9em;
+    font-family: 'Telefonica-ExtraLight';
+    color: #0B2739;
+    margin:0;
+
+}
+
+.caja-texto-seccion-banner h2{
+  
+   font-family: 'Telefonica-light';
+    color: #FFF;
+        font-weight: 500;
+    letter-spacing: 1px;
+    font-size:3em;
+    margin:0;
+    
+}
+
+.caja-texto-seccion-banner p{
+    color: #FFF;
+    font-family: 'Telefonica';
+    line-height: 65px;
+}
+
+.caja-texto-seccion-banner {
+    padding: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1024px) {
     #main-menu .navbar .nav>li>a .main-menu-title {
     line-height: 20px;
