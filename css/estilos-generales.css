@@ -116,7 +116,7 @@ ul.navbar-nav li.parent-t a:hover {
 }
 
 .header-1 #main-menu .nav.navbar-nav {
-    margin-right: 0 !important;
+    margin-right: -46px !important;
 }
 
 .logo-2 img {
@@ -150,8 +150,8 @@ ul.navbar-nav li.parent-t a:hover {
 }
 
 #main-menu .navbar .nav>li>a {
-    padding: 18px 3px 5px 3px !important;
-    margin: 0 6px 17px 7px !important;
+   padding: 18px 4px 5px 4px !important;
+    margin: 0 10px 17px 8px !important;
     border-bottom: 2px solid rgba(45, 78, 83, 0);
     color: #4b4e53;
     letter-spacing: 0px !important;
@@ -540,14 +540,14 @@ border-top-right-radius: 50px;
 
 
 
+@media (min-width: 1200px){
+
+.contenedor-banner{
+        width: 1235px !important;
+}
 
 
-
-
-
-
-
-
+}
 
 
 
