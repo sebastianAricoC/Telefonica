@@ -570,7 +570,7 @@ border-top-right-radius: 50px;
 
 .imagen-anualmente img{
     width: 100%;
-    max-width: 280px;
+    max-width: 334px;
     display: block;
     margin: 0 auto;
 }
@@ -578,13 +578,12 @@ border-top-right-radius: 50px;
 .caja-texto-anualmente-interna {
     width: 100%;
     max-width: 558px;
-    padding-top: 32px;
-    padding-bottom: 41px;
+   
     
 }
 
 .caja-texto-anualmente-interna h2, .caja-texto-anualmente-interna p {
-        padding-left: 46px;
+        padding-left: 65px;
     margin: 0;
 }
 
@@ -601,10 +600,20 @@ border-top-right-radius: 50px;
 
 
 
+.caja-proceso-informe{
+    width: 100%;
+    max-width: 970px;
+}
 
 
+.columnas-proceso-informe{
+    display: flex;
+}
 
-
+.caja-texto-proceso-informe{
+    width: 100%;
+    max-width: 500px;
+}
 
 
 
