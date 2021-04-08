@@ -769,6 +769,7 @@ border-top-right-radius: 50px;
 .tg {
     border-collapse: collapse;
     border-spacing: 0;
+        width: 100%;
 }
 
 .tg td {
@@ -798,24 +799,29 @@ border-top-right-radius: 50px;
     border-color: inherit;
     text-align: center;
     vertical-align: middle;
+    border-left-color: transparent;
+    border-right-color: transparent;
 }
 
 .tg .tg-0pky {
     border-color: inherit;
     text-align: left;
     vertical-align: middle;
+    border-left-color: transparent;
+    border-right-color: transparent;
 }
 
 
 .tg2 {
     border-collapse: collapse;
     border-spacing: 0;
+    width: 100%;
+    max-width: 378px;
 }
 
+
 .tg2 td {
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
+    
     font-family: Arial, sans-serif;
     font-size: 14px;
     overflow: hidden;
@@ -824,9 +830,10 @@ border-top-right-radius: 50px;
 }
 
 .tg2 th {
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
+    border-top-color: transparent;
+    /*border-bottom: 1px solid #fff;*/
+    border-right-color: transparent;
+    border-left-color: transparent;
     font-family: Arial, sans-serif;
     font-size: 14px;
     font-weight: normal;
@@ -841,7 +848,9 @@ border-top-right-radius: 50px;
     vertical-align: top
 }
 
-
+.tabla-genis{
+    border-bottom: 1px solid #fff;
+}
 
 
 
@@ -850,8 +859,20 @@ border-top-right-radius: 50px;
     border-bottom: 1px solid #fff;
 }
 
+.border-tabla-row1{
+        border-color: transparent;
+    border-bottom: 1px solid #fff;
+}
+
 th.tg-0pky.border-transparent {
     border-color: transparent;
+}
+
+.tabla-actualizacion-materiales{
+        width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+        padding-bottom: 100px;
 }
 
 
