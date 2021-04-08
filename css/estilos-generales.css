@@ -776,6 +776,7 @@ border-top-right-radius: 50px;
         width: 100%;
     max-width: 551px;
     font-family: 'Telefonica';
+    color: #FFF;
 }
 
 
@@ -785,7 +786,7 @@ border-top-right-radius: 50px;
 }
 
 
-/*tabla grande actualizacion*/
+/********************tabla grande actualizacion***********************/
 
 .tg {
     border-collapse: collapse;
@@ -903,6 +904,17 @@ th.tg-0pky.border-transparent {
         padding-bottom: 100px;
 }
 
+
+
+
+
+
+
+
+
+
+
+/**********************************ESTILOS RESPONSIVE*****************************/
 
 
 
