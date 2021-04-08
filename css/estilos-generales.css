@@ -756,6 +756,22 @@ border-top-right-radius: 50px;
     margin: 0 auto;
 
 }
+.tabla-grande-actualizacion h1{
+    font-family: 'Telefonica';
+    color: #019df4;
+}
+
+.tabla-grande-actualizacion h4{
+    color: #019df4;
+    font-family: 'Telefonica';
+
+}
+
+.tabla-grande-actualizacion p{
+        width: 100%;
+    max-width: 551px;
+    font-family: 'Telefonica';
+}
 
 
 
@@ -801,6 +817,9 @@ border-top-right-radius: 50px;
     vertical-align: middle;
     border-left-color: transparent;
     border-right-color: transparent;
+    
+    color: #FFF;
+
 }
 
 .tg .tg-0pky {
@@ -809,6 +828,10 @@ border-top-right-radius: 50px;
     vertical-align: middle;
     border-left-color: transparent;
     border-right-color: transparent;
+    border-bottom: 1px solid #fff;
+
+    color: #FFF;
+
 }
 
 
@@ -856,12 +879,12 @@ border-top-right-radius: 50px;
 
 .border-tabla-titulo{
         border-color: transparent;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #019df4;
 }
 
 .border-tabla-row1{
         border-color: transparent;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #019df4;
 }
 
 th.tg-0pky.border-transparent {
