@@ -609,6 +609,10 @@ border-top-right-radius: 50px;
     max-width: 970px;
         margin: 0 auto;
 }
+.caja-proceso-informe h1{
+    font-family: 'Telefonica';
+
+}
 
 
 .columnas-proceso-informe{
@@ -720,6 +724,7 @@ border-top-right-radius: 50px;
         color: #FFF;
     padding: 30px;
     margin-left:88px;
+    font-family: 'Telefonica';
 }
 
 .invitados {
@@ -817,7 +822,7 @@ border-top-right-radius: 50px;
     vertical-align: middle;
     border-left-color: transparent;
     border-right-color: transparent;
-    
+
     color: #FFF;
 
 }
@@ -903,6 +908,15 @@ th.tg-0pky.border-transparent {
 
 
 @media screen and (max-width: 1024px) {
+
+    .caja-iconos-negocio{
+        flex-direction: column;
+
+    }
+
+    .columnas-proceso-informe{
+            flex-direction: column;
+    }
 
 
 /*seccion interna 1 estilos responsive*/
