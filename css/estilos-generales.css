@@ -1,4 +1,7 @@
 /*fuentes*/
+body{
+        font-family: 'Telefonica' !important;
+}
 
 body.home{
     background-image: url(../img/fondo-header.jpg);
