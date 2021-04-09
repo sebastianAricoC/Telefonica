@@ -746,9 +746,11 @@ border-top-right-radius: 50px;
 }
 .imagen-asuntos-materiales img{
         width: 100%;
-    max-width: 967px;
+   max-width: 792px;
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
+    padding-top: 30px;
+    padding-bottom: 16px;
 }
 
 .imagen-grupos-interes img{
