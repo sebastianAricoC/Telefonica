@@ -993,9 +993,47 @@ th.tg-0pky.border-transparent {
     position: relative;
     top: 7px;
 }
-}
+
 .contenido-tabs-de-calidad p span:nth-of-type(2){
     color: #019DF4;
+}
+.caja-plan-comunicacion {
+    background: #019df4;
+    margin-top: 70px;
+    
+}
+.columnas-comunicacion-seccion {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.imagen-comunicacion {
+    width: 100%;
+    max-width: 600px;
+}
+
+.imagen-comunicacion img{
+        width: 100%;
+    max-width: 470px;
+    display: block;
+    margin: 0 auto;
+}
+
+.texto-comunicacion {
+    width: 100%;
+    max-width: 500px;
+        margin-top: 45px;
+
+}
+.texto-comunicacion h2{
+    font-family: 'Telefonica' !important
+}
+
+.texto-comunicacion p{
+    color: #FFF;
+    font-family: 'Telefonica' !important
 }
 
 /**********************************ESTILOS RESPONSIVE*****************************/
@@ -1005,6 +1043,29 @@ th.tg-0pky.border-transparent {
 
 @media screen and (max-width: 1024px) {
 
+    .texto-comunicacion{
+        padding: 40px;
+        margin: 0 auto;
+    }
+
+    .imagen-comunicacion img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    height: 100%;
+    min-height: 621px;
+}
+
+.imagen-comunicacion{
+    margin: 0 auto;
+}
+
+    .columnas-comunicacion-seccion{
+        flex-direction: column;
+    }
+
     .caja-iconos-negocio{
         flex-direction: column;
 
@@ -1013,6 +1074,12 @@ th.tg-0pky.border-transparent {
     .columnas-proceso-informe{
             flex-direction: column;
     }
+
+    .imagen-comunicacion {
+    width: 100%;
+    max-width: 600px;
+    order: 2;
+}
 
 
 /********************seccion interna 1 estilos responsive******************/
