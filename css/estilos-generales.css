@@ -786,7 +786,12 @@ border-top-right-radius: 50px;
 
 .tabla-seccion{
     background: #0B2739;
+    position: relative;
+    background-image: url(../img/fondo-tabla.jpg);
+        background-size: cover;
 }
+
+
 
 
 /********************tabla grande actualizacion***********************/
