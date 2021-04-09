@@ -495,7 +495,7 @@ border-top-right-radius: 50px;
 
 
 
-/*Secciones Internas*/
+/*************************************Secciones Interna 1 el informe*******************************/
 
 
 .banner-secciones-internas{
@@ -907,9 +907,35 @@ th.tg-0pky.border-transparent {
 
 
 
+.caja-construccion-del-informe{
+     width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+        padding-bottom: 100px;
+}
 
+.imagen-dummy{
+    width: 100%;
+    display: block;
+    max-width: 307px;
+    background: #CCC;
+    padding: 20px;
+    height: 600px;
+}
 
+.columnas-contruccion-informe{
+    display: flex;
+        justify-content: space-between;
+}
+.caja-texto-construccion {
+    width: 100%;
+    max-width: 563px;
+}
 
+.imagen-construccion {
+    width: 100%;
+    max-width: 307px;
+}
 
 
 
@@ -931,7 +957,7 @@ th.tg-0pky.border-transparent {
     }
 
 
-/*seccion interna 1 estilos responsive*/
+/********************seccion interna 1 estilos responsive******************/
 
 .caja-anualmente{
     flex-direction: column;
