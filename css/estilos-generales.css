@@ -953,6 +953,50 @@ th.tg-0pky.border-transparent {
 }
 
 
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff !important;
+    cursor: default;
+    background-color: #019DF4 !important;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.tab-content>.active {
+    display: block;
+    border: 2px solid #019DF4;
+}
+
+.nav-tabs>li>a {
+    margin-right: 0 !important;
+    line-height: 1.428571;
+    /* border: 1px solid transparent; */
+    border-radius: 0 !important;
+    border: 2px solid #019DF4 !important;
+}
+
+.contenido-tabs-de-calidad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.contenido-tabs-de-calidad p {
+    position: relative;
+}
+
+.contenido-tabs-de-calidad p span:nth-of-type(1){
+    color: #019DF4;
+    font-size:2.4em;
+        margin-right: 15px;
+   
+    position: relative;
+    top: 7px;
+}
+}
+.contenido-tabs-de-calidad p span:nth-of-type(2){
+    color: #019DF4;
+}
 
 /**********************************ESTILOS RESPONSIVE*****************************/
 
