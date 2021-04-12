@@ -506,11 +506,13 @@ border-top-right-radius: 50px;
     width: 100%;
     background-position: 0px -1px;
     background-size: cover;
-        height: 339px;
+        /*height: 339px;*/
         margin-top: 113px;
 
 
 }
+
+
 
 
 .caja-texto-seccion-banner h1{
@@ -1038,10 +1040,127 @@ th.tg-0pky.border-transparent {
 
 /**********************************ESTILOS RESPONSIVE*****************************/
 
-
+.caja-texto-proceso-informe2{
+    display: none;
+}
+.parrafo-hidden{
+    display: block;
+}
 
 
 @media screen and (max-width: 1024px) {
+    .imagen-podio h4 {
+    margin: 0;
+    font-family: 'Telefonica-bold';
+    font-size: 1em;
+}
+
+    .imagen-lapiz h4 {
+    margin: 0;
+    font-family: 'Telefonica-bold';
+    font-size: 1em;
+}
+    .flecha img {
+    width: 100%;
+    max-width: 54px;
+    display: block;
+    margin: 0 ;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(
+90deg
+);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+   
+}
+
+.imagenes-podio-lapiz {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 191px;
+}
+
+.caja-texto-invitados h4 {
+    margin: 0;
+    font-family: 'Telefonica-bold';
+    font-size: 1em;
+}
+.caja-texto-invitados h2 {
+    color: #FFF;
+    font-size: 2em;
+    margin: 0;
+    font-family: 'Telefonica-bold';
+}
+    .imagen-podio img {
+    width: 100%;
+    max-width: 60px;
+    display: block;
+    margin: 0 auto;
+}
+.imagen-lapiz img {
+    width: 100%;
+    max-width: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+    .caja-iconos-negocio{
+        align-items: flex-start;
+        justify-content: flex-start;
+            padding-left: 20px;
+    }
+
+
+    .caja-plan-negocio-rentable h1{
+        margin-left: 0;
+    }
+
+    .parrafo-hidden{
+    display: none;
+}
+
+    .caja-texto-proceso-informe2{
+        display: block;
+    }
+
+    .imagen-anualmente img {
+    width: 100%;
+    max-width: 253px;
+    display: block;
+    margin: 0;
+}
+
+    .caja-texto-anualmente-interna h2, .caja-texto-anualmente-interna p{
+        padding: 20px;
+
+    }
+    .caja-texto-anualmente-interna p{
+        padding-top: 0;
+    }
+    .caja-texto-anualmente-interna h2{
+        padding-bottom: 0;
+    }
+    .container.container-padding {
+    padding: 0;
+}
+
+    .imagen-anualmente{
+        background: transparent;
+    }
+
+    .caja-texto-seccion-banner {
+    padding: 18px;
+}
+
+    .contenedor-banner:nth-of-type(1){
+        padding: 0;
+
+    }
+
+    .banner-secciones-internas{
+        margin-top: 0;
+    }
 
     .texto-comunicacion{
         padding: 40px;
@@ -1066,10 +1185,7 @@ th.tg-0pky.border-transparent {
         flex-direction: column;
     }
 
-    .caja-iconos-negocio{
-        flex-direction: column;
-
-    }
+    
 
     .columnas-proceso-informe{
             flex-direction: column;
@@ -1174,13 +1290,157 @@ th.tg-0pky.border-transparent {
     }
 }
 @media screen and (max-width: 800px) {
+    .texto-asuntos-materiales {
+    padding: 22px;
+}
+    .caja-asuntos-materiales h1 {
+    font-family: 'Telefonica';
+    color: #019df4;
+    font-size: 2em;
+    padding-left: 27px;
+}
+     .imagen-podio h4 {
+    margin: 0;
+    font-family: 'Telefonica-bold';
+    font-size: 1em;
+}
+
+    .imagen-lapiz h4 {
+    margin: 0;
+    font-family: 'Telefonica-bold';
+    font-size: 1em;
+}
+    .flecha img {
+    width: 100%;
+    max-width: 54px;
+    display: block;
+    margin: 0 ;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(
+90deg
+);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+   
+}
+
+.imagenes-podio-lapiz {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 191px;
+}
+
+.caja-texto-invitados h4 {
+    margin: 0;
+    font-family: 'Telefonica-bold';
+    font-size: 1em;
+}
+.caja-texto-invitados h2 {
+    color: #FFF;
+    font-size: 2em;
+    margin: 0;
+    font-family: 'Telefonica-bold';
+}
+    .imagen-podio img {
+    width: 100%;
+    max-width: 60px;
+    display: block;
+    margin: 0 auto;
+}
+.imagen-lapiz img {
+    width: 100%;
+    max-width: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+    .caja-iconos-negocio{
+        align-items: flex-start;
+        justify-content: flex-start;
+            padding-left: 20px;
+    }
+
+
+    .caja-plan-negocio-rentable h1{
+        margin-left: 0;
+    }
+
+    .parrafo-hidden{
+    display: none;
+}
+
+    .caja-texto-proceso-informe2{
+        display: block;
+    }
+
+    .imagen-anualmente img {
+    width: 100%;
+    max-width: 253px;
+    display: block;
+    margin: 0;
+}
+
+    .caja-texto-anualmente-interna h2, .caja-texto-anualmente-interna p{
+        padding: 20px;
+
+    }
+    .caja-texto-anualmente-interna p{
+        padding-top: 0;
+    }
+    .caja-texto-anualmente-interna h2{
+        padding-bottom: 0;
+    }
+    .container.container-padding {
+    padding: 0;
+}
+
+    .imagen-anualmente{
+        background: transparent;
+    }
+
+    .caja-texto-seccion-banner {
+    padding: 18px;
+}
+
+    .contenedor-banner:nth-of-type(1){
+        padding: 0;
+
+    }
+
+    .banner-secciones-internas{
+        margin-top: 0;
+    }
+
+    .texto-comunicacion{
+        padding: 40px;
+        margin: 0 auto;
+    }
+
+    .imagen-comunicacion img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    height: 100%;
+    min-height: 621px;
+}
+
+.imagen-comunicacion{
+    margin: 0 auto;
+}
+
+    .columnas-comunicacion-seccion{
+        flex-direction: column;
+    }
     .btn-z{
     right: 16px;
 }
     .container-fluid.content-cajas {
     padding: 0;
 }
-    body {
+    body.home {
     background-image: url(../img/fondo-header.jpg);
     background-position: -48px 100px;
     background-size: 100%;
