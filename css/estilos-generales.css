@@ -658,7 +658,7 @@ border-top-right-radius: 50px;
 
 .caja-iconos-negocio {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     max-width: 970px;
@@ -699,10 +699,15 @@ border-top-right-radius: 50px;
     align-items: center;
 }
 .cajas-datos {
+  
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+        max-width: 552px;
+    padding-left: 17px;
 }
+
 
 .caja-texto-invitados h2{
     color:#FFF;
