@@ -1322,7 +1322,7 @@ th.tg-0pky.border-transparent {
     .cajas-datos {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     flex-direction: column;
 }
 .banner-secciones-internas {
