@@ -1238,7 +1238,7 @@ span.nombre-titulo-lista-directivas-last{
     flex-wrap: wrap;
     width: 100%;
     align-items:flex-end;
-        padding-bottom: 50px;
+        padding-bottom: 125px;
 }
 .caja-junta-directiva-texto {
     width: 100%;
@@ -1273,16 +1273,50 @@ span.nombre-titulo-lista-directivas-last{
     margin: 0;
     font-size:1.2em;
 }
+.container-comite-auditoria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+        background: #0B2739;
+}
+.imagen-auditoria{
+
+background: url(../img/imagen2-2-interna.jpg);
+width: 100%;
+max-width:540px;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+
+.caja-imagen-genero img{
+    width: 100%;
+       max-width: 202px;
+    height: 233px;
+    display: block;
+    margin: 0 auto;
+}
+
+.texto-auditoria {
+    width: 100%;
+    max-width: 600px;
+        padding-right: 65px;
+}
+
+.texto-auditoria ul{
+        padding: 0;
+    list-style: none;
+}
 
 
 
-
-
-
-
-
-
-
+.caja-imagenes-comite-auditoria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 
