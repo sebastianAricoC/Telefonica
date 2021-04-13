@@ -1673,6 +1673,11 @@ background-repeat: no-repeat;
     }
 }
 @media screen and (max-width: 800px) {
+    .caja-composicion-directiva-imagen {
+    width: 100%;
+    max-width: 444px;
+    padding: 33px;
+}
     .caja-conflictos-intereses2{
         padding: 33px;
     }
@@ -1749,7 +1754,7 @@ background-repeat: no-repeat;
     align-items: center;
 }
     .caja-atencion-accionista-texto{
-        padding-left:20px;
+        padding-left:33px;
         padding-right: 20px;
     }
     .banner-secciones-internas2{
