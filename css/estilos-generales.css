@@ -1231,15 +1231,34 @@ span.nombre-titulo-lista-directivas-last{
 
 
 
+.caja-junta-directiva{
+        display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items:flex-end;
+}
+.caja-junta-directiva-texto {
+    width: 100%;
+    max-width: 500px;
+}
+
+.caja-junta-directiva-imagenes {
+    display: flex;
+}
+
+.caja-junta-directiva-imagenes img{
+       width: 100%;
+    max-width: 194px;
+    height: 229px;
+    display: block;
+    margin: 0 auto;
+}
 
 
-
-
-
-
-
-
-
+.caja-junta-directiva-texto p{
+    padding-top: 50px;
+}
 
 
 
