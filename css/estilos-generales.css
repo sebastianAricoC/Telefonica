@@ -1089,7 +1089,15 @@ th.tg-0pky.border-transparent {
     width: 100%;
     max-width: 970px;
 }
+.titulo-secciones-gobernanza{
+        margin-top: 35px;
+}
+.titulo-secciones-gobernanza h1{
+color: #019DF4;
 
+    margin: 0;
+    position: relative;
+}
 .caja-texto-estructura-gobernanza{
         width: 100%;
     max-width: 435px;
@@ -1238,7 +1246,9 @@ span.nombre-titulo-lista-directivas-last{
 }
 
 
-
+.caja-junta-directiva-texto h1{
+    color:  #019DF4;
+}
 
 .caja-junta-directiva{
         display: flex;
@@ -1280,6 +1290,8 @@ span.nombre-titulo-lista-directivas-last{
 .grafico-genero h3{
     margin: 0;
     font-size:1.2em;
+        color: #019DF4;
+         font-family: 'Telefonica' !important;
 }
 .container-comite-auditoria{
     display: flex;
@@ -1680,6 +1692,10 @@ background-repeat: no-repeat;
     }
 }
 @media screen and (max-width: 800px) {
+    .titulo-secciones-gobernanza {
+    margin-top: 35px;
+    padding: 33px;
+}
     .imagen-construccion {
     width: 100%;
     max-width: 100%;
