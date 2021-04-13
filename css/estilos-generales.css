@@ -408,6 +408,10 @@ footer.page-section.pt-80.pb-50 {
     color: #019df4;
 }
 
+.boton-ver-mas a:hover{
+     color: #FFF;
+}
+
 .boton-navegador-seccion {
     width: 100%;
     display: flex;
