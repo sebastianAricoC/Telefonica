@@ -1123,6 +1123,46 @@ th.tg-0pky.border-transparent {
 
 
 
+.caja-atencion-accionista{
+        background: url(../img/fondo-seccion-interna2.png);
+    background-size: cover;
+    background-position: -9px -178px;
+    background-repeat: no-repeat;
+}
+
+
+
+.caja-atencion-accionista-texto {
+    width: 100%;
+    max-width:970px;
+        margin: 0 auto;
+            padding-top: 147px;
+                padding-bottom: 100px;
+}
+
+
+.caja-atencion-accionista-texto h1{
+    color: #0B2739;
+}
+
+.caja-atencion-accionista-texto h3{
+    color: #0B2739;
+}
+
+.caja-atencion-accionista-texto p{
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
