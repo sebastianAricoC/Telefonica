@@ -1813,7 +1813,7 @@ background-repeat: no-repeat;
     .caja-imagenes-comite-auditoria {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 60px;
     padding-bottom: 50px;
@@ -1841,7 +1841,7 @@ background-repeat: no-repeat;
     display: flex;
     width: 100%;
     max-width: 433px;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
     top: 44px;
     left: 0px;
