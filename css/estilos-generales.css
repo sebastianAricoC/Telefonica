@@ -1048,6 +1048,86 @@ th.tg-0pky.border-transparent {
     font-family: 'Telefonica' !important
 }
 
+
+
+
+/*************************************Secciones Interna 2 Gobernanza*******************************/
+
+
+.banner-secciones-internas2{
+    background: url(../img/imagen2-interna.jpg);
+    width: 100%;
+    background-position: 0px -1px;
+    background-size: cover;
+        /*height: 339px;*/
+        margin-top: 113px;
+
+
+}
+
+
+.caja-estructura-gobernanza{
+        display: flex;
+    width: 100%;
+    max-width: 970px;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: 0 auto;
+    
+
+}
+
+.container-seccion2{
+    width: 100%;
+    max-width: 970px;
+}
+
+.caja-texto-estructura-gobernanza{
+        width: 100%;
+    max-width: 435px;
+}
+
+.caja-texto-estructura-gobernanza img{
+        width: 100%;
+    max-width: 391px;
+}
+
+.caja-imagen-estructura-gobernanza {
+    width: 100%;
+    background: #dbe9f2;
+    max-width: 560px;
+}
+
+.caja-imagen-estructura-gobernanza p{
+        padding: 43px;
+}
+.caja-imagen-estructura-gobernanza-imagenes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja-imagen-estructura-gobernanza-imagenes img{
+        width: 100%;
+    max-width: 384px;
+    margin: 0 auto;
+    display: block;
+}
+
+.caja-imagen-estructura-gobernanza-imagenes img:nth-of-type(1){
+           width: 100%;
+    max-width: 120px;
+    height: 85px;
+    padding-left: 39px;
+
+}
+
+
+
+
+
+
+
+
 /**********************************ESTILOS RESPONSIVE*****************************/
 
 .caja-texto-proceso-informe2{
