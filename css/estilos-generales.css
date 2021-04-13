@@ -1443,7 +1443,19 @@ background-repeat: no-repeat;
 
 
 }
+@media screen and (max-width: 1270px) {
+#main-menu .navbar .nav>li>a {
+    padding: 18px 4px 5px 4px !important;
+    margin: 0 4px 17px 8px !important;
+    border-bottom: 2px solid rgba(45, 78, 83, 0);
+    color: #4b4e53;
+    letter-spacing: 0px !important;
+    background-color: transparent;
+    font-size: 0.83em !important;
+    font-family: 'Telefonica';
+}
 
+}
 
 /*ipad*/
 @media only screen  and (min-device-width: 768px)  and (max-device-width: 1024px)  and (orientation: portrait)  and (-webkit-min-device-pixel-ratio: 1) {
