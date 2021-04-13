@@ -1356,6 +1356,18 @@ background-repeat: no-repeat;
 
 
 
+.caja-conflictos-intereses{
+       background: url(../img/nubes-movistar.png);
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: 531px -59px;
+}
+
+.caja-conflictos-intereses p{
+    width: 100%;
+    max-width: 668px;
+        margin-top: 50px;
+}
 
 
 
