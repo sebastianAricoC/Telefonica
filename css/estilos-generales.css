@@ -1644,6 +1644,28 @@ background-repeat: no-repeat;
     }
 }
 @media screen and (max-width: 800px) {
+    .caja-atencion-accionista-texto{
+        padding-left:20px;
+        padding-right: 20px;
+    }
+    .banner-secciones-internas2{
+        margin-top:0;
+    }
+    .caja-estructura-gobernanza{
+            justify-content: center;
+    }
+
+    .caja-atencion-accionista {
+    background: url(../img/fondo-seccion-interna2.png);
+    background-size: cover;
+    background-position: 0px -153px;
+    background-repeat: no-repeat;
+    background-color: #019DF4;
+}
+
+    .caja-composicion-texto-imagen{
+        justify-content: center;
+    }
     .cajas-datos {
     display: flex;
     justify-content: center;
