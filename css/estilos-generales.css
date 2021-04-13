@@ -1126,7 +1126,7 @@ th.tg-0pky.border-transparent {
 .caja-atencion-accionista{
         background: url(../img/fondo-seccion-interna2.png);
     background-size: cover;
-    background-position: -9px -178px;
+    background-position: 0px -178px;
     background-repeat: no-repeat;
 }
 
@@ -1152,6 +1152,82 @@ th.tg-0pky.border-transparent {
 .caja-atencion-accionista-texto p{
     color: #FFF;
 }
+
+
+
+
+.caja-composicion-texto-imagen{
+    width: 100%;
+    max-width:970px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+}
+
+.caja-composicion-directiva{
+    background: #0B2739;
+}
+
+.caja-composicion-directiva-texto h1{
+     font-family: 'Telefonica' !important;
+     color: #FFF;
+    margin: 0;
+}
+
+.caja-composicion-directiva-texto ul{
+     font-family: 'Telefonica' !important;
+    list-style: none;
+    padding: 0;
+}
+
+.caja-composicion-directiva-texto ul li:nth-of-type(1){
+    color: #019DF4;
+        border-bottom: solid 1px;
+    width: 100%;
+    max-width: 370px;
+}
+
+.caja-composicion-directiva-texto ul li{
+        padding-top: 6px;
+        color: #FFF;
+    border-bottom: 1px solid;
+    width: 100%;
+    max-width: 370px;
+}
+
+
+span.nombre-titulo-lista-directivas {
+    margin-left: 57px;
+}
+
+span.nombre-titulo-lista-directivas1 {
+    margin-left: 25px;
+}
+
+span.nombre-titulo-lista-directivas-last{
+    margin-left: 49px;
+}
+
+
+
+.caja-composicion-directiva-imagen {
+    width: 100%;
+    max-width: 511px;
+}
+
+
+
+
+
+.caja-composicion-directiva-texto {
+    width: 100%;
+    max-width: 400px;
+}
+
+
+
+
 
 
 
