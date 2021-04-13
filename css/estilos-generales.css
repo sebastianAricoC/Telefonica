@@ -1673,6 +1673,31 @@ background-repeat: no-repeat;
     }
 }
 @media screen and (max-width: 800px) {
+    .caja-conflictos-intereses2{
+        padding: 33px;
+    }
+    .texto-intereses {
+    width: 100%;
+    max-width: 400px;
+    padding: 33px;
+}
+    .caja-composicion-directiva-texto {
+    width: 100%;
+    max-width: 400px;
+    padding: 33px;
+}
+    .caja-conflictos-intereses {
+    background: url(../img/nubes-movistar.png);
+    background-size: 76%;
+    background-repeat: no-repeat;
+    background-position: 102px -38px;
+    padding: 33px;
+}
+    .caja-conflictos-intereses h1{
+
+    padding-top: 8px;
+
+    }
     .imagen-auditoria{
             background-position: 0px -9px;
     height: 494px;
