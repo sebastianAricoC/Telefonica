@@ -2177,3 +2177,29 @@ background-repeat: no-repeat;
         left: 0;
     }
 }
+
+@media screen and (max-width: 600px) {
+.caja-imagenes-comite-auditoria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+.caja-junta-directiva-imagenes {
+    display: flex;
+    width: 100%;
+    max-width: 433px;
+    justify-content: center;
+    position: relative;
+    top: 44px;
+    left: 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.grafico-genero {
+    margin-top: 30px;
+}
+    }
