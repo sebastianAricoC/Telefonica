@@ -1073,6 +1073,7 @@ th.tg-0pky.border-transparent {
     justify-content: space-between;
     align-items:flex-start;
     margin: 0 auto;
+    flex-wrap: wrap;
     
 
 }
@@ -1095,7 +1096,7 @@ th.tg-0pky.border-transparent {
 .caja-imagen-estructura-gobernanza {
     width: 100%;
     background: #dbe9f2;
-    max-width: 560px;
+    max-width: 505px;
 }
 
 .caja-imagen-estructura-gobernanza p{
@@ -1304,13 +1305,33 @@ background-repeat: no-repeat;
     max-width: 600px;
         padding-right: 65px;
 }
-
+.texto-auditoria h1,.texto-auditoria h2{
+     font-family: 'Telefonica' !important;
+         color: #e0e2e4;
+}
+.texto-auditoria p{
+        color: #e0e2e4;
+}
 .texto-auditoria ul{
         padding: 0;
     list-style: none;
+     font-family: 'Telefonica' !important;
 }
 
+.texto-auditoria ul li:nth-of-type(1){
+    color: #019DF4;
+    border-bottom: solid 1px;
+    width: 100%;
+    max-width: 405px;
+}
 
+.texto-auditoria ul li{
+    color: #FFF;
+    border-bottom: solid 1px;
+    width: 100%;
+    max-width: 405px;
+    padding-top: 6px;
+}
 
 .caja-imagenes-comite-auditoria {
     display: flex;
@@ -1324,6 +1345,13 @@ background-repeat: no-repeat;
 
 .caja-imagen-genero:nth-of-type(2){
     margin-left:70px;
+}
+
+
+.caja-imagen-genero h3{
+        font-size: 1em;
+    text-align: center;
+    color: #019DF4;
 }
 
 
