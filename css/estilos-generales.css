@@ -1370,15 +1370,32 @@ background-repeat: no-repeat;
 }
 
 
+.caja-conflictos-intereses-columnas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    align-items: flex-start;
+    margin-top: 70px;
+
+}
+
+
+.imagen-intereses {
+    width: 100%;
+       max-width: 470px;
+}
 
 
 
+.texto-intereses {
+    width: 100%;
+    max-width: 400px;
+}
 
-
-
-
-
-
+.caja-conflictos-intereses2{
+    margin-top:25px;
+}
 
 
 
