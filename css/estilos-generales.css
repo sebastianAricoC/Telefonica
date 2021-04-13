@@ -1466,6 +1466,14 @@ background-repeat: no-repeat;
     width: 100%;
 }
 
+.container.contenedor-seccion.tabla-seccion {
+    width: 100%;
+}
+
+.imagen-grupos-interes-mobile img:nth-of-type(2) {
+    width: 100%;
+}
+
 }
 
 
