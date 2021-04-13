@@ -57,6 +57,12 @@ ul.navbar-nav li a {
   color: #333;
   text-decoration: none;
 }*/
+
+#main-menu .parent:hover > .sub {
+    display: none !important;
+    -webkit-animation: fadeIn .4s;
+    animation: fadeIn .4s;
+}
 #main-menu .sub {
     background: #0B2739 !important;
     -webkit-box-shadow: 0 4px 5px rgb(0 0 0 / 20%);
