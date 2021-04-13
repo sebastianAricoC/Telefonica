@@ -1742,7 +1742,7 @@ background-repeat: no-repeat;
 }
 @media screen and (max-width: 800px) {
     .titulo-secciones-gobernanza {
-    margin-top: 35px;
+    margin-top: 0px;
     padding: 33px;
 }
     .imagen-construccion {
@@ -1854,7 +1854,12 @@ background-repeat: no-repeat;
         padding-right: 20px;
     }
     .banner-secciones-internas2{
-        margin-top:0;
+        margin-top: 0;
+    background: url(../img/imagen2-interna.jpg);
+    width: 100%;
+    background-position: -294px 0px;
+    background-size: 219%;
+    background-repeat: no-repeat;
     }
     .caja-estructura-gobernanza{
             justify-content: center;
@@ -2179,6 +2184,14 @@ background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 600px) {
+     .banner-secciones-internas2{
+        margin-top: 0;
+    background: url(../img/imagen2-interna.jpg);
+    width: 100%;
+    background-position: -347px 0px;
+    background-size: 219%;
+    background-repeat: no-repeat;
+    }
 .caja-imagenes-comite-auditoria {
     display: flex;
     flex-wrap: wrap;
@@ -2186,6 +2199,7 @@ background-repeat: no-repeat;
     align-items: center;
     margin-top: 60px;
     padding-bottom: 50px;
+    margin: 0 auto;
 }
 .caja-junta-directiva-imagenes {
     display: flex;
@@ -2198,8 +2212,21 @@ background-repeat: no-repeat;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    margin: 0 auto;
 }
 .grafico-genero {
     margin-top: 30px;
 }
+    }
+
+    @media screen and (max-width: 320px) {
+.banner-secciones-internas2{
+        margin-top: 0;
+    background: url(../img/imagen2-interna.jpg);
+    width: 100%;
+    background-position: -260px 0px;
+    background-size: 219%;
+    background-repeat: no-repeat;
+    }
+
     }
