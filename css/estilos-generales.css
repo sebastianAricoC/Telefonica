@@ -1165,6 +1165,7 @@ th.tg-0pky.border-transparent {
         align-items: flex-end;
         padding-bottom: 75px;
     padding-top: 42px;
+    flex-wrap: wrap;
 }
 
 .caja-composicion-directiva{
@@ -1237,6 +1238,7 @@ span.nombre-titulo-lista-directivas-last{
     flex-wrap: wrap;
     width: 100%;
     align-items:flex-end;
+        padding-bottom: 50px;
 }
 .caja-junta-directiva-texto {
     width: 100%;
@@ -1245,9 +1247,16 @@ span.nombre-titulo-lista-directivas-last{
 
 .caja-junta-directiva-imagenes {
     display: flex;
+        width: 100%;
+    max-width: 433px;
+    justify-content: space-between;
+        position: relative;
+    top: 44px;
+        left: 30px;
 }
 
-.caja-junta-directiva-imagenes img{
+
+.caja-junta-directiva-imagenes .grafico-genero img{
        width: 100%;
     max-width: 194px;
     height: 229px;
@@ -1259,6 +1268,37 @@ span.nombre-titulo-lista-directivas-last{
 .caja-junta-directiva-texto p{
     padding-top: 50px;
 }
+
+.grafico-genero h3{
+    margin: 0;
+    font-size:1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
