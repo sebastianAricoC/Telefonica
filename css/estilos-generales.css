@@ -2218,6 +2218,17 @@ background-repeat: no-repeat;
     margin-top: 30px;
 }
     }
+     @media screen and (max-width: 360px) {
+.banner-secciones-internas2{
+        margin-top: 0;
+    background: url(../img/imagen2-interna.jpg);
+    width: 100%;
+    background-position: -230px 0px;
+    background-size: 219%;
+    background-repeat: no-repeat;
+    }
+
+    }
 
     @media screen and (max-width: 320px) {
 .banner-secciones-internas2{
