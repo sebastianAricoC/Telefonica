@@ -1145,6 +1145,9 @@ p.francesa {
 .titulo-secciones-gobernanza{
         margin-top: 35px;
 }
+.titulo-secciones-gobernanza h4{
+    font-size:1em;
+}
 .titulo-secciones-gobernanza h1{
 color: #019DF4;
 
@@ -1289,7 +1292,9 @@ span.nombre-titulo-lista-directivas-last{
     max-width: 444px;
 }
 
-
+.caja-composicion-directiva-imagen p{
+    color: #FFF;
+}
 
 
 
@@ -1313,13 +1318,13 @@ span.nombre-titulo-lista-directivas-last{
 }
 .caja-junta-directiva-texto {
     width: 100%;
-    max-width: 500px;
+    max-width: 546px;
 }
 
 .caja-junta-directiva-imagenes {
     display: flex;
         width: 100%;
-    max-width: 433px;
+    max-width: 394px;
     justify-content: space-between;
         position: relative;
     top: 44px;
@@ -1333,6 +1338,8 @@ span.nombre-titulo-lista-directivas-last{
     height: 229px;
     display: block;
     margin: 0 auto;
+        position: relative;
+    top: 25px;
 }
 
 
@@ -1344,6 +1351,7 @@ span.nombre-titulo-lista-directivas-last{
     margin: 0;
     font-size:1.2em;
         color: #019DF4;
+        text-align: center;
          font-family: 'Telefonica' !important;
 }
 .container-comite-auditoria{
