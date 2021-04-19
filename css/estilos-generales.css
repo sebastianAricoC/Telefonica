@@ -1014,7 +1014,9 @@ th.tg-0pky.border-transparent {
 p.francesa {
     text-indent: -81px;
     position: absolute;
-    padding-left: 62px
+    padding-left: 62px;
+        width: 100%;
+    max-width: 827px;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     color: #fff !important;
