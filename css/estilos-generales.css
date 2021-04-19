@@ -1481,6 +1481,108 @@ background-repeat: no-repeat;
 
 
 
+/*************************************Secciones Interna 3 Movistar Colombia*******************************/
+
+
+.banner-secciones-internas3{
+    background: url(../img/banner-acerca-movistar.jpg);
+    width: 100%;
+    background-position: 0px -1px;
+    background-size: cover;
+        /*height: 339px;*/
+        margin-top: 113px;
+
+
+}
+
+.titulo-secciones-movistar p{
+    width: 100%;
+    max-width:600px;
+}
+
+.titulo-secciones-movistar{
+        margin-top: 35px;
+}
+.titulo-secciones-movistar h4{
+    font-size:1em;
+}
+.titulo-secciones-movistar h1{
+color: #019DF4;
+
+    margin: 0;
+    position: relative;
+}
+
+
+
+
+
+.columnas-texto-listado {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.columna-torta {
+
+    width: 100%;
+    max-width:214px;
+}
+
+.columna-torta p{
+       margin-top: 75px; 
+}
+.caja-datos-columna1 {
+    margin: 1px;
+    padding: 4px;
+
+    width: 100%;
+    max-width: 220px;
+}
+
+
+.columna-listado-datos {
+    width: 100%;
+    max-width: 702px;
+}
+
+.caja-texto-datos {
+    display: flex;
+}
+.caja-datos-extensos {
+    display: flex;
+}
+
+.bola{
+        width: 25px;
+    height: 25px;
+    background: #019DF4;
+    border-radius: 100%;
+}
+
+.texto-datos-lista h3{
+    font-size:1em;
+     font-family: 'Telefonica-bold';
+     margin:0;
+
+}
+.texto-datos-lista p{
+    margin: 0;
+}
+
+.texto-datos-lista {
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+
+
+
+
+
+
+
 
 /**********************************ESTILOS RESPONSIVE*****************************/
 
