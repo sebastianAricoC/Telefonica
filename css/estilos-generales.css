@@ -1577,6 +1577,59 @@ color: #019DF4;
 }
 
 
+.caja-valores{
+    display: flex;
+        background: #019DF4;
+}
+.caja-titulo-valores h1{
+        margin: 0;
+    font-weight: 300;
+    color: #FFF;
+}
+.caja-titulo-valores{
+    width: 100%;
+    max-width:182px;
+}
+.caja-datos-valores {
+    width: 100%;
+    max-width: 182px;
+}
+
+.contenedor-mision-valores {
+
+    position: relative;
+    overflow: visible;
+}
+
+.section-valores{
+    overflow: visible !important;
+}
+
+
+.caja-imagen-valores {
+    position: absolute;
+    top: -44px;
+    width: 100%;
+    max-width: 500px;
+    right: -115px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
