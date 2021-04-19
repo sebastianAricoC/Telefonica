@@ -1600,7 +1600,11 @@ color: #019DF4;
     position: relative;
     overflow: visible;
 }
-
+.contenedor-mision-valores p{
+    width: 100%;
+    max-width:516px;
+    margin-bottom:30px;
+}
 .section-valores{
     overflow: visible !important;
 }
@@ -1608,10 +1612,10 @@ color: #019DF4;
 
 .caja-imagen-valores {
     position: absolute;
-    top: -44px;
+    top: -12px;
     width: 100%;
     max-width: 500px;
-    right: -115px;
+    right: -105px;
 }
 
 
