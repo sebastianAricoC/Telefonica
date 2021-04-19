@@ -1580,6 +1580,11 @@ color: #019DF4;
 .caja-valores{
     display: flex;
         background: #019DF4;
+            width: 970px;
+    margin: 0 auto;
+}
+.caja-valores-fondo{
+    background: #019DF4;
 }
 .caja-titulo-valores h1{
         margin: 0;
@@ -1621,7 +1626,11 @@ color: #019DF4;
 
 
 
-
+.caja-titulo-mision {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
 
 
 
