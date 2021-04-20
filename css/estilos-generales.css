@@ -1689,10 +1689,10 @@ color: #019DF4;
 
 .caja-imagen-valores {
     position: absolute;
-    top: -12px;
+    top: 2px;
     width: 100%;
     max-width: 500px;
-    right: -105px;
+    right: -102px;
 }
 
 
@@ -1720,6 +1720,83 @@ hr.linea-caja-datos {
     max-width: 665px;
     float: right;
 }
+
+
+
+.caja-contenedor-lista{
+    width: 100%;
+    max-width:970px;
+    margin:0 auto;
+}
+.caja-contenedor-lista h4{
+        margin: 0;
+    font-size: 1em;
+    color: #FFF
+}
+.caja-datos-lista-moviles{
+    color: #FFF;
+}
+
+.caja-contenedor-lista h1{
+    font-size: 3em;
+    font-family: 'Telefonica-ExtraLight';
+    color: #019DF4;
+    padding-top: 50px;
+}
+.digitales-titulo{
+    font-family: 'Telefonica' !important;
+    padding-top: 10px !important;
+    margin: 0;
+
+}
+.contenedor-productos-servicios{
+    background: #0B2739;
+}
+
+.contenedor-lista-moviles-postpago {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 360px;
+}
+
+
+
+.caja-lista-datos-grande{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    color: #FFF;
+    }
+
+.caja-lista-grande h3{
+    font-size:1.2em;
+    color: #FFF;
+        margin-left: 24px;
+
+
+}
+
+.caja-datos-lista-moviles h2{
+    color:#019DF4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
