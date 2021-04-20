@@ -1736,6 +1736,9 @@ hr.linea-caja-datos {
 .caja-datos-lista-moviles{
     color: #FFF;
 }
+.caja-datos-lista-moviles ul{
+    padding-left: 21px;
+}
 
 .caja-contenedor-lista h1{
     font-size: 3em;
@@ -1772,8 +1775,13 @@ hr.linea-caja-datos {
 .caja-lista-grande h3{
     font-size:1.2em;
     color: #FFF;
-        margin-left: 24px;
+        margin-left: 3px;
 
+
+}
+.caja-lista-grande ul{
+        padding-left: 19px;
+    padding-right: 17px;
 
 }
 
