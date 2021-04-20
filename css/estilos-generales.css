@@ -1561,6 +1561,20 @@ color: #019DF4;
     border-radius: 100%;
 }
 
+.bola1{
+    background: #0B2739;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+.bola2{
+    background: #da9615;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
 .texto-datos-lista h3{
     font-size:1em;
      font-family: 'Telefonica-bold';
@@ -1583,18 +1597,24 @@ color: #019DF4;
             width: 100%;
             max-width:970px;
     margin: 0 auto;
+    padding-bottom:30px;
 }
 .caja-valores-fondo{
     background: #019DF4;
 }
 .caja-titulo-valores h1{
         margin: 0;
-    font-weight: 300;
+  
     color: #FFF;
+}
+.caja-titulo-valores p{
+        margin-top: 10px !important;
+    line-height: 17px;
 }
 .caja-titulo-valores{
     width: 100%;
     max-width:182px;
+        margin-top: 20px;
 }
 .caja-datos-valores {
     width: 100%;
@@ -1610,9 +1630,41 @@ color: #019DF4;
     width: 100%;
     max-width:516px;
     margin-bottom:30px;
+    color: #FFF;
+    margin:0;
 }
 .section-valores{
     overflow: visible !important;
+}
+.caja-abierta {
+    width: 100%;
+    max-width: 150px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #FFF;
+    border-radius: 12px;
+    margin-top: 22px;
+}
+
+.caja-abierta-texto{
+  margin-top: 10px !important;
+    line-height: 17px;
+}
+
+.caja-datos-valores:nth-of-type(1) .caja-abierta{
+    border: 1px solid #FFF;
+}
+
+.caja-datos-valores:nth-of-type(2) .caja-abierta{
+    border: 1px solid #FFF;
+}
+
+.caja-datos-valores:nth-of-type(3) .caja-abierta{
+    border: 1px solid #4bff00;
+}
+
+.caja-datos-valores:nth-of-type(4) .caja-abierta{
+    border: 1px solid red;
 }
 
 
@@ -1631,11 +1683,24 @@ color: #019DF4;
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
+        display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+        padding-bottom: 29px;
+}
+.caja-titulo-mision p{
+    color: #0B2739;
+    padding-left: 94px;
 }
 
 
-
-
+hr.linea-caja-datos {
+    border-top: 1px solid #019DF4;
+    margin: 22px 0 22px 0;
+    width: 100%;
+    max-width: 665px;
+    float: right;
+}
 
 
 
