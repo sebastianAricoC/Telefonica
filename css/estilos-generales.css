@@ -1807,7 +1807,7 @@ hr.linea-caja-datos {
 }
 .caja-datos-relevantes h4{
     color: #0B2739;
-    font-family: 'Telefonica-bold';
+
 }
 
 .caja-datos-imagenes {
@@ -1868,7 +1868,9 @@ hr.linea-caja-datos {
     position: relative;
 }
 
-
+.columnas-caja-datos-relevantes h4{
+    font-family: 'Telefonica-bold';
+}
 .caja-textos-imagen-datos h4{
         color: #0B2739;
 }
