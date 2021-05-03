@@ -227,7 +227,7 @@ ul.cd-header-buttons {
 
 .caja-texto h1 {
     font-size: 14em;
-    font-family: 'Telefonica-ExtraLight';
+    font-family: 'Telefonica-ExtraLight' !important;
     color: #0B2739;
 
 
@@ -2016,31 +2016,31 @@ hr.linea-caja-datos {
 
 .bola-iniciativas{
         width: 100%;
-    max-width: 20px;
-    height: 20px;
+    max-width: 30px;
+    height: 30px;
     background: #0B2739;
     border-radius: 100%;
 }
 .bola-iniciativas2{
       width: 100%;
-    max-width: 20px;
-    height: 20px;
+    max-width: 30px;
+    height: 30px;
        background: #019DF4;
     border-radius: 100%;
 
 }
 .bola-iniciativas3{
       width: 100%;
-    max-width: 20px;
-    height: 20px;
+    max-width: 30px;
+    height: 30px;
        background: #adcae9;
     border-radius: 100%;
 
 }
 .bola-iniciativas4{
       width: 100%;
-    max-width: 20px;
-    height: 20px;
+    max-width: 30px;
+    height: 30px;
        background: #c4c8d9;
     border-radius: 100%;
 
@@ -2742,7 +2742,7 @@ hr.linea-caja-datos {
 }
 .caja-texto h1 {
     font-size: 8em;
-    font-family: 'Telefonica-ExtraLight';
+    font-family: 'Telefonica-ExtraLight' !important;
     color: #0B2739;
 
     margin-bottom: 2px;
