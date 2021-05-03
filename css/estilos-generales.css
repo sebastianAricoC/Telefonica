@@ -1771,6 +1771,7 @@ hr.linea-caja-datos {
 }
 .contenedor-productos-servicios{
     background: #0B2739;
+    padding-bottom: 29px;
 }
 
 .contenedor-lista-moviles-postpago {
@@ -1809,6 +1810,10 @@ hr.linea-caja-datos {
 
 .caja-datos-relevantes-fondo{
     background: #019DF4;
+    width: 100%;
+    max-width: 1205px;
+    margin: 0 auto;
+    padding-bottom: 29px;
 }
 
 .caja-datos-relevantes h1{
@@ -2001,9 +2006,49 @@ hr.linea-caja-datos {
 }
 
 
+.columnas-iniciativas-externas {
+    display: flex;
+    justify-content: space-between;
+    margin-top:60px;
+}
+
+.bola-iniciativas{
+        width: 100%;
+    max-width: 20px;
+    height: 20px;
+    background: #0B2739;
+    border-radius: 100%;
+}
+.bola-iniciativas2{
+      width: 100%;
+    max-width: 20px;
+    height: 20px;
+       background: #019DF4;
+    border-radius: 100%;
+
+}
+.bola-iniciativas3{
+      width: 100%;
+    max-width: 20px;
+    height: 20px;
+       background: #adcae9;
+    border-radius: 100%;
+
+}
+.bola-iniciativas4{
+      width: 100%;
+    max-width: 20px;
+    height: 20px;
+       background: #c4c8d9;
+    border-radius: 100%;
+
+}
 
 
-
+.caja-columna-iniciativa-externa {
+    width: 100%;
+    max-width: 184px;
+}
 
 
 
