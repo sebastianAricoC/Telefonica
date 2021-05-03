@@ -2096,7 +2096,13 @@ hr.linea-caja-datos {
 }
 
 
-
+.caja-certificaciones {
+    background-color: #8bc1dc;
+        background: url(../img/movistar-colombia-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 792px;
+}
 
 
 
