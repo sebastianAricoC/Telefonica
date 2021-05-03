@@ -2057,16 +2057,33 @@ hr.linea-caja-datos {
 }
 
 
+.caja-afiliacion-asociaciones {
+    background: #8bc1dc;
+}
 
 
 
+.caja-columnas-asociaciones{
+        display: flex;
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
 
 
+.caja-imagen-asociaciones {
+    width: 100%;
+    max-width: 480px;
+}
+.caja-texto-afiliaciones {
+    width: 100%;
+    max-width: 400px;
+}
 
-
-
-
-
+.caja-texto-afiliaciones ul{
+    padding-left: 18px;
+}
 
 
 
