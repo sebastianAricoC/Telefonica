@@ -1654,7 +1654,9 @@ color: #019DF4;
 }
 .caja-datos-valores {
     width: 100%;
-    max-width: 182px;
+    max-width: 166px;
+    padding-left: 5px;
+    margin-left: 5px;
 }
 
 .contenedor-mision-valores {
@@ -1706,10 +1708,10 @@ color: #019DF4;
 
 .caja-imagen-valores {
     position: absolute;
-    top: 2px;
+        top: -16px;
     width: 100%;
-    max-width: 500px;
-    right: -102px;
+    max-width: 513px;
+    right: -107px;
 }
 
 
@@ -1734,7 +1736,7 @@ hr.linea-caja-datos {
     border-top: 1px solid #019DF4;
     margin: 22px 0 22px 0;
     width: 100%;
-    max-width: 665px;
+    max-width: 775px;
     float: right;
 }
 
@@ -2048,6 +2050,10 @@ hr.linea-caja-datos {
 .caja-columna-iniciativa-externa {
     width: 100%;
     max-width: 184px;
+}
+
+.caja-columna-iniciativa-externa p{
+    margin-top:20px;
 }
 
 
