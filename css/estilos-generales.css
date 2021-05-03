@@ -2058,7 +2058,12 @@ hr.linea-caja-datos {
 
 
 .caja-afiliacion-asociaciones {
-    background: #8bc1dc;
+    background-color: #8bc1dc;
+        background: url(../img/movistar-colombia-4.jpg);
+    margin-top: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 792px;
 }
 
 
