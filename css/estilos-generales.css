@@ -3,6 +3,10 @@ body{
         font-family: 'Telefonica' !important;
 }
 
+h1{
+     font-family: 'Telefonica-light' !important;
+}
+
 body.home{
     background-image: url(../img/fondo-header.jpg);
     background-position: 344px -305px;
@@ -533,7 +537,7 @@ border-top-right-radius: 50px;
 
 .caja-texto-seccion-banner h1{
     font-size: 9em;
-    font-family: 'Telefonica-ExtraLight';
+    font-family: 'Telefonica-ExtraLight' !important;
     color: #0B2739;
     margin:0;
 
@@ -1809,6 +1813,7 @@ hr.linea-caja-datos {
 
 .caja-datos-relevantes h1{
     color: #0B2739;
+   
 }
 .caja-datos-relevantes h4{
     color: #0B2739;
