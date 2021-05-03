@@ -1978,6 +1978,38 @@ hr.linea-caja-datos {
 
 
 
+.columna-der-parrafo-cambios {
+    width: 100%;
+    max-width: 377px;
+    margin: 3px;
+    padding: 5px;
+}
+.columna-der-parrafo-cambios:nth-of-type(1){
+    margin-right:30px;
+}
+
+.columna-der-parrafo-cambios p{
+    color: #FFF;
+    font-family: 'Telefonica';
+        font-size: 1.2em;
+}
+
+
+.columnas-caja-cambios {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
