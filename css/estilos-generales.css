@@ -1618,6 +1618,11 @@ color: #019DF4;
 }
 
 
+.caja-lista-grande {
+    width: 100%;
+    max-width: 187px;
+}
+
 .caja-valores{
     display: flex;
         background: #019DF4;
@@ -1775,7 +1780,7 @@ hr.linea-caja-datos {
 
 .caja-lista-datos-grande{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     width: 100%;
     color: #FFF;
     }
@@ -1989,6 +1994,21 @@ hr.linea-caja-datos {
 
 
 @media screen and (max-width: 1024px) {
+    .banner-secciones-internas3 {
+    background: url(../img/banner-acerca-movistar.jpg);
+    width: 100%;
+    background-position: 0px -1px;
+    background-size: cover;
+    /* height: 339px; */
+    margin-top: 0;
+}
+.caja-imagen-valores {
+    position: relative;
+    top: 2px;
+    width: 100%;
+    max-width: 500px;
+    right: 0px;
+}
     .caja-texto-seccion-banner {
     padding: 45px;
     position: relative;
