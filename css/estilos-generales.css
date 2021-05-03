@@ -2054,6 +2054,7 @@ hr.linea-caja-datos {
 
 .caja-columna-iniciativa-externa p{
     margin-top:20px;
+    font-size:1.2em;
 }
 
 
@@ -2089,6 +2090,9 @@ hr.linea-caja-datos {
 
 .caja-texto-afiliaciones ul{
     padding-left: 18px;
+        font-size: 1.2em;
+         font-family: 'Telefonica';
+
 }
 
 
