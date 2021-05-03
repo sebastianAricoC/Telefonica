@@ -1897,6 +1897,45 @@ hr.linea-caja-datos {
 
 
 
+.caja-datos-relevantes-iconos {
+    display: flex;
+        align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+
+.icono-datos-relevantes img{
+    width: 100%;
+    max-width:122px;
+}
+
+.icono-datos-relevantes img:nth-of-type(1){
+    width: 100%;
+    max-width:120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**********************************ESTILOS RESPONSIVE*****************************/
 
