@@ -2074,11 +2074,12 @@ hr.linea-caja-datos {
 
 .caja-imagen-asociaciones {
     width: 100%;
-    max-width: 480px;
+    max-width: 550px;
 }
 .caja-texto-afiliaciones {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
+    color: #0B2739;
 }
 
 .caja-texto-afiliaciones ul{
