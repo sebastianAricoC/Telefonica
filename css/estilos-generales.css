@@ -1898,14 +1898,26 @@ hr.linea-caja-datos {
 }
 
 
-
+.icono-datos-relevantes {
+    width: 100%;
+    max-width: 179px;
+}
 
 
 
 .caja-datos-relevantes-iconos {
     display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
     justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.icono-relevante-6 img{
+    margin-bottom:0 !important;
+}
+
+.icono-relevante-5 img{
+        margin-bottom: 49px !important;
 }
 
 
@@ -1913,17 +1925,51 @@ hr.linea-caja-datos {
     width: 100%;
     max-width:122px;
 }
+.icono-datos-relevantes h4{
+    margin:0;
+        margin-left: 21px;
+         font-family: 'Telefonica-bold';
+         color: #0B2739;
+
+}
+
+.icono-datos-relevantes h3{
+    margin:0;
+        margin-left: 21px;
+         font-family: 'Telefonica';
+         color: #FFF;
+         font-weight: 600;
+}
+
+    
+
 
 .icono-datos-relevantes img:nth-of-type(1){
     width: 100%;
     max-width:120px;
+        margin-bottom: 74px;
 }
 
 
 
+.caja-texto-datos-plan {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 
+.caja-texto-datos-plan h1{
+    color: #FFF;
+    font-size:3.5em;
+    margin-left: 25px;
+     font-family: 'Telefonica';
+}
 
-
+.caja-texto-datos-plan h4{
+        font-family: 'Telefonica-bold';
+    color: #0B2739;
+    margin-left:21px;
+}
 
 
 
