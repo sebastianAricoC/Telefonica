@@ -2102,7 +2102,101 @@ hr.linea-caja-datos {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 792px;
+    background-position: -254px 0px !important;
 }
+
+
+.caja-columnas-certificaciones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.columna-blanca {
+    width: 100%;
+    max-width: 300px;
+    background: #FFF;
+    padding: 10px;
+    margin: 20px;
+}
+.columna-opaca {
+    margin: 20px;
+    background: #0b27398c;
+    padding: 10px;
+}
+.columna-opaca h1{
+    color: #FFF;
+}
+
+.contenido-columna-opaca{
+
+width: 100%;
+   
+    max-width: 685px;
+    background: #0b27398c;
+   
+   column-count: 3;
+       column-gap: 20px;
+
+   color: #FFF;
+}
+
+
+
+.contenido-columna-opaca ul{
+            width: 100%;
+    max-width: 184px;
+    padding-left: 10px;
+    font-size: 0.9em;
+}
+
+
+
+
+.contenido-columna-opaca h3{
+    margin:0;
+    color: #FFF;
+}
+
+
+
+
+.contenido-columna-blanca {
+    padding: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
