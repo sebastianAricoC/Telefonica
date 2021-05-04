@@ -67,7 +67,7 @@ ul.navbar-nav li a {
 }*/
 
 #main-menu .parent:hover > .sub {
-    display: none !important;
+    
     -webkit-animation: fadeIn .4s;
     animation: fadeIn .4s;
 }
