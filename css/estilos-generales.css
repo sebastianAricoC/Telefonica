@@ -1254,6 +1254,7 @@ color: #019DF4;
 
 .caja-atencion-accionista-texto p{
     color: #FFF;
+        column-count: 2;
 }
 
 
@@ -1506,6 +1507,16 @@ background-repeat: no-repeat;
 
 .caja-conflictos-intereses2{
     margin-top:25px;
+}
+
+.caja-conflictos-intereses2 p{
+    column-count: 3;
+        height: 336px;
+         -webkit-columns: 3;
+     -moz-columns: 3;
+          columns: 3;
+  -moz-column-fill: balance;
+       column-fill: balance;
 }
 
 
