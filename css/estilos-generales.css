@@ -830,7 +830,7 @@ border-top-right-radius: 50px;
         width: 100%;
     max-width: 551px;
     font-family: 'Telefonica';
-       color: #afafaf;
+       color: #e2e2e2;;
        font-size:1.2em;
 }
 
@@ -884,7 +884,7 @@ border-top-right-radius: 50px;
     border-left-color: transparent;
     border-right-color: transparent;
 
-        color: #afafaf;
+        color: #e2e2e2;
 
 }
 
@@ -894,9 +894,9 @@ border-top-right-radius: 50px;
     vertical-align: middle;
     border-left-color: transparent;
     border-right-color: transparent;
-    border-bottom: 1px solid #afafaf;
+    border-bottom: 1px solid #e2e2e2;
 
-       color: #afafaf;
+       color: #e2e2e2;
 
 }
 
