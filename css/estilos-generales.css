@@ -7,6 +7,10 @@ h1{
      font-family: 'Telefonica-light' !important;
 }
 
+p{
+    font-family: 'Telefonica' !important;
+}
+
 body.home{
     background-image: url(../img/fondo-header.jpg);
     background-position: 344px -305px;
@@ -2188,14 +2192,52 @@ width: 100%;
 
 
 
+/*************************************Secciones Interna 0 Carta Del Presidente*******************************/
 
 
+.banner-secciones-internas4{
+    background: url(../img/1-Home-Web-0.jpg);
+    width: 100%;
+    background-position: -4px -199px;
+    background-size: cover;
+        /*height: 339px;*/
+        margin-top: 113px;
 
 
+}
+
+.contenido-carta-presidente{
+    width: 100%;
+    max-width:970px;
+    margin: 0 auto;
+}
 
 
+.texto-carta{
+    column-count: 2;
+        column-gap: 57px;
+}
+
+.texto-carta img{
+    width: 100%;
+    display: block;
+    
+    max-width: 200px;
+    margin-top:50px;
+}
 
 
+.texto-carta h3{
+      font-family: 'Telefonica-bold';
+          margin: 0;
+    font-size: 1.2em;
+        color: #0B2739;
+}
+.texto-carta h5{
+      font-family: 'Telefonica-light' !important;
+       margin: 0;
+       color: #019DF4;
+}
 
 
 
