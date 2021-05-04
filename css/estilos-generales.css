@@ -2596,6 +2596,32 @@ width: 100%;
     }
 }
 @media screen and (max-width: 800px) {
+
+
+.banner-secciones-internas4 {
+    background: url(../img/1-Home-Web-0.jpg);
+    width: 100%;
+    background-position: -8px -236px;
+    background-size: 200%;
+    /* height: 339px; */
+    margin-top: 0;
+}
+.contenido-carta-presidente {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
     .caja-conflictos-intereses2 p {
     column-count: 2;
     height: 100%;
