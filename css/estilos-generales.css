@@ -2596,6 +2596,40 @@ width: 100%;
     }
 }
 @media screen and (max-width: 800px) {
+    .contenido-columna-opaca h3 {
+    margin: 0;
+    color: #FFF;
+    font-size: 1em;
+}
+    .caja-texto-afiliaciones {
+    width: 100%;
+    max-width: 300px;
+    color: #0B2739;
+    order: -1;
+    padding: 20px;
+}
+    .caja-columnas-certificaciones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+}
+
+.columnas-iniciativas-externas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.caja-iniciativas-externas {
+    padding: 20px;
+}
+    .columnas-caja-cambios{
+        padding: 20px;
+    }
 
 
 .banner-secciones-internas4 {
