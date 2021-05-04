@@ -2554,6 +2554,15 @@ width: 100%;
     }
 }
 @media screen and (max-width: 800px) {
+    .caja-conflictos-intereses2 p {
+    column-count: 2;
+    height: 100%;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 2;
+    -moz-column-fill: balance;
+    column-fill: balance;
+}
     h4.heading-gri {
     padding-left: 20px;
 }
