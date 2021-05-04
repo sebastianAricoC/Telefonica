@@ -1545,7 +1545,9 @@ color: #019DF4;
 }
 
 
-
+.caja-codigo-qr-datos2{
+    display: none;
+}
 
 
 .columnas-texto-listado {
@@ -2541,6 +2543,164 @@ width: 100%;
     }
 }
 @media screen and (max-width: 800px) {
+    h4.heading-gri {
+    padding-left: 20px;
+}
+    .caja-datos-relevantes-iconos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+    .bola2 {
+    background: #da9615;
+    width: 25px;
+    height: 15px;
+    border-radius: 100%;
+}
+    .bola1 {
+    background: #0B2739;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+    .bola {
+    width: 15px;
+    height: 15px;
+    background: #019DF4;
+    border-radius: 100%;
+}
+    h4.abonados-heading {
+    padding: 0 !important;
+}
+    .caja-text-datos-relevantes2 {
+    color: #FFF;
+    padding-left: 20px;
+}
+    .caja-textos-imagen-datos-columna {
+    padding-left: 15px;
+}
+    .caja-datos-relevantes h1 {
+    color: #0B2739;
+    padding-left: 20px;
+}
+    .caja-datos-relevantes h4 {
+    color: #0B2739;
+   
+}
+    .caja-textos-imagen-datos:nth-of-type(5) {
+    margin-top: 36px;
+}
+    .caja-textos-imagen-datos:nth-of-type(4) {
+    margin-top: 53px;
+}
+    .caja-textos-imagen-datos:nth-of-type(3) {
+    margin-top: 34px;
+}
+    .caja-textos-imagen-datos:nth-of-type(2) {
+    margin-top: 10px;
+}
+    .caja-textos-imagen-datos:nth-of-type(1) {
+    margin-top: 20px;
+}
+    .caja-textos-imagen-datos p {
+    color: #0B2739;
+    line-height: 13px;
+    width: 100%;
+    max-width: 261px;
+    font-size: 0.8em;
+}
+
+    .caja-textos-imagen-datos h4 {
+    color: #0B2739;
+    font-size: 1em;
+}
+.caja-textos-imagen-datos h3 {
+    font-family: 'Telefonica-bold';
+    color: #FFF;
+    font-size: 1.2em;
+}
+    .caja-imagen-datos-relevantes img{
+    object-fit: cover;
+    height: 463px;
+    object-position: 3px;
+    }
+    .columnas-caja-datos-relevantes {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+    .caja-codigo-qr-datos{
+    display: none;
+}
+.caja-codigo-qr-datos2{
+    display: block;
+}
+    .columna-torta {
+    padding-left: 20px;
+}
+    .columna-listado-datos {
+    padding-left: 20px;
+}
+    .titulo-secciones-movistar {
+    padding-left: 20px;
+}
+    .caja-titulo-mision {
+    padding-left: 20px;
+}
+    .contenedor-mision-valores p{
+        margin-bottom:12px;
+    }
+    .caja-titulo-valores {
+    width: 100%;
+    max-width: 182px;
+    margin-top: 20px;
+    padding-left: 20px;
+
+}
+    .caja-datos-valores {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 20px;
+    margin-left: 5px;
+    padding-right: 20px;
+}
+    .caja-abierta{
+        margin:0 auto;
+            max-width: 100%;
+    }
+    .caja-valores {
+    display: flex;
+    background: #019DF4;
+    width: 100%;
+    flex-direction: column;
+    max-width: 970px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+   
+}
+    .caja-contenedor-lista h4{
+        padding-left:20px;
+    }
+    .contenedor-lista-moviles-postpago {
+    padding-left: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 360px;
+    flex-direction: column;
+}
+    .caja-contenedor-lista h1{
+        padding-left:20px;
+    }
+    .caja-lista-grande {
+    padding: 20px;
+    width: 100%;
+    max-width: 386px;
+}
     .titulo-secciones-gobernanza {
     margin-top: 0px;
     padding: 33px;
@@ -2802,6 +2962,7 @@ width: 100%;
     }
     .container.container-padding {
     padding: 0;
+
 }
 
     .imagen-anualmente{
