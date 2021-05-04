@@ -2284,11 +2284,20 @@ width: 100%;
 
 
 
+/*************************************Secciones Interna 5 Contexto*******************************/
 
 
 
+.banner-secciones-internas5{
+        background: url(../img/banner-contexto.jpg);
+    width: 100%;
+    background-position: 0px -143px;
+    background-size: 100%;
+    /* height: 339px; */
+    margin-top: 113px;
 
 
+}
 
 
 
@@ -2355,6 +2364,9 @@ width: 100%;
 
 
 @media screen and (max-width: 1024px) {
+    .header-1 #main-menu .nav.navbar-nav{
+        margin-right:0 !important;
+    }
     .banner-secciones-internas3 {
     background: url(../img/banner-acerca-movistar.jpg);
     width: 100%;
