@@ -66,8 +66,10 @@ ul.navbar-nav li a {
   text-decoration: none;
 }*/
 
+/***********************estilos que oculta el mueno hover ojo***************************/
+
 #main-menu .parent:hover > .sub {
-    
+   /* display: none !important;*/
     -webkit-animation: fadeIn .4s;
     animation: fadeIn .4s;
 }
