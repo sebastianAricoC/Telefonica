@@ -2138,7 +2138,7 @@ hr.linea-caja-datos {
 .columna-opaca {
     margin: 20px;
     background: #0b27398c;
-    padding: 10px;
+    padding: 28px;
 }
 .columna-opaca h1{
     color: #FFF;
@@ -2148,7 +2148,7 @@ hr.linea-caja-datos {
 
 width: 100%;
    
-    max-width: 685px;
+    max-width: 774px;
     background: #0b27398c;
    
    column-count: 3;
@@ -2164,7 +2164,7 @@ width: 100%;
     max-width: 184px;
     padding-left: 10px;
     font-size: 0.9em;
-        padding-left: 26px;
+        padding-left: 14px;
     padding-top: 22px;
 }
 
@@ -2175,6 +2175,8 @@ width: 100%;
 .contenido-columna-opaca h3{
     margin:0;
     color: #FFF;
+    font-size: 1.41em;
+      font-family: 'Telefonica-bold';
 }
 
 
@@ -2188,6 +2190,28 @@ width: 100%;
 
 
 
+.contenido-columna-opaca h3 span {
+    background: #0b27398c;
+    border-radius: 100%;
+    padding: 9px;
+    font-size: 0.6em;
+    padding-left: 12px;
+    width: 100%;
+    max-width: 100%;
+    height: 22px;
+    font-weight: bold;
+    padding-right: 13px;
+    margin: 6px;
+}
+.contenido-columna-opaca h3 span:nth-of-type(1){
+    color:#E46B00;
+}
+.contenido-columna-opaca h3 span:nth-of-type(2){
+    color:#DA9A00;
+}
+.contenido-columna-opaca h3 span:nth-of-type(3){
+    color:#008AFF;
+}
 
 
 
@@ -2238,6 +2262,10 @@ width: 100%;
        margin: 0;
        color: #019DF4;
 }
+
+
+
+
 
 
 
