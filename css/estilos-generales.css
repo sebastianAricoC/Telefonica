@@ -2768,8 +2768,17 @@ img.imagen-contexto-pacto {
 
 .columnas-iconos-pacto-reactivar-inner {
     display: flex;
+        justify-content: space-between;
+}
+.columnas-iconos-pacto-reactivar-inner2 {
+    display: flex;
+        justify-content: center;
 }
 
+.columna-reactivar-iconos {
+    width: 100%;
+    max-width: 267px;
+}
 .caja-reactivar-iconos1-img {
     display: flex;
     width: 100%;
@@ -2778,7 +2787,7 @@ img.imagen-contexto-pacto {
 }
 .columna-reactivar-iconos1 {
     width: 100%;
-    max-width: 400px;
+    max-width: 474px;
 }
 .columna-reactivar-iconos1:nth-of-type(2){
     border-left: 3px solid #83af37;
@@ -2810,10 +2819,37 @@ img.imagen-contexto-pacto {
 
 
 
+.columna-reactivar-iconos1:nth-of-type(3) {
+    border-radius: 19px;
+    border: 2px solid #83af37;
+    max-width: 230px;
+}
+
+.columna-reactivar-iconos1:nth-of-type(3) .caja-reactivar-iconos1{
+    display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.columna-reactivar-iconos1:nth-of-type(3) .caja-reactivar-iconos1 p{
+    line-height: 20px;
+    font-size: 1.1em;
+    text-align: center;
+    color: #83af37;
+}
+
+.columna-reactivar-iconos1:nth-of-type(3) .caja-reactivar-iconos1 h2{
+    font-size: 4.5em;
+}
 
 
 
-
+.columnas-iconos-pacto-reactivar2 {
+        background: #83af37;
+    border-radius: 19px;
+}
 
 
 
