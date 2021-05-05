@@ -2464,7 +2464,7 @@ hr.linea-caja-datos {
 .contexto-sector {
     background: url(../img/fondo-logo-movistar.jpg);
       background-size: 926px;
-    background-position: 139px 896px;
+    background-position: 139px 840px;
     background-repeat: no-repeat;
     }
 
@@ -2506,7 +2506,7 @@ hr.linea-caja-datos {
 
 #page-wrap {
     width: 100%;
-    margin: 60px auto;
+    margin: 0px auto;
 }
 
 #page-wrap>div {
