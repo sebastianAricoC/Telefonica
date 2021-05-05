@@ -2738,14 +2738,15 @@ hr.linea-caja-datos {
 .columna-pacto-digital-inner1 .caja-columna-pacto-digital:nth-of-type(1){
     margin-top:0px;
     max-width: 438px;
+    position: relative;
 }
 img.imagen-contexto-pacto {
-    width: 100%;
+   width: 131%;
     max-width: 631px;
     display: block;
     position: absolute;
     /* margin-right: 113px; */
-    right: 250px;
+    right: 19px;
 }
 
 
