@@ -2890,6 +2890,39 @@ img.imagen-contexto-pacto {
     max-width: 150px;
 }
 
+.columnas-iconos-pacto-reactivar3 {
+    border:solid 2px #83af37;
+    border-radius: 19px;
+   
+    margin-top: 37px;
+}
+
+.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1){
+    background: #83af37;
+    -webkit-border-top-left-radius: 19px;
+-webkit-border-bottom-left-radius: 19px;
+-moz-border-radius-topleft: 19px;
+-moz-border-radius-bottomleft: 19px;
+border-top-left-radius: 19px;
+border-bottom-left-radius: 19px;
+        
+
+    position: relative;
+
+    right: 1px;
+}
+.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos{
+    min-height: 210px;
+}
+
+.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3){
+    border-left:solid 2px #83af37;
+border-right: solid 2px #83af37;
+}
+
+
+
+
 
 
 
