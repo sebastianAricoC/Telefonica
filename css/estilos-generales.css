@@ -2685,10 +2685,20 @@ hr.linea-caja-datos {
 
 
 
-
-
-
-
+.columna-caja-imagen h2{
+    font-family: 'Telefonica' !important;
+    color: #FFF;
+    font-size: 4em;
+    margin: 0;
+}
+.columna-caja-imagen img{
+    width: 100%;
+    max-width:55px;
+}
+.columna-caja-imagen {
+    display: flex;
+    align-items: center;
+}   
 
 
 
