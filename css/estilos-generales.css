@@ -2779,6 +2779,11 @@ img.imagen-contexto-pacto {
 .columna-reactivar-iconos {
     width: 100%;
     max-width: 267px;
+    color: #FFF;
+    text-align: center;
+}
+.columna-reactivar-iconos h2{
+    color: #FFF;
 }
 .caja-reactivar-iconos1-img {
     display: flex;
@@ -2850,10 +2855,16 @@ img.imagen-contexto-pacto {
 .columnas-iconos-pacto-reactivar2 {
         background: #83af37;
     border-radius: 19px;
+        padding: 30px;
+    margin-top: 37px;
 }
 
 
-
+.columnas-iconos-pacto-reactivar2 h3{
+    color: #FFF;
+    margin: 0;
+    margin-bottom: 25px;
+}
 
 
 
