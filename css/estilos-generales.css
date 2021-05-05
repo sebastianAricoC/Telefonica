@@ -2613,6 +2613,7 @@ hr.linea-caja-datos {
     max-width: 225px;
     padding-left: 54px;
         margin-bottom: 15px;
+        font-family: 'Telefonica-light' !important;
 
     color: #FFF;
 
@@ -2635,6 +2636,59 @@ hr.linea-caja-datos {
         font-family: 'Telefonica-light' !important;
         font-size: 1.2em;
 }
+
+
+
+
+.contenido-fondo-pacto-digital{
+    background: url(../img/fondo-contexto-azul.jpg);
+}
+
+
+
+.columnas-titulo-pacto-digital {
+    display: flex;
+}
+
+
+.columnas-pacto-digital {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.contenido-fondo-pacto-inner {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+
+.columna-titulo-pacto {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.columna-titulo-pacto h1{
+    margin: 0;
+}
+.columna-titulo-pacto:nth-of-type(1){
+    width: 100%;
+    max-width:209px;
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 
