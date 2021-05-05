@@ -6,6 +6,9 @@ body {
 h1 {
     font-family: 'Telefonica-light' !important;
 }
+h2 {
+    font-family: 'Telefonica' !important;
+    }
 
 p {
     font-family: 'Telefonica' !important;
@@ -2744,6 +2747,70 @@ img.imagen-contexto-pacto {
     /* margin-right: 113px; */
     right: 250px;
 }
+
+
+
+.contenido-pacto-reactivar {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+
+
+.columna-pacto-reactivar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 444px;
+}
+
+
+.columnas-iconos-pacto-reactivar-inner {
+    display: flex;
+}
+
+.caja-reactivar-iconos1-img {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    position: relative;
+}
+.columna-reactivar-iconos1 {
+    width: 100%;
+    max-width: 400px;
+}
+.columna-reactivar-iconos1:nth-of-type(2){
+    border-left: 3px solid #83af37;
+    padding-left: 25px;
+}
+
+.columna-reactivar-iconos1 h2{
+    margin:0;
+    color: #83af37;
+}
+.columna-reactivar-iconos1 .caja-reactivar-iconos1-img h2:nth-of-type(1){
+    font-size: 4em;
+
+}
+
+.caja-reactivar-iconos1-img img{
+      width: 100%;
+    margin: 0 auto;
+    max-width: 168px;
+    display: block;
+    position: absolute;
+    right: 36px;
+
+}
+.columna-reactivar-iconos1:nth-of-type(1){
+        max-width: 194px;
+}
+
+
+
+
+
 
 
 
