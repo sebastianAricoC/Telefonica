@@ -2400,13 +2400,16 @@ hr.linea-caja-datos {
 }
 
 .caja-relevancia-ecosistema-digital {
-    min-height: 1342px;
+    min-height: 1147px;
     background: url(../img/fondo-contexto1.jpg);
-    background-size: cover;
+    background-size: 108%;
     background-position: -33px -168px;
     margin-top: 45px;
-    background-repeat: no-repeat;
+    background-repeat:all; 
 }
+
+    
+
 
 
 
