@@ -2642,6 +2642,7 @@ hr.linea-caja-datos {
 
 .contenido-fondo-pacto-digital{
     background: url(../img/fondo-contexto-azul.jpg);
+    background-size: cover;
 }
 
 
@@ -2649,6 +2650,7 @@ hr.linea-caja-datos {
 .columnas-titulo-pacto-digital {
     display: flex;
     color: #FFF;
+    padding-top:50px;
 }
 .columna-pacto-digital-inner1 {
     width: 100%;
@@ -2719,6 +2721,41 @@ hr.linea-caja-datos {
     margin-top:15px;
     margin-bottom:20px;
 }
+
+.caja-columna-pacto-digital {
+    margin-top: 120px;
+        width: 100%;
+    max-width: 318px;
+}
+
+
+.columna-pacto-digital-1 .caja-columna-pacto-digital:nth-of-type(1){
+    margin-top:0px;
+}
+.columna-pacto-digital-inner1 .caja-columna-pacto-digital:nth-of-type(1){
+    margin-top:0px;
+    max-width: 438px;
+}
+img.imagen-contexto-pacto {
+    width: 100%;
+    max-width: 631px;
+    display: block;
+    position: absolute;
+    /* margin-right: 113px; */
+    right: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
