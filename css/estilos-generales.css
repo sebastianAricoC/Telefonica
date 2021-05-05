@@ -2648,12 +2648,22 @@ hr.linea-caja-datos {
 
 .columnas-titulo-pacto-digital {
     display: flex;
+    color: #FFF;
 }
-
+.columna-pacto-digital-inner1 {
+    width: 100%;
+    max-width: 423px;
+    padding: 5px;
+    margin: 5px;
+}
 
 .columnas-pacto-digital {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    max-width: 890px;
+    margin: 0 auto;
+    color: #FFF;
 }
 
 
@@ -2691,6 +2701,9 @@ hr.linea-caja-datos {
     font-size: 4em;
     margin: 0;
 }
+.columna-caja-imagen p{
+    margin-top: 10px;
+}
 .columna-caja-imagen img{
     width: 100%;
     max-width:55px;
@@ -2702,7 +2715,10 @@ hr.linea-caja-datos {
 
 
 
-
+.caja-columna-pacto-digital p{
+    margin-top:15px;
+    margin-bottom:20px;
+}
 
 
 
