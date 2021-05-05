@@ -2573,23 +2573,60 @@ hr.linea-caja-datos {
 
 
 
+.contenido-contexto-sosteniblidad{
+        background: url(../img/fondo-contexto-estrellas.jpg);
+    min-height: 970px;
+    background-size: 107%;
+    background-repeat: no-repeat;
+    background-position: -12px -146px;
+
+}
 
 
 
+.contenido-contexto-sostenibilidad-fondo {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    background: #0B2739;
+        position: relative;
+    top: 75px;
+
+    color: #FFF;
+
+}
 
 
 
+.caja-columnas-contexto-sostenibilidad {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+        justify-content: center;
+}
 
 
+.contenido-contexto-sostenibilidad-fondo h1{
+    padding-top: 20px;
+    width: 100%;
+    max-width: 225px;
+    padding-left: 54px;
+        margin-bottom: 15px;
+        
+    color: #FFF;
 
 
+}
 
 
-
-
-
-
-
+.columna-contexto-sostenibilidad {
+    width: 100%;
+    max-width: 433px;
+    padding: 9px;
+    margin: 10px;
+    padding-top: 5px;
+}
 
 
 
