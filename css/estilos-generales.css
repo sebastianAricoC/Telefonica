@@ -2301,6 +2301,84 @@ width: 100%;
 
 }
 
+.caja-relevancia-ecosistema-digital{
+        min-height: 1139px;
+    background: url(../img/fondo-contexto1.jpg);
+        background-size: cover;
+    background-position: -33px -168px;
+    margin-top: 45px;
+}
+
+
+
+.caja-texto-ecosistema{
+        display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: end;
+    position: relative;
+    align-items: flex-end;
+}
+
+.caja-texto-ecosistema .caja-texto-inner img {
+    width: 100%;
+    max-width: 548px;
+    position: absolute;
+    right: 18px;
+    top: 168px;
+}
+
+.caja-texto-inner {
+    width: 100%;
+        margin-top: 48px;
+ 
+    margin-right: 106px;
+    max-width: 365px;
+}
+
+
+.caja-texto-inner p{
+
+    color: #FFF;
+    font-size: 1.1em;
+
+}
+.caja-texto-inner p:nth-of-type(1){
+    margin-top:108px;
+}
+
+
+.caja-texto-inner h3{
+    font-size: 1.2em;
+    margin: 0;
+    font-family: 'Telefonica-bold';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**********************************ESTILOS RESPONSIVE*****************************/
