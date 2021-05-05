@@ -2466,8 +2466,8 @@ hr.linea-caja-datos {
 
 .contexto-sector {
     background: url(../img/fondo-logo-movistar.jpg);
-      background-size: 926px;
-    background-position: 139px 840px;
+    background-size: 995px;
+    background-position: 118px 826px;
     background-repeat: no-repeat;
     }
 
@@ -2478,6 +2478,9 @@ hr.linea-caja-datos {
     max-width: 970px;
     margin: 0 auto;
         min-height: 1463px;
+}
+.columna-titulo-sector h1{
+    color: #019DF4;
 }
 
 .columna-imagen-sector img {
@@ -2490,6 +2493,7 @@ hr.linea-caja-datos {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -2537,7 +2541,12 @@ hr.linea-caja-datos {
     float: left;
     padding: 2%;
 }
-
+.five-columns .col:nth-of-type(1){
+    padding-left: 0;
+}
+.five-columns .col:nth-of-type(3){
+    padding-right: 0;
+}
 
 
 /**************************************columnas-diseños**********************************/
