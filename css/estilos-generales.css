@@ -1,17 +1,17 @@
 /*fuentes*/
-body{
-        font-family: 'Telefonica' !important;
-}
-
-h1{
-     font-family: 'Telefonica-light' !important;
-}
-
-p{
+body {
     font-family: 'Telefonica' !important;
 }
 
-body.home{
+h1 {
+    font-family: 'Telefonica-light' !important;
+}
+
+p {
+    font-family: 'Telefonica' !important;
+}
+
+body.home {
     background-image: url(../img/fondo-header.jpg);
     background-position: 344px -305px;
     background-size: 1048px 1499px;
@@ -68,11 +68,12 @@ ul.navbar-nav li a {
 
 /***********************estilos que oculta el mueno hover ojo***************************/
 
-#main-menu .parent:hover > .sub {
-   /* display: none !important;*/
+#main-menu .parent:hover>.sub {
+    /* display: none !important;*/
     -webkit-animation: fadeIn .4s;
     animation: fadeIn .4s;
 }
+
 #main-menu .sub {
     background: #0B2739 !important;
     -webkit-box-shadow: 0 4px 5px rgb(0 0 0 / 20%);
@@ -83,25 +84,27 @@ ul.navbar-nav li a {
     position: absolute;
     z-index: 905;
 }
+
 ul.navbar-nav li.parent-t:after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 16px;
-  width: 0px;
-  height: 2px;
-  background: #019df4;
-  transition: all 0.45s;
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 16px;
+    width: 0px;
+    height: 2px;
+    background: #019df4;
+    transition: all 0.45s;
 }
 
 ul.navbar-nav li.parent-t:hover:after {
-  width: 100%;
-  left: 0;
+    width: 100%;
+    left: 0;
 }
 
 ul.navbar-nav li.parent-t a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 .header .container-m-30 {
     position: relative;
     width: 100%;
@@ -120,7 +123,7 @@ ul.navbar-nav li.parent-t a:hover {
 
 
 .cabezera-azul {
-   width: 100%;
+    width: 100%;
     height: 43px;
     background: #019DF4;
     padding-top: 13px;
@@ -140,10 +143,10 @@ ul.navbar-nav li.parent-t a:hover {
 }
 
 .logo-2 img {
-   width: 100%;
+    width: 100%;
     max-width: 70px;
     display: block;
-   
+
 
 
 }
@@ -170,7 +173,7 @@ ul.navbar-nav li.parent-t a:hover {
 }
 
 #main-menu .navbar .nav>li>a {
-   padding: 18px 4px 5px 4px !important;
+    padding: 18px 4px 5px 4px !important;
     margin: 0 8px 17px 8px !important;
     border-bottom: 2px solid rgba(45, 78, 83, 0);
     color: #4b4e53;
@@ -185,8 +188,9 @@ ul.navbar-nav li.parent-t a:hover {
     line-height: 20px;
     color: #019DF4;
 }
-.main-menu-container{
-    padding-top:5px;
+
+.main-menu-container {
+    padding-top: 5px;
 }
 
 .cd-search-trigger::before {
@@ -291,7 +295,7 @@ ul.cd-header-buttons {
     width: 100%;
     max-width: 385px;
     margin-top: 22px;
-    font-size:1.1em;
+    font-size: 1.1em;
 }
 
 .texto-boton-der {
@@ -417,12 +421,13 @@ footer.page-section.pt-80.pb-50 {
 
 
 }
-.boton-ver-mas a{
+
+.boton-ver-mas a {
     color: #019df4;
 }
 
-.boton-ver-mas:hover > a{
-     color: #FFF;
+.boton-ver-mas:hover>a {
+    color: #FFF;
 }
 
 .boton-navegador-seccion {
@@ -446,79 +451,83 @@ footer.page-section.pt-80.pb-50 {
 
 
 .btn-z {
-  width: 30px;
-  height: 30px;
-  background: #0B2739;
-  border: 1px solid #005bac;
+    width: 30px;
+    height: 30px;
+    background: #0B2739;
+    border: 1px solid #005bac;
 
-  color: #FFF;
-  padding: 15px 10px 5px;
-  position: fixed;
-  text-align: center;
-  -ms-user-select: none;
-  -moz-user-select: -moz-none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
+    color: #FFF;
+    padding: 15px 10px 5px;
+    position: fixed;
+    text-align: center;
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
     transition: all 0.3s ease;
     z-index: 999999;
-        right: 166px;
-   font-family: "FontAwesome";
-   content: "\f095";
+    right: 166px;
+    font-family: "FontAwesome";
+    content: "\f095";
 
 }
 
-.btn-z i{
+.btn-z i {
     position: relative;
     top: -11px;
     right: 1.5px;
-    font-size:1em;
-        font-style: normal;
+    font-size: 1em;
+    font-style: normal;
 }
-.btn-z:nth-of-type(1){
+
+.btn-z:nth-of-type(1) {
     -webkit-border-bottom-right-radius: 50px;
--webkit-border-bottom-left-radius: 50px;
--moz-border-radius-bottomright: 50px;
--moz-border-radius-bottomleft: 50px;
-border-bottom-right-radius: 50px;
-border-bottom-left-radius: 50px;
+    -webkit-border-bottom-left-radius: 50px;
+    -moz-border-radius-bottomright: 50px;
+    -moz-border-radius-bottomleft: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 
 }
-.btn-z:nth-of-type(2){
 
--webkit-border-top-left-radius: 50px;
--webkit-border-top-right-radius: 50px;
--moz-border-radius-topleft: 50px;
--moz-border-radius-topright: 50px;
-border-top-left-radius: 50px;
-border-top-right-radius: 50px;
+.btn-z:nth-of-type(2) {
+
+    -webkit-border-top-left-radius: 50px;
+    -webkit-border-top-right-radius: 50px;
+    -moz-border-radius-topleft: 50px;
+    -moz-border-radius-topright: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
-.btn-z:nth-of-type(3) > i{
-     font-size:0.8em;
-     position: relative;
-     right: 0px;
-     top: -12px;
+.btn-z:nth-of-type(3)>i {
+    font-size: 0.8em;
+    position: relative;
+    right: 0px;
+    top: -12px;
 }
-.btn-z:hover{
- color: #019df4;
+
+.btn-z:hover {
+    color: #019df4;
 }
 
 .zoom {
-  bottom: 230px;
+    bottom: 230px;
 }
 
 .zoom-out {
-      bottom: 290px;
+    bottom: 290px;
 }
+
 .zoom-init {
-  bottom: 260px;
+    bottom: 260px;
 }
 
 
-.hamb-mob-icon{
-    color :#019df4 !important;
-        padding: 14px 17px 22px 5px !important;
+.hamb-mob-icon {
+    color: #019df4 !important;
+    padding: 14px 17px 22px 5px !important;
 }
 
 
@@ -527,13 +536,13 @@ border-top-right-radius: 50px;
 /*************************************Secciones Interna 1 el informe*******************************/
 
 
-.banner-secciones-internas{
+.banner-secciones-internas {
     background: url(../img/imagen1-interna.jpg);
     width: 100%;
     background-position: 0px -1px;
     background-size: cover;
-        /*height: 339px;*/
-        margin-top: 113px;
+    /*height: 339px;*/
+    margin-top: 113px;
 
 
 }
@@ -541,26 +550,26 @@ border-top-right-radius: 50px;
 
 
 
-.caja-texto-seccion-banner h1{
+.caja-texto-seccion-banner h1 {
     font-size: 9em;
     font-family: 'Telefonica-ExtraLight' !important;
     color: #0B2739;
-    margin:0;
+    margin: 0;
 
 }
 
-.caja-texto-seccion-banner h2{
-  
-   font-family: 'Telefonica-light';
+.caja-texto-seccion-banner h2 {
+
+    font-family: 'Telefonica-light';
     color: #FFF;
-        font-weight: 500;
+    font-weight: 500;
     letter-spacing: 1px;
-    font-size:3em;
-    margin:0;
-    
+    font-size: 3em;
+    margin: 0;
+
 }
 
-.caja-texto-seccion-banner p{
+.caja-texto-seccion-banner p {
     color: #FFF;
     font-family: 'Telefonica';
     line-height: 65px;
@@ -574,38 +583,38 @@ border-top-right-radius: 50px;
 
 
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
 
-.contenedor-banner{
+    .contenedor-banner {
         width: 1235px !important;
+    }
+
+    .contenedor-seccion {
+        width: 1235px !important;
+    }
+
+
 }
 
-.contenedor-seccion{
-     width: 1235px !important;
-}
 
-
-}
-
-
-.caja-anualmente{
-        display: flex;
+.caja-anualmente {
+    display: flex;
     width: 100%;
     max-width: 970px;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     background: #c3c4c6;
-    margin-top:70px;
+    margin-top: 70px;
 }
 
-.imagen-anualmente{
+.imagen-anualmente {
     background: #c8cccf;
-        width: 100%;
+    width: 100%;
     max-width: 370px;
 }
 
-.imagen-anualmente img{
+.imagen-anualmente img {
     width: 100%;
     max-width: 334px;
     display: block;
@@ -615,58 +624,60 @@ border-top-right-radius: 50px;
 .caja-texto-anualmente-interna {
     width: 100%;
     max-width: 558px;
-   
-    
+
+
 }
 
-.caja-texto-anualmente-interna h2, .caja-texto-anualmente-interna p {
-        padding-left: 65px;
+.caja-texto-anualmente-interna h2,
+.caja-texto-anualmente-interna p {
+    padding-left: 65px;
     margin: 0;
 }
 
-.caja-texto-anualmente-interna h2{
+.caja-texto-anualmente-interna h2 {
     color: #019df4;
-    font-size:2.5em;
+    font-size: 2.5em;
 }
 
-.caja-texto-anualmente-interna p{
-    margin-top:12px;
-        width: 100%;
+.caja-texto-anualmente-interna p {
+    margin-top: 12px;
+    width: 100%;
     max-width: 500px;
     font-size: 1.2em;
-        color: #0B2739;
+    color: #0B2739;
 }
 
-.caja-texto-proceso-informe p{
-    font-size:1.2em;
+.caja-texto-proceso-informe p {
+    font-size: 1.2em;
 }
 
 
-.caja-proceso-informe{
+.caja-proceso-informe {
     width: 100%;
     max-width: 970px;
-        margin: 0 auto;
+    margin: 0 auto;
 }
-.caja-proceso-informe h1{
+
+.caja-proceso-informe h1 {
     font-family: 'Telefonica';
-    font-size:2.5em;
+    font-size: 2.5em;
 
 }
 
 
-.columnas-proceso-informe{
+.columnas-proceso-informe {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.caja-texto-proceso-informe{
+.caja-texto-proceso-informe {
     width: 100%;
     max-width: 500px;
 }
 
 
-.cuadros-procesos img{
+.cuadros-procesos img {
     width: 100%;
     height: auto;
     display: block;
@@ -674,19 +685,19 @@ border-top-right-radius: 50px;
 }
 
 
-.spacer-arround{
+.spacer-arround {
     width: 100%;
     max-width: 100px;
 }
 
-.caja-texto-proceso-informe h3{
+.caja-texto-proceso-informe h3 {
     font-family: 'Telefonica';
     color: #019df4;
 }
 
-.caja-plan-negocio-rentable{
+.caja-plan-negocio-rentable {
     background: #019df4;
-        padding-bottom: 65px;
+    padding-bottom: 65px;
 
 }
 
@@ -703,21 +714,21 @@ border-top-right-radius: 50px;
     width: 100%;
     max-width: 100px;
     display: block;
-    margin:  0 auto;
+    margin: 0 auto;
 }
 
-.imagen-lapiz img{
+.imagen-lapiz img {
     width: 100%;
     max-width: 100px;
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-.flecha img{
+.flecha img {
     width: 100%;
     max-width: 60px;
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .imagenes-podio-lapiz {
@@ -732,48 +743,51 @@ border-top-right-radius: 50px;
     flex-direction: column;
     align-items: center;
 }
+
 .cajas-datos {
-  
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-        max-width: 620px;
+    max-width: 620px;
     padding-left: 30px;
 }
 
 
-.caja-texto-invitados h2{
-    color:#FFF;
-        font-size: 3em;
-         
-             margin: 0;
-             font-family: 'Telefonica-bold';
-}
-.imagen-podio h4{
-    margin: 0;
-     font-family: 'Telefonica-bold';
-}
+.caja-texto-invitados h2 {
+    color: #FFF;
+    font-size: 3em;
 
-.imagen-lapiz h4{
-    margin: 0;
-     font-family: 'Telefonica-bold';
-}
-
-.caja-texto-invitados h4{
     margin: 0;
     font-family: 'Telefonica-bold';
 }
-.caja-texto-invitados p{
+
+.imagen-podio h4 {
+    margin: 0;
+    font-family: 'Telefonica-bold';
+}
+
+.imagen-lapiz h4 {
+    margin: 0;
+    font-family: 'Telefonica-bold';
+}
+
+.caja-texto-invitados h4 {
+    margin: 0;
+    font-family: 'Telefonica-bold';
+}
+
+.caja-texto-invitados p {
     color: #FFF;
 }
 
-.caja-plan-negocio-rentable h1{
-        color: #FFF;
+.caja-plan-negocio-rentable h1 {
+    color: #FFF;
     padding: 30px;
-    margin-left:88px;
+    margin-left: 88px;
     font-family: 'Telefonica';
-    font-size:2.5em;
+    font-size: 2.5em;
 }
 
 .invitados {
@@ -781,66 +795,70 @@ border-top-right-radius: 50px;
 }
 
 
-.caja-asuntos-materiales{
-        width: 100%;
+.caja-asuntos-materiales {
+    width: 100%;
     max-width: 970px;
     margin: 25px auto;
 }
-.caja-asuntos-materiales h1{
-        font-family: 'Telefonica';
+
+.caja-asuntos-materiales h1 {
+    font-family: 'Telefonica';
     color: #019df4;
-        font-size: 2.5em;
+    font-size: 2.5em;
 }
-.imagen-asuntos-materiales img{
-        width: 100%;
-   max-width: 792px;
+
+.imagen-asuntos-materiales img {
+    width: 100%;
+    max-width: 792px;
     display: block;
     margin: 30px auto;
     padding-top: 30px;
     padding-bottom: 16px;
 }
 
-.imagen-grupos-interes img{
-        width: 100%;
+.imagen-grupos-interes img {
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
 
 
-.tabla-grande-actualizacion{
-     width: 100%;
+.tabla-grande-actualizacion {
+    width: 100%;
     max-width: 970px;
     margin: 0 auto;
 
 }
-.tabla-grande-actualizacion h1{
+
+.tabla-grande-actualizacion h1 {
     font-family: 'Telefonica';
     color: #019df4;
-    font-size:2.5em;
+    font-size: 2.5em;
 }
 
-.tabla-grande-actualizacion h4{
+.tabla-grande-actualizacion h4 {
     color: #019df4;
     font-family: 'Telefonica';
-    font-size:1em;
+    font-size: 1em;
 
 }
 
-.tabla-grande-actualizacion p{
-        width: 100%;
+.tabla-grande-actualizacion p {
+    width: 100%;
     max-width: 551px;
     font-family: 'Telefonica';
-       color: #e2e2e2;;
-       font-size:1.2em;
+    color: #e2e2e2;
+    ;
+    font-size: 1.2em;
 }
 
 
 
-.tabla-seccion{
+.tabla-seccion {
     background: #0B2739;
     position: relative;
     background-image: url(../img/fondo-tabla.jpg);
-        background-size: cover;
+    background-size: cover;
 }
 
 
@@ -851,7 +869,7 @@ border-top-right-radius: 50px;
 .tg {
     border-collapse: collapse;
     border-spacing: 0;
-        width: 100%;
+    width: 100%;
 }
 
 .tg td {
@@ -884,7 +902,7 @@ border-top-right-radius: 50px;
     border-left-color: transparent;
     border-right-color: transparent;
 
-        color: #e2e2e2;
+    color: #e2e2e2;
 
 }
 
@@ -896,7 +914,7 @@ border-top-right-radius: 50px;
     border-right-color: transparent;
     border-bottom: 1px solid #e2e2e2;
 
-       color: #e2e2e2;
+    color: #e2e2e2;
 
 }
 
@@ -910,7 +928,7 @@ border-top-right-radius: 50px;
 
 
 .tg2 td {
-    
+
     font-family: Arial, sans-serif;
     font-size: 14px;
     overflow: hidden;
@@ -937,19 +955,19 @@ border-top-right-radius: 50px;
     vertical-align: top
 }
 
-.tabla-genis{
+.tabla-genis {
     border-bottom: 1px solid #afafaf;
 }
 
 
 
-.border-tabla-titulo{
-        border-color: transparent;
+.border-tabla-titulo {
+    border-color: transparent;
     border-bottom: 1px solid #019df4;
 }
 
-.border-tabla-row1{
-        border-color: transparent;
+.border-tabla-row1 {
+    border-color: transparent;
     border-bottom: 1px solid #019df4;
 }
 
@@ -957,33 +975,35 @@ th.tg-0pky.border-transparent {
     border-color: transparent;
 }
 
-.tabla-actualizacion-materiales{
-        width: 100%;
+.tabla-actualizacion-materiales {
+    width: 100%;
     max-width: 970px;
     margin: 0 auto;
-        padding-bottom: 100px;
-            overflow-x: auto;
+    padding-bottom: 100px;
+    overflow-x: auto;
 }
 
 
 
 
-.caja-construccion-del-informe{
-     width: 100%;
+.caja-construccion-del-informe {
+    width: 100%;
     max-width: 970px;
     margin: 0 auto;
-        padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
-.caja-construccion-del-informe h1{
-        font-family: 'Telefonica';
+.caja-construccion-del-informe h1 {
+    font-family: 'Telefonica';
     color: #019df4;
-    font-size:2.5em;
+    font-size: 2.5em;
 }
-.caja-construccion-del-informe h4{
-    font-size:1em;
+
+.caja-construccion-del-informe h4 {
+    font-size: 1em;
 }
-.imagen-dummy{
+
+.imagen-dummy {
     width: 100%;
     display: flex;
     max-width: 307px;
@@ -993,49 +1013,59 @@ th.tg-0pky.border-transparent {
     justify-content: center;
     align-items: center;
 }
-.imagen-dummy p{
+
+.imagen-dummy p {
     color: #019DF4;
 }
 
-.columnas-contruccion-informe{
+.columnas-contruccion-informe {
     display: flex;
-        justify-content: space-between;
+    justify-content: space-between;
 }
+
 .caja-texto-construccion {
     width: 100%;
     max-width: 563px;
 }
-.caja-texto-construccion p{
-    font-size:1.2em;
+
+.caja-texto-construccion p {
+    font-size: 1.2em;
 }
+
 .imagen-construccion {
     width: 100%;
     max-width: 307px;
 }
+
 .cja-tabs-seccion {
     width: 100%;
     max-width: 990px;
     margin: 0 auto;
 }
 
-.texto-asuntos-materiales p{
-    font-size:1.2em;
+.texto-asuntos-materiales p {
+    font-size: 1.2em;
     width: 100%;
-        max-width: 305px;
+    max-width: 305px;
     padding: 15px;
-    margin:5px;
+    margin: 5px;
 }
- .texto-asuntos-materiales {
-    display:flex;
+
+.texto-asuntos-materiales {
+    display: flex;
 }
+
 p.francesa {
     text-indent: -81px;
     position: absolute;
     padding-left: 62px;
-        width: 100%;
+    width: 100%;
     max-width: 827px;
 }
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
     color: #fff !important;
     cursor: default;
     background-color: #019DF4 !important;
@@ -1043,6 +1073,7 @@ p.francesa {
     border: 1px solid #ddd;
     border-bottom-color: transparent;
 }
+
 .tab-content>.active {
     display: block;
     border: 2px solid #019DF4;
@@ -1063,31 +1094,36 @@ p.francesa {
     align-items: flex-start;
     padding: 50px;
 }
+
 .contenido-tabs-de-calidad p {
     position: relative;
     left: 13px;
     width: 100%;
 }
+
 .caja-bola {
     width: 12px;
     height: 12px;
     background: #019DF4;
     border-radius: 100%;
 }
-.contenido-tabs-de-calidad p span:nth-of-type(1){
+
+.contenido-tabs-de-calidad p span:nth-of-type(1) {
     color: #019DF4;
-    font-size:1.2em;
-   
+    font-size: 1.2em;
+
 }
 
-.contenido-tabs-de-calidad p span:nth-of-type(2){
+.contenido-tabs-de-calidad p span:nth-of-type(2) {
     color: #019DF4;
 }
+
 .caja-plan-comunicacion {
     background: #019df4;
     margin-top: 70px;
-    
+
 }
+
 .columnas-comunicacion-seccion {
     display: flex;
     justify-content: flex-start;
@@ -1100,8 +1136,8 @@ p.francesa {
     max-width: 600px;
 }
 
-.imagen-comunicacion img{
-        width: 100%;
+.imagen-comunicacion img {
+    width: 100%;
     max-width: 470px;
     display: block;
     margin: 0 auto;
@@ -1110,34 +1146,35 @@ p.francesa {
 .texto-comunicacion {
     width: 100%;
     max-width: 500px;
-        margin-top: 45px;
+    margin-top: 45px;
 
 }
-.texto-comunicacion h2{
+
+.texto-comunicacion h2 {
     font-family: 'Telefonica' !important;
-    font-size:2.5em;
+    font-size: 2.5em;
 }
 
-.texto-comunicacion p{
+.texto-comunicacion p {
     color: #FFF;
     font-family: 'Telefonica' !important
 }
 
 
-.imagen-grupos-interes-mobile{
+.imagen-grupos-interes-mobile {
     display: none;
 }
 
-.caja-asuntos-materiales h4{
-        font-size: 1em;
+.caja-asuntos-materiales h4 {
+    font-size: 1em;
 }
 
 
 
 
-.caja-vinetas{
+.caja-vinetas {
     display: flex;
-        align-items: baseline;
+    align-items: baseline;
 }
 
 
@@ -1151,53 +1188,57 @@ p.francesa {
 /*************************************Secciones Interna 2 Gobernanza*******************************/
 
 
-.banner-secciones-internas2{
+.banner-secciones-internas2 {
     background: url(../img/imagen2-interna.jpg);
     width: 100%;
     background-position: 0px -1px;
     background-size: cover;
-        /*height: 339px;*/
-        margin-top: 113px;
+    /*height: 339px;*/
+    margin-top: 113px;
 
 
 }
 
 
-.caja-estructura-gobernanza{
-        display: flex;
+.caja-estructura-gobernanza {
+    display: flex;
     width: 100%;
     max-width: 970px;
     justify-content: space-between;
-    align-items:flex-start;
+    align-items: flex-start;
     margin: 0 auto;
     flex-wrap: wrap;
-    
+
 
 }
 
-.container-seccion2{
+.container-seccion2 {
     width: 100%;
     max-width: 970px;
 }
-.titulo-secciones-gobernanza{
-        margin-top: 35px;
+
+.titulo-secciones-gobernanza {
+    margin-top: 35px;
 }
-.titulo-secciones-gobernanza h4{
-    font-size:1em;
+
+.titulo-secciones-gobernanza h4 {
+    font-size: 1em;
 }
-.titulo-secciones-gobernanza h1{
-color: #019DF4;
+
+.titulo-secciones-gobernanza h1 {
+    color: #019DF4;
 
     margin: 0;
     position: relative;
 }
-.caja-texto-estructura-gobernanza{
-        width: 100%;
+
+.caja-texto-estructura-gobernanza {
+    width: 100%;
     max-width: 435px;
 }
 
-.caja-texto-estructura-gobernanza img{
-        width: 100%;
+.caja-texto-estructura-gobernanza img {
+    width: 100%;
     max-width: 391px;
 }
 
@@ -1207,23 +1248,24 @@ color: #019DF4;
     max-width: 505px;
 }
 
-.caja-imagen-estructura-gobernanza p{
-        padding: 43px;
+.caja-imagen-estructura-gobernanza p {
+    padding: 43px;
 }
+
 .caja-imagen-estructura-gobernanza-imagenes {
     display: flex;
     justify-content: space-between;
 }
 
-.caja-imagen-estructura-gobernanza-imagenes img{
-        width: 100%;
+.caja-imagen-estructura-gobernanza-imagenes img {
+    width: 100%;
     max-width: 384px;
     margin: 0 auto;
     display: block;
 }
 
-.caja-imagen-estructura-gobernanza-imagenes img:nth-of-type(1){
-           width: 100%;
+.caja-imagen-estructura-gobernanza-imagenes img:nth-of-type(1) {
+    width: 100%;
     max-width: 120px;
     height: 85px;
     padding-left: 39px;
@@ -1232,8 +1274,8 @@ color: #019DF4;
 
 
 
-.caja-atencion-accionista{
-        background: url(../img/fondo-seccion-interna2.png);
+.caja-atencion-accionista {
+    background: url(../img/fondo-seccion-interna2.png);
     background-size: cover;
     background-position: 0px -178px;
     background-repeat: no-repeat;
@@ -1243,68 +1285,70 @@ color: #019DF4;
 
 .caja-atencion-accionista-texto {
     width: 100%;
-    max-width:970px;
-        margin: 0 auto;
-            padding-top: 147px;
-                padding-bottom: 100px;
+    max-width: 970px;
+    margin: 0 auto;
+    padding-top: 147px;
+    padding-bottom: 100px;
 }
 
 
-.caja-atencion-accionista-texto h1{
+.caja-atencion-accionista-texto h1 {
     color: #0B2739;
 }
 
-.caja-atencion-accionista-texto h3{
+.caja-atencion-accionista-texto h3 {
     color: #0B2739;
 }
 
-.caja-atencion-accionista-texto p{
+.caja-atencion-accionista-texto p {
     color: #FFF;
-        column-count: 2;
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
 }
 
 
 
 
-.caja-composicion-texto-imagen{
+.caja-composicion-texto-imagen {
     width: 100%;
-    max-width:970px;
+    max-width: 970px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-        align-items: flex-end;
-        padding-bottom: 75px;
+    align-items: flex-end;
+    padding-bottom: 75px;
     padding-top: 42px;
     flex-wrap: wrap;
 }
 
-.caja-composicion-directiva{
+.caja-composicion-directiva {
     background: #0B2739;
 }
 
-.caja-composicion-directiva-texto h1{
-     font-family: 'Telefonica' !important;
-     color: #FFF;
+.caja-composicion-directiva-texto h1 {
+    font-family: 'Telefonica' !important;
+    color: #FFF;
     margin: 0;
 }
 
-.caja-composicion-directiva-texto ul{
-     font-family: 'Telefonica' !important;
+.caja-composicion-directiva-texto ul {
+    font-family: 'Telefonica' !important;
     list-style: none;
     padding: 0;
-        padding-top: 33px;
+    padding-top: 33px;
 }
 
-.caja-composicion-directiva-texto ul li:nth-of-type(1){
+.caja-composicion-directiva-texto ul li:nth-of-type(1) {
     color: #019DF4;
-        border-bottom: solid 1px;
+    border-bottom: solid 1px;
     width: 100%;
     max-width: 370px;
 }
 
-.caja-composicion-directiva-texto ul li{
-        padding-top: 6px;
-        color: #FFF;
+.caja-composicion-directiva-texto ul li {
+    padding-top: 6px;
+    color: #FFF;
     border-bottom: 1px solid;
     width: 100%;
     max-width: 370px;
@@ -1319,7 +1363,7 @@ span.nombre-titulo-lista-directivas1 {
     margin-left: 25px;
 }
 
-span.nombre-titulo-lista-directivas-last{
+span.nombre-titulo-lista-directivas-last {
     margin-left: 49px;
 }
 
@@ -1330,7 +1374,7 @@ span.nombre-titulo-lista-directivas-last{
     max-width: 444px;
 }
 
-.caja-composicion-directiva-imagen p{
+.caja-composicion-directiva-imagen p {
     color: #FFF;
 }
 
@@ -1342,18 +1386,19 @@ span.nombre-titulo-lista-directivas-last{
 }
 
 
-.caja-junta-directiva-texto h1{
-    color:  #019DF4;
+.caja-junta-directiva-texto h1 {
+    color: #019DF4;
 }
 
-.caja-junta-directiva{
-        display: flex;
+.caja-junta-directiva {
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    align-items:flex-end;
-        padding-bottom: 125px;
+    align-items: flex-end;
+    padding-bottom: 125px;
 }
+
 .caja-junta-directiva-texto {
     width: 100%;
     max-width: 546px;
@@ -1361,58 +1406,60 @@ span.nombre-titulo-lista-directivas-last{
 
 .caja-junta-directiva-imagenes {
     display: flex;
-        width: 100%;
+    width: 100%;
     max-width: 394px;
     justify-content: space-between;
-        position: relative;
+    position: relative;
     top: 44px;
-        left: 30px;
+    left: 30px;
 }
 
 
-.caja-junta-directiva-imagenes .grafico-genero img{
-       width: 100%;
+.caja-junta-directiva-imagenes .grafico-genero img {
+    width: 100%;
     max-width: 194px;
     height: 229px;
     display: block;
     margin: 0 auto;
-        position: relative;
+    position: relative;
     top: 25px;
 }
 
 
-.caja-junta-directiva-texto p{
+.caja-junta-directiva-texto p {
     padding-top: 50px;
 }
 
-.grafico-genero h3{
+.grafico-genero h3 {
     margin: 0;
-    font-size:1.2em;
-        color: #019DF4;
-        text-align: center;
-         font-family: 'Telefonica' !important;
+    font-size: 1.2em;
+    color: #019DF4;
+    text-align: center;
+    font-family: 'Telefonica' !important;
 }
-.container-comite-auditoria{
+
+.container-comite-auditoria {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-        background: #0B2739;
+    background: #0B2739;
 }
-.imagen-auditoria{
 
-background: url(../img/imagen2-2-interna.jpg);
-width: 100%;
-max-width:540px;
-background-size: cover;
-background-repeat: no-repeat;
+.imagen-auditoria {
+
+    background: url(../img/imagen2-2-interna.jpg);
+    width: 100%;
+    max-width: 540px;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: 0px -9px;
 
 
 }
 
-.caja-imagen-genero img{
+.caja-imagen-genero img {
     width: 100%;
-       max-width: 202px;
+    max-width: 202px;
     height: 233px;
     display: block;
     margin: 0 auto;
@@ -1421,29 +1468,33 @@ background-repeat: no-repeat;
 .texto-auditoria {
     width: 100%;
     max-width: 600px;
-        padding-right: 65px;
-}
-.texto-auditoria h1,.texto-auditoria h2{
-     font-family: 'Telefonica' !important;
-         color: #e0e2e4;
-}
-.texto-auditoria p{
-        color: #e0e2e4;
-}
-.texto-auditoria ul{
-        padding: 0;
-    list-style: none;
-     font-family: 'Telefonica' !important;
+    padding-right: 65px;
 }
 
-.texto-auditoria ul li:nth-of-type(1){
+.texto-auditoria h1,
+.texto-auditoria h2 {
+    font-family: 'Telefonica' !important;
+    color: #e0e2e4;
+}
+
+.texto-auditoria p {
+    color: #e0e2e4;
+}
+
+.texto-auditoria ul {
+    padding: 0;
+    list-style: none;
+    font-family: 'Telefonica' !important;
+}
+
+.texto-auditoria ul li:nth-of-type(1) {
     color: #019DF4;
     border-bottom: solid 1px;
     width: 100%;
     max-width: 405px;
 }
 
-.texto-auditoria ul li{
+.texto-auditoria ul li {
     color: #FFF;
     border-bottom: solid 1px;
     width: 100%;
@@ -1461,30 +1512,28 @@ background-repeat: no-repeat;
 }
 
 
-.caja-imagen-genero:nth-of-type(2){
- 
-}
+.caja-imagen-genero:nth-of-type(2) {}
 
 
-.caja-imagen-genero h3{
-        font-size: 1em;
+.caja-imagen-genero h3 {
+    font-size: 1em;
     text-align: center;
     color: #019DF4;
 }
 
 
 
-.caja-conflictos-intereses{
-       background: url(../img/nubes-movistar.png);
+.caja-conflictos-intereses {
+    background: url(../img/nubes-movistar.png);
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: 531px -59px;
 }
 
-.caja-conflictos-intereses p{
+.caja-conflictos-intereses p {
     width: 100%;
     max-width: 668px;
-        margin-top: 50px;
+    margin-top: 50px;
 }
 
 
@@ -1492,7 +1541,7 @@ background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+
     align-items: flex-start;
     margin-top: 70px;
 
@@ -1501,7 +1550,7 @@ background-repeat: no-repeat;
 
 .imagen-intereses {
     width: 100%;
-       max-width: 470px;
+    max-width: 470px;
 }
 
 
@@ -1511,18 +1560,18 @@ background-repeat: no-repeat;
     max-width: 400px;
 }
 
-.caja-conflictos-intereses2{
-    margin-top:25px;
+.caja-conflictos-intereses2 {
+    margin-top: 25px;
 }
 
-.caja-conflictos-intereses2 p{
+.caja-conflictos-intereses2 p {
     column-count: 3;
-        height: 336px;
-         -webkit-columns: 3;
-     -moz-columns: 3;
-          columns: 3;
-  -moz-column-fill: balance;
-       column-fill: balance;
+    height: 336px;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+    -moz-column-fill: balance;
+    column-fill: balance;
 }
 
 
@@ -1532,37 +1581,39 @@ background-repeat: no-repeat;
 /*************************************Secciones Interna 3 Movistar Colombia*******************************/
 
 
-.banner-secciones-internas3{
+.banner-secciones-internas3 {
     background: url(../img/banner-acerca-movistar.jpg);
     width: 100%;
     background-position: 0px -1px;
     background-size: cover;
-        /*height: 339px;*/
-        margin-top: 113px;
+    /*height: 339px;*/
+    margin-top: 113px;
 
 
 }
 
-.titulo-secciones-movistar p{
+.titulo-secciones-movistar p {
     width: 100%;
-    max-width:600px;
+    max-width: 600px;
 }
 
-.titulo-secciones-movistar{
-        margin-top: 35px;
+.titulo-secciones-movistar {
+    margin-top: 35px;
 }
-.titulo-secciones-movistar h4{
-    font-size:1em;
+
+.titulo-secciones-movistar h4 {
+    font-size: 1em;
 }
-.titulo-secciones-movistar h1{
-color: #019DF4;
+
+.titulo-secciones-movistar h1 {
+    color: #019DF4;
 
     margin: 0;
     position: relative;
 }
 
 
-.caja-codigo-qr-datos2{
+.caja-codigo-qr-datos2 {
     display: none;
 }
 
@@ -1577,12 +1628,13 @@ color: #019DF4;
 .columna-torta {
 
     width: 100%;
-    max-width:214px;
+    max-width: 214px;
 }
 
-.columna-torta p{
-       margin-top: 75px; 
+.columna-torta p {
+    margin-top: 75px;
 }
+
 .caja-datos-columna1 {
     margin: 1px;
     padding: 4px;
@@ -1600,38 +1652,40 @@ color: #019DF4;
 .caja-texto-datos {
     display: flex;
 }
+
 .caja-datos-extensos {
     display: flex;
 }
 
-.bola{
-        width: 25px;
+.bola {
+    width: 25px;
     height: 25px;
     background: #019DF4;
     border-radius: 100%;
 }
 
-.bola1{
+.bola1 {
     background: #0B2739;
     width: 25px;
     height: 25px;
     border-radius: 100%;
 }
 
-.bola2{
+.bola2 {
     background: #da9615;
     width: 25px;
     height: 25px;
     border-radius: 100%;
 }
 
-.texto-datos-lista h3{
-    font-size:1em;
-     font-family: 'Telefonica-bold';
-     margin:0;
+.texto-datos-lista h3 {
+    font-size: 1em;
+    font-family: 'Telefonica-bold';
+    margin: 0;
 
 }
-.texto-datos-lista p{
+
+.texto-datos-lista p {
     margin: 0;
 }
 
@@ -1646,31 +1700,36 @@ color: #019DF4;
     max-width: 187px;
 }
 
-.caja-valores{
+.caja-valores {
     display: flex;
-        background: #019DF4;
-            width: 100%;
-            max-width:970px;
+    background: #019DF4;
+    width: 100%;
+    max-width: 970px;
     margin: 0 auto;
-    padding-bottom:30px;
+    padding-bottom: 30px;
 }
-.caja-valores-fondo{
+
+.caja-valores-fondo {
     background: #019DF4;
 }
-.caja-titulo-valores h1{
-        margin: 0;
-  
+
+.caja-titulo-valores h1 {
+    margin: 0;
+
     color: #FFF;
 }
-.caja-titulo-valores p{
-        margin-top: 10px !important;
+
+.caja-titulo-valores p {
+    margin-top: 10px !important;
     line-height: 17px;
 }
-.caja-titulo-valores{
+
+.caja-titulo-valores {
     width: 100%;
-    max-width:182px;
-        margin-top: 20px;
+    max-width: 182px;
+    margin-top: 20px;
 }
+
 .caja-datos-valores {
     width: 100%;
     max-width: 166px;
@@ -1683,16 +1742,19 @@ color: #019DF4;
     position: relative;
     overflow: visible;
 }
-.contenedor-mision-valores p{
+
+.contenedor-mision-valores p {
     width: 100%;
-    max-width:516px;
-    margin-bottom:30px;
+    max-width: 516px;
+    margin-bottom: 30px;
     color: #FFF;
-    margin:0;
+    margin: 0;
 }
-.section-valores{
+
+.section-valores {
     overflow: visible !important;
 }
+
 .caja-abierta {
     width: 100%;
     max-width: 150px;
@@ -1706,31 +1768,31 @@ color: #019DF4;
     justify-content: center;
 }
 
-.caja-abierta-texto{
-  margin-top: 10px !important;
+.caja-abierta-texto {
+    margin-top: 10px !important;
     line-height: 17px;
 }
 
-.caja-datos-valores:nth-of-type(1) .caja-abierta{
+.caja-datos-valores:nth-of-type(1) .caja-abierta {
     border: 2px solid #FFF;
 }
 
-.caja-datos-valores:nth-of-type(2) .caja-abierta{
+.caja-datos-valores:nth-of-type(2) .caja-abierta {
     border: 2px solid #FFF;
 }
 
-.caja-datos-valores:nth-of-type(3) .caja-abierta{
+.caja-datos-valores:nth-of-type(3) .caja-abierta {
     border: 2px solid #4bff00;
 }
 
-.caja-datos-valores:nth-of-type(4) .caja-abierta{
+.caja-datos-valores:nth-of-type(4) .caja-abierta {
     border: 2px solid red;
 }
 
 
 .caja-imagen-valores {
     position: absolute;
-       top: -23px;
+    top: -23px;
     width: 100%;
     max-width: 523px;
     right: -106px;
@@ -1743,12 +1805,13 @@ color: #019DF4;
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
-        display: flex;
+    display: flex;
     justify-content: flex-start;
     align-items: baseline;
-        padding-bottom: 29px;
+    padding-bottom: 29px;
 }
-.caja-titulo-mision p{
+
+.caja-titulo-mision p {
     color: #0B2739;
     padding-left: 94px;
 }
@@ -1764,36 +1827,41 @@ hr.linea-caja-datos {
 
 
 
-.caja-contenedor-lista{
+.caja-contenedor-lista {
     width: 100%;
-    max-width:970px;
-    margin:0 auto;
+    max-width: 970px;
+    margin: 0 auto;
 }
-.caja-contenedor-lista h4{
-        margin: 0;
+
+.caja-contenedor-lista h4 {
+    margin: 0;
     font-size: 1em;
     color: #FFF
 }
-.caja-datos-lista-moviles{
+
+.caja-datos-lista-moviles {
     color: #FFF;
 }
-.caja-datos-lista-moviles ul{
+
+.caja-datos-lista-moviles ul {
     padding-left: 21px;
 }
 
-.caja-contenedor-lista h1{
+.caja-contenedor-lista h1 {
     font-size: 3em;
     font-family: 'Telefonica-ExtraLight';
     color: #019DF4;
     padding-top: 50px;
 }
-.digitales-titulo{
+
+.digitales-titulo {
     font-family: 'Telefonica' !important;
     padding-top: 10px !important;
     margin: 0;
 
 }
-.contenedor-productos-servicios{
+
+.contenedor-productos-servicios {
     background: #0B2739;
     padding-bottom: 29px;
 }
@@ -1807,32 +1875,33 @@ hr.linea-caja-datos {
 
 
 
-.caja-lista-datos-grande{
+.caja-lista-datos-grande {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     color: #FFF;
-    }
+}
 
-.caja-lista-grande h3{
-    font-size:1.2em;
+.caja-lista-grande h3 {
+    font-size: 1.2em;
     color: #FFF;
-        margin-left: 3px;
+    margin-left: 3px;
 
 
 }
-.caja-lista-grande ul{
-        padding-left: 19px;
+
+.caja-lista-grande ul {
+    padding-left: 19px;
     padding-right: 17px;
 
 }
 
-.caja-datos-lista-moviles h2{
-    color:#019DF4;
+.caja-datos-lista-moviles h2 {
+    color: #019DF4;
 }
 
 
-.caja-datos-relevantes-fondo{
+.caja-datos-relevantes-fondo {
     background: #019DF4;
     width: 100%;
     max-width: 1205px;
@@ -1840,11 +1909,12 @@ hr.linea-caja-datos {
     padding-bottom: 29px;
 }
 
-.caja-datos-relevantes h1{
+.caja-datos-relevantes h1 {
     color: #0B2739;
-   
+
 }
-.caja-datos-relevantes h4{
+
+.caja-datos-relevantes h4 {
     color: #0B2739;
 
 }
@@ -1861,43 +1931,52 @@ hr.linea-caja-datos {
 .caja-textos-imagen-datos {
     text-align: end;
 }
-.caja-textos-imagen-datos:nth-of-type(1){
-        margin-top: 40px;
+
+.caja-textos-imagen-datos:nth-of-type(1) {
+    margin-top: 40px;
 
 }
-.caja-textos-imagen-datos:nth-of-type(2){
-        margin-top: 60px;
+
+.caja-textos-imagen-datos:nth-of-type(2) {
+    margin-top: 60px;
 
 }
-.caja-textos-imagen-datos:nth-of-type(3){
-        margin-top: 72px;
+
+.caja-textos-imagen-datos:nth-of-type(3) {
+    margin-top: 72px;
 
 }
-.caja-textos-imagen-datos:nth-of-type(4){
-        margin-top: 70px;
+
+.caja-textos-imagen-datos:nth-of-type(4) {
+    margin-top: 70px;
 
 }
-.caja-textos-imagen-datos:nth-of-type(5){
-        margin-top: 70px;
+
+.caja-textos-imagen-datos:nth-of-type(5) {
+    margin-top: 70px;
 
 }
-.caja-textos-imagen-datos h4, .caja-textos-imagen-datos h3{
-    margin:0;
+
+.caja-textos-imagen-datos h4,
+.caja-textos-imagen-datos h3 {
+    margin: 0;
 }
-.caja-textos-imagen-datos h3{
+
+.caja-textos-imagen-datos h3 {
     font-family: 'Telefonica-bold';
     color: #FFF;
 }
-.caja-textos-imagen-datos p{
-        color: #0B2739;
+
+.caja-textos-imagen-datos p {
+    color: #0B2739;
     line-height: 16px;
 }
 
 .caja-codigo-qr-datos {
     width: 100%;
     max-width: 180px;
-        position: absolute;
-            right: 0px;
+    position: absolute;
+    right: 0px;
 }
 
 
@@ -1907,27 +1986,31 @@ hr.linea-caja-datos {
     position: relative;
 }
 
-.columnas-caja-datos-relevantes h4{
+.columnas-caja-datos-relevantes h4 {
     font-family: 'Telefonica-bold';
 }
-.caja-textos-imagen-datos h4{
-        color: #0B2739;
+
+.caja-textos-imagen-datos h4 {
+    color: #0B2739;
 }
 
-.caja-text-datos-relevantes2{
+.caja-text-datos-relevantes2 {
     color: #FFF;
 }
-.caja-text-datos-relevantes2 h4, .caja-text-datos-relevantes2 h5{
+
+.caja-text-datos-relevantes2 h4,
+.caja-text-datos-relevantes2 h5 {
     color: #FFF;
 
 }
-.caja-text-datos-relevantes2 h4{
+
+.caja-text-datos-relevantes2 h4 {
     font-weight: 700;
 }
 
-.caja-text-datos-relevantes2 img{
+.caja-text-datos-relevantes2 img {
     width: 100%;
-        max-width: 117px;
+    max-width: 117px;
     margin-top: 18px;
 }
 
@@ -1941,47 +2024,48 @@ hr.linea-caja-datos {
 
 .caja-datos-relevantes-iconos {
     display: flex;
-        align-items: flex-start;
+    align-items: flex-start;
     justify-content: space-evenly;
     margin-top: 50px;
 }
 
-.icono-relevante-6 img{
-    margin-bottom:0 !important;
+.icono-relevante-6 img {
+    margin-bottom: 0 !important;
 }
 
-.icono-relevante-5 img{
-        margin-bottom: 49px !important;
+.icono-relevante-5 img {
+    margin-bottom: 49px !important;
 }
 
 
-.icono-datos-relevantes img{
+.icono-datos-relevantes img {
     width: 100%;
-    max-width:122px;
-}
-.icono-datos-relevantes h4{
-    margin:0;
-        margin-left: 21px;
-         font-family: 'Telefonica-bold';
-         color: #0B2739;
-
+    max-width: 122px;
 }
 
-.icono-datos-relevantes h3{
-    margin:0;
-        margin-left: 21px;
-         font-family: 'Telefonica';
-         color: #FFF;
-         font-weight: 600;
+.icono-datos-relevantes h4 {
+    margin: 0;
+    margin-left: 21px;
+    font-family: 'Telefonica-bold';
+    color: #0B2739;
+
 }
 
-    
+.icono-datos-relevantes h3 {
+    margin: 0;
+    margin-left: 21px;
+    font-family: 'Telefonica';
+    color: #FFF;
+    font-weight: 600;
+}
 
 
-.icono-datos-relevantes img:nth-of-type(1){
+
+
+.icono-datos-relevantes img:nth-of-type(1) {
     width: 100%;
-    max-width:120px;
-        margin-bottom: 74px;
+    max-width: 120px;
+    margin-bottom: 74px;
 }
 
 
@@ -1992,17 +2076,17 @@ hr.linea-caja-datos {
     justify-content: flex-start;
 }
 
-.caja-texto-datos-plan h1{
+.caja-texto-datos-plan h1 {
     color: #FFF;
-    font-size:3.5em;
+    font-size: 3.5em;
     margin-left: 25px;
-     font-family: 'Telefonica';
+    font-family: 'Telefonica';
 }
 
-.caja-texto-datos-plan h4{
-        font-family: 'Telefonica-bold';
+.caja-texto-datos-plan h4 {
+    font-family: 'Telefonica-bold';
     color: #0B2739;
-    margin-left:21px;
+    margin-left: 21px;
 }
 
 
@@ -2013,14 +2097,15 @@ hr.linea-caja-datos {
     margin: 3px;
     padding: 5px;
 }
-.columna-der-parrafo-cambios:nth-of-type(1){
-    margin-right:30px;
+
+.columna-der-parrafo-cambios:nth-of-type(1) {
+    margin-right: 30px;
 }
 
-.columna-der-parrafo-cambios p{
+.columna-der-parrafo-cambios p {
     color: #FFF;
     font-family: 'Telefonica';
-        font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 
@@ -2033,37 +2118,40 @@ hr.linea-caja-datos {
 .columnas-iniciativas-externas {
     display: flex;
     justify-content: space-between;
-    margin-top:60px;
+    margin-top: 60px;
 }
 
-.bola-iniciativas{
-        width: 100%;
+.bola-iniciativas {
+    width: 100%;
     max-width: 30px;
     height: 30px;
     background: #0B2739;
     border-radius: 100%;
 }
-.bola-iniciativas2{
-      width: 100%;
+
+.bola-iniciativas2 {
+    width: 100%;
     max-width: 30px;
     height: 30px;
-       background: #019DF4;
+    background: #019DF4;
     border-radius: 100%;
 
 }
-.bola-iniciativas3{
-      width: 100%;
+
+.bola-iniciativas3 {
+    width: 100%;
     max-width: 30px;
     height: 30px;
-       background: #adcae9;
+    background: #adcae9;
     border-radius: 100%;
 
 }
-.bola-iniciativas4{
-      width: 100%;
+
+.bola-iniciativas4 {
+    width: 100%;
     max-width: 30px;
     height: 30px;
-       background: #c4c8d9;
+    background: #c4c8d9;
     border-radius: 100%;
 
 }
@@ -2074,15 +2162,15 @@ hr.linea-caja-datos {
     max-width: 184px;
 }
 
-.caja-columna-iniciativa-externa p{
-    margin-top:20px;
-    font-size:1.2em;
+.caja-columna-iniciativa-externa p {
+    margin-top: 20px;
+    font-size: 1.2em;
 }
 
 
 .caja-afiliacion-asociaciones {
     background-color: #8bc1dc;
-        background: url(../img/movistar-colombia-4.jpg);
+    background: url(../img/movistar-colombia-4.jpg);
     margin-top: 40px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2091,8 +2179,8 @@ hr.linea-caja-datos {
 
 
 
-.caja-columnas-asociaciones{
-        display: flex;
+.caja-columnas-asociaciones {
+    display: flex;
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
@@ -2104,23 +2192,24 @@ hr.linea-caja-datos {
     width: 100%;
     max-width: 550px;
 }
+
 .caja-texto-afiliaciones {
     width: 100%;
     max-width: 300px;
     color: #0B2739;
 }
 
-.caja-texto-afiliaciones ul{
+.caja-texto-afiliaciones ul {
     padding-left: 18px;
-        font-size: 1.2em;
-         font-family: 'Telefonica';
+    font-size: 1.2em;
+    font-family: 'Telefonica';
 
 }
 
 
 .caja-certificaciones {
     background-color: #8bc1dc;
-        background: url(../img/movistar-colombia-5.jpg);
+    background: url(../img/movistar-colombia-5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 792px;
@@ -2133,6 +2222,7 @@ hr.linea-caja-datos {
     justify-content: space-between;
     width: 100%;
 }
+
 .columna-blanca {
     width: 100%;
     max-width: 270px;
@@ -2140,36 +2230,40 @@ hr.linea-caja-datos {
     padding: 10px;
     margin: 20px;
 }
+
 .columna-opaca {
     margin: 20px;
     background: #0b2739d1;
     padding: 28px;
 }
-.columna-opaca h1{
+
+.columna-opaca h1 {
     color: #FFF;
 }
 
-.contenido-columna-opaca{
+.contenido-columna-opaca {
 
-width: 100%;
-   
+    width: 100%;
+
     max-width: 700px;
-    
-   
-   column-count: 3;
-       column-gap: 20px;
 
-   color: #FFF;
+
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-gap: 20px;
+
+    color: #FFF;
 }
 
 
 
-.contenido-columna-opaca ul{
-            width: 100%;
+.contenido-columna-opaca ul {
+    width: 100%;
     max-width: 184px;
     padding-left: 10px;
     font-size: 0.9em;
-        padding-left: 14px;
+    padding-left: 14px;
     padding-top: 22px;
 }
 
@@ -2177,11 +2271,11 @@ width: 100%;
 
 
 
-.contenido-columna-opaca h3{
-    margin:0;
+.contenido-columna-opaca h3 {
+    margin: 0;
     color: #FFF;
     font-size: 1.41em;
-      font-family: 'Telefonica-bold';
+    font-family: 'Telefonica-bold';
 }
 
 
@@ -2208,14 +2302,17 @@ width: 100%;
     padding-right: 13px;
     margin: 6px;
 }
-.contenido-columna-opaca h3 span:nth-of-type(1){
-    color:#E46B00;
+
+.contenido-columna-opaca h3 span:nth-of-type(1) {
+    color: #E46B00;
 }
-.contenido-columna-opaca h3 span:nth-of-type(2){
-    color:#DA9A00;
+
+.contenido-columna-opaca h3 span:nth-of-type(2) {
+    color: #DA9A00;
 }
-.contenido-columna-opaca h3 span:nth-of-type(3){
-    color:#008AFF;
+
+.contenido-columna-opaca h3 span:nth-of-type(3) {
+    color: #008AFF;
 }
 
 
@@ -2224,48 +2321,49 @@ width: 100%;
 /*************************************Secciones Interna 0 Carta Del Presidente*******************************/
 
 
-.banner-secciones-internas4{
+.banner-secciones-internas4 {
     background: url(../img/1-Home-Web-0.jpg);
     width: 100%;
     background-position: -4px -199px;
     background-size: cover;
-        /*height: 339px;*/
-        margin-top: 113px;
+    /*height: 339px;*/
+    margin-top: 113px;
 
 
 }
 
-.contenido-carta-presidente{
+.contenido-carta-presidente {
     width: 100%;
-    max-width:970px;
+    max-width: 970px;
     margin: 0 auto;
 }
 
 
-.texto-carta{
+.texto-carta {
     column-count: 2;
-        column-gap: 57px;
+    column-gap: 57px;
 }
 
-.texto-carta img{
+.texto-carta img {
     width: 100%;
     display: block;
-    
+
     max-width: 200px;
-    margin-top:50px;
+    margin-top: 50px;
 }
 
 
-.texto-carta h3{
-      font-family: 'Telefonica-bold';
-          margin: 0;
+.texto-carta h3 {
+    font-family: 'Telefonica-bold';
+    margin: 0;
     font-size: 1.2em;
-        color: #0B2739;
+    color: #0B2739;
 }
-.texto-carta h5{
-      font-family: 'Telefonica-light' !important;
-       margin: 0;
-       color: #019DF4;
+
+.texto-carta h5 {
+    font-family: 'Telefonica-light' !important;
+    margin: 0;
+    color: #019DF4;
 }
 
 
@@ -2290,8 +2388,8 @@ width: 100%;
 
 
 
-.banner-secciones-internas5{
-        background: url(../img/banner-contexto.jpg);
+.banner-secciones-internas5 {
+    background: url(../img/banner-contexto.jpg);
     width: 100%;
     background-position: 0px -143px;
     background-size: 100%;
@@ -2301,18 +2399,19 @@ width: 100%;
 
 }
 
-.caja-relevancia-ecosistema-digital{
-        min-height: 1139px;
+.caja-relevancia-ecosistema-digital {
+    min-height: 1342px;
     background: url(../img/fondo-contexto1.jpg);
-        background-size: cover;
+    background-size: cover;
     background-position: -33px -168px;
     margin-top: 45px;
+    background-repeat: no-repeat;
 }
 
 
 
-.caja-texto-ecosistema{
-        display: flex;
+.caja-texto-ecosistema {
+    display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: end;
@@ -2330,33 +2429,116 @@ width: 100%;
 
 .caja-texto-inner {
     width: 100%;
-        margin-top: 48px;
- 
+    margin-top: 48px;
+
     margin-right: 106px;
     max-width: 365px;
 }
-.caja-texto-inner h1{
-    font-size:2.5em;
+
+.caja-texto-inner h1 {
+    font-size: 2.5em;
     position: relative;
     right: 51px;
 }
 
-.caja-texto-inner p{
+.caja-texto-inner p {
 
     color: #FFF;
     font-size: 1.1em;
 
 }
-.caja-texto-inner p:nth-of-type(1){
-    margin-top:108px;
+
+.caja-texto-inner p:nth-of-type(1) {
+    margin-top: 108px;
 }
 
 
-.caja-texto-inner h3{
+.caja-texto-inner h3 {
     font-size: 1.2em;
     margin: 0;
     font-family: 'Telefonica-bold';
 }
+
+
+
+.contexto-sector {
+    background: url(../img/fondo-logo-movistar.jpg);
+       background-size: 926px;
+    background-position: 139px 849px;
+    background-repeat: no-repeat;
+    }
+
+
+
+.contenido-contexto-sector-columnas-completas {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.columna-imagen-sector img {
+    width: 100%;
+    max-width: 600px;
+}
+
+
+.contenido-contexto-sector-columnas {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+
+.columnas-textos-sector {
+    -webkit-columns: 3 150px;
+    -moz-columns: 3 150px;
+    columns: 3 160px;
+    -webkit-column-gap: 5em;
+    -moz-column-gap: 5em;
+    column-gap: 5em;
+}
+
+
+/**************************************columnas-diseños**********************************/
+
+#page-wrap {
+    width: 100%;
+    margin: 60px auto;
+}
+
+#page-wrap>div {
+    margin: 0 0 50px 0;
+    min-width: 970px;
+    width: 100%;
+}
+
+.group:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.group {
+    display: inline-block;
+}
+
+
+.five-columns .col {
+    width: 33%;
+    float: left;
+    padding: 2%;
+}
+
+
+
+/**************************************columnas-diseños**********************************/
+
+
 
 
 
@@ -2398,10 +2580,11 @@ width: 100%;
 
 
 
-.caja-texto-proceso-informe2{
+.caja-texto-proceso-informe2 {
     display: none;
 }
-.parrafo-hidden{
+
+.parrafo-hidden {
     display: block;
 }
 
@@ -2412,396 +2595,431 @@ width: 100%;
 
 
 }
+
 @media screen and (max-width: 1270px) {
-#main-menu .navbar .nav>li>a {
-    padding: 18px 4px 5px 4px !important;
-    margin: 0 4px 17px 8px !important;
-    border-bottom: 2px solid rgba(45, 78, 83, 0);
-    color: #4b4e53;
-    letter-spacing: 0px !important;
-    background-color: transparent;
-    font-size: 0.83em !important;
-    font-family: 'Telefonica';
-}
+    #main-menu .navbar .nav>li>a {
+        padding: 18px 4px 5px 4px !important;
+        margin: 0 4px 17px 8px !important;
+        border-bottom: 2px solid rgba(45, 78, 83, 0);
+        color: #4b4e53;
+        letter-spacing: 0px !important;
+        background-color: transparent;
+        font-size: 0.83em !important;
+        font-family: 'Telefonica';
+    }
 
 }
 
 /*ipad*/
-@media only screen  and (min-device-width: 768px)  and (max-device-width: 1024px)  and (orientation: portrait)  and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     .imagen-auditoria {
-    background-position: 0px -444px;
-    height: 570px;
-    max-width: 100%;
-    width: 100%;
-}
+        background-position: 0px -444px;
+        height: 570px;
+        max-width: 100%;
+        width: 100%;
+    }
 
-.container.contenedor-seccion.tabla-seccion {
-    width: 100%;
-}
+    .container.contenedor-seccion.tabla-seccion {
+        width: 100%;
+    }
 
-.imagen-grupos-interes-mobile img:nth-of-type(2) {
-    width: 100%;
-}
+    .imagen-grupos-interes-mobile img:nth-of-type(2) {
+        width: 100%;
+    }
 
 }
 
 
 
 @media screen and (max-width: 1024px) {
-    .header-1 #main-menu .nav.navbar-nav{
-        margin-right:0 !important;
+    .header-1 #main-menu .nav.navbar-nav {
+        margin-right: 0 !important;
     }
-    .banner-secciones-internas3 {
-    background: url(../img/banner-acerca-movistar.jpg);
-    width: 100%;
-    background-position: 0px -1px;
-    background-size: cover;
-    /* height: 339px; */
-    margin-top: 0;
-}
-.caja-imagen-valores {
-    position: relative;
-    top: 2px;
-    width: 100%;
-    max-width: 500px;
-    right: 0px;
-}
-    .caja-texto-seccion-banner {
-    padding: 45px;
-    position: relative;
-    left: 0px;
-}
-    #main-menu .navbar-collapse.collapse.in {
-    display: block !important;
-    width: 100%;
-}
 
-    .caja-asuntos-materiales h4{
+    .banner-secciones-internas3 {
+        background: url(../img/banner-acerca-movistar.jpg);
+        width: 100%;
+        background-position: 0px -1px;
+        background-size: cover;
+        /* height: 339px; */
+        margin-top: 0;
+    }
+
+    .caja-imagen-valores {
+        position: relative;
+        top: 2px;
+        width: 100%;
+        max-width: 500px;
+        right: 0px;
+    }
+
+    .caja-texto-seccion-banner {
+        padding: 45px;
+        position: relative;
+        left: 0px;
+    }
+
+    #main-menu .navbar-collapse.collapse.in {
+        display: block !important;
+        width: 100%;
+    }
+
+    .caja-asuntos-materiales h4 {
         padding-left: 28px;
     }
+
     .nav-tabs>li {
-    float: left;
-    margin-bottom: -1px;
-    font-size: 1.2em;
-    width: 50%;
-    text-align: center;
-}
+        float: left;
+        margin-bottom: -1px;
+        font-size: 1.2em;
+        width: 50%;
+        text-align: center;
+    }
+
     .columnas-contruccion-informe {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     .imagen-podio h4 {
-    margin: 0;
-    font-family: 'Telefonica-bold';
-    font-size: 1em;
-}
+        margin: 0;
+        font-family: 'Telefonica-bold';
+        font-size: 1em;
+    }
 
     .imagen-lapiz h4 {
-    margin: 0;
-    font-family: 'Telefonica-bold';
-    font-size: 1em;
-}
+        margin: 0;
+        font-family: 'Telefonica-bold';
+        font-size: 1em;
+    }
+
     .flecha img {
-    width: 100%;
-    max-width: 54px;
-    display: block;
-    margin: 0 ;
-    -moz-transform: rotate(90deg);
-    -webkit-transform: rotate(
-90deg
-);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-   
-}
+        width: 100%;
+        max-width: 54px;
+        display: block;
+        margin: 0;
+        -moz-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
 
-.imagenes-podio-lapiz {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    max-width: 191px;
-}
+    }
 
-.caja-texto-invitados h4 {
-    margin: 0;
-    font-family: 'Telefonica-bold';
-    font-size: 1em;
-}
-.caja-texto-invitados h2 {
-    color: #FFF;
-    font-size: 2em;
-    margin: 0;
-    font-family: 'Telefonica-bold';
-}
+    .imagenes-podio-lapiz {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 191px;
+    }
+
+    .caja-texto-invitados h4 {
+        margin: 0;
+        font-family: 'Telefonica-bold';
+        font-size: 1em;
+    }
+
+    .caja-texto-invitados h2 {
+        color: #FFF;
+        font-size: 2em;
+        margin: 0;
+        font-family: 'Telefonica-bold';
+    }
+
     .imagen-podio img {
-    width: 100%;
-    max-width: 60px;
-    display: block;
-    margin: 0 auto;
-}
-.imagen-lapiz img {
-    width: 100%;
-    max-width: 60px;
-    display: block;
-    margin: 0 auto;
-}
+        width: 100%;
+        max-width: 60px;
+        display: block;
+        margin: 0 auto;
+    }
 
-    .caja-iconos-negocio{
+    .imagen-lapiz img {
+        width: 100%;
+        max-width: 60px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .caja-iconos-negocio {
         align-items: flex-start;
         justify-content: flex-start;
-            padding-left: 20px;
+        padding-left: 20px;
     }
 
 
-    .caja-plan-negocio-rentable h1{
+    .caja-plan-negocio-rentable h1 {
         margin-left: 0;
     }
 
-    .parrafo-hidden{
-    display: none;
-}
+    .parrafo-hidden {
+        display: none;
+    }
 
-    .caja-texto-proceso-informe2{
+    .caja-texto-proceso-informe2 {
         display: block;
     }
 
     .imagen-anualmente img {
-    width: 100%;
-    max-width: 253px;
-    display: block;
-    margin: 0;
-}
+        width: 100%;
+        max-width: 253px;
+        display: block;
+        margin: 0;
+    }
 
-    .caja-texto-anualmente-interna h2, .caja-texto-anualmente-interna p{
+    .caja-texto-anualmente-interna h2,
+    .caja-texto-anualmente-interna p {
         padding: 20px;
 
     }
-    .caja-texto-anualmente-interna p{
+
+    .caja-texto-anualmente-interna p {
         padding-top: 0;
     }
-    .caja-texto-anualmente-interna h2{
+
+    .caja-texto-anualmente-interna h2 {
         padding-bottom: 0;
 
     }
-    .container.container-padding {
-    padding: 0;
-    width: 100%;
-}
 
-    .imagen-anualmente{
+    .container.container-padding {
+        padding: 0;
+        width: 100%;
+    }
+
+    .imagen-anualmente {
         background: transparent;
     }
 
     .caja-texto-seccion-banner {
-    padding: 18px;
-}
+        padding: 18px;
+    }
 
-    .contenedor-banner:nth-of-type(1){
+    .contenedor-banner:nth-of-type(1) {
         padding: 0;
 
     }
 
-    .banner-secciones-internas{
+    .banner-secciones-internas {
         margin-top: 0;
     }
 
-    .texto-comunicacion{
+    .texto-comunicacion {
         padding: 40px;
         margin: 0 auto;
     }
 
     .imagen-comunicacion img {
-    width: 100%;
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-    object-fit: cover;
-    height: 100%;
-    min-height: 621px;
-}
-
-.imagen-comunicacion{
-    margin: 0 auto;
-}
-
-    .columnas-comunicacion-seccion{
-        flex-direction: column;
-    }
-
-    
-
-    .columnas-proceso-informe{
-            flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        object-fit: cover;
+        height: 100%;
+        min-height: 621px;
     }
 
     .imagen-comunicacion {
-    width: 100%;
-    max-width: 600px;
-    order: 2;
-}
+        margin: 0 auto;
+    }
+
+    .columnas-comunicacion-seccion {
+        flex-direction: column;
+    }
 
 
-/********************seccion interna 1 estilos responsive******************/
 
-.caja-anualmente{
-    flex-direction: column;
-}
+    .columnas-proceso-informe {
+        flex-direction: column;
+    }
+
+    .imagen-comunicacion {
+        width: 100%;
+        max-width: 600px;
+        order: 2;
+    }
+
+
+    /********************seccion interna 1 estilos responsive******************/
+
+    .caja-anualmente {
+        flex-direction: column;
+    }
 
 
 
 
 
     #main-menu .navbar .nav>li>a .main-menu-title {
-    line-height: 20px;
-    color: #ffffff;
-}
-#main-menu .sub, #main-menu .parent .sub, #main-menu .parent:hover .sub {
-    display: none;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    background: #019df4 !important;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
+        line-height: 20px;
+        color: #ffffff;
+    }
+
+    #main-menu .sub,
+    #main-menu .parent .sub,
+    #main-menu .parent:hover .sub {
+        display: none;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background: #019df4 !important;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
     ul.cd-header-buttons {
-    top: 7px;
-    right: 65px;
-}
-.btn-z{
-    right: 33px;
-}
+        top: 7px;
+        right: 65px;
+    }
+
+    .btn-z {
+        right: 33px;
+    }
+
     .cd-search-trigger::after {
-    width: 11px !important;
-    bottom: 11px !important;
-    right: 3px !important;
-    height: 2px !important;
-}
-.cd-search-trigger::before {
-    width: 22px !important;
-    height: 22px !important;
-    left: 15px !important;
-    top: 10px !important;
-    border: 2px solid #4b4e53 ;
-}
-    .columnas-caja{
+        width: 11px !important;
+        bottom: 11px !important;
+        right: 3px !important;
+        height: 2px !important;
+    }
+
+    .cd-search-trigger::before {
+        width: 22px !important;
+        height: 22px !important;
+        left: 15px !important;
+        top: 10px !important;
+        border: 2px solid #4b4e53;
+    }
+
+    .columnas-caja {
         flex-direction: column;
     }
-    .container-fluid.content-cajas {
-    padding: 0;
-}
-.logo-2 img {
-    width: 100%;
-    max-width: 70px;
-    display: block;
-    float: none;
-    position: relative;
-    right: -45px;
-}
-    .imagen-caja {
-    width: 100%;
-    max-width: 100%;
-}
-    .imagen-caja img {
-    width: 100%;
-    max-width: 100%;
-}
-.texto-boton-izq {
-    left: 0;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    padding: 31px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0 auto;
-}
 
-.texto-boton-der{
-    right: 0;
-    order: 2;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    padding: 31px;
+    .container-fluid.content-cajas {
+        padding: 0;
+    }
+
+    .logo-2 img {
+        width: 100%;
+        max-width: 70px;
+        display: block;
+        float: none;
+        position: relative;
+        right: -45px;
+    }
+
+    .imagen-caja {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .imagen-caja img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .texto-boton-izq {
+        left: 0;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        padding: 31px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+
+    .texto-boton-der {
+        right: 0;
+        order: 2;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        padding: 31px;
 
         display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0 auto;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 auto;
     }
 }
+
 @media screen and (max-width: 800px) {
-    .contenido-columna-opaca h3 span{
+    .contenido-columna-opaca h3 span {
         width: 32%;
     }
-    .caja-afiliacion-asociaciones {
-    background-color: #8bc1dc;
-    background: url(../img/movistar-colombia-4.jpg);
-    margin-top: 40px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 792px;
-    background-position: -177px 0px;
-}
-    .contenido-columna-opaca h3 {
-    margin: 0;
-    color: #FFF;
-    font-size: 1em;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-}
-    .caja-texto-afiliaciones {
-    width: 100%;
-    max-width: 300px;
-    color: #0B2739;
-    order: -1;
-        padding: 20px;
-    margin: 15px;
-    background: #ffffff47;
-}
-    .caja-columnas-certificaciones {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    flex-direction: column;
-}
 
-.columnas-iniciativas-externas {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-    padding: 20px;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-.caja-iniciativas-externas {
-    padding: 20px;
-}
-    .columnas-caja-cambios{
+    .caja-afiliacion-asociaciones {
+        background-color: #8bc1dc;
+        background: url(../img/movistar-colombia-4.jpg);
+        margin-top: 40px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 792px;
+        background-position: -177px 0px;
+    }
+
+    .contenido-columna-opaca h3 {
+        margin: 0;
+        color: #FFF;
+        font-size: 1em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .caja-texto-afiliaciones {
+        width: 100%;
+        max-width: 300px;
+        color: #0B2739;
+        order: -1;
+        padding: 20px;
+        margin: 15px;
+        background: #ffffff47;
+    }
+
+    .caja-columnas-certificaciones {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .columnas-iniciativas-externas {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .caja-iniciativas-externas {
+        padding: 20px;
+    }
+
+    .columnas-caja-cambios {
         padding: 20px;
     }
 
 
-.banner-secciones-internas4 {
-    background: url(../img/1-Home-Web-0.jpg);
-    width: 100%;
-    background-position: -8px -236px;
-    background-size: 200%;
-    /* height: 339px; */
-    margin-top: 0;
-}
-.contenido-carta-presidente {
-    width: 100%;
-    max-width: 970px;
-    margin: 0 auto;
-    padding: 20px;
-}
+    .banner-secciones-internas4 {
+        background: url(../img/1-Home-Web-0.jpg);
+        width: 100%;
+        background-position: -8px -236px;
+        background-size: 200%;
+        /* height: 339px; */
+        margin-top: 0;
+    }
+
+    .contenido-carta-presidente {
+        width: 100%;
+        max-width: 970px;
+        margin: 0 auto;
+        padding: 20px;
+    }
 
 
 
@@ -2813,542 +3031,617 @@ width: 100%;
 
 
     .caja-conflictos-intereses2 p {
-    column-count: 2;
-    height: 100%;
-    -webkit-columns: 3;
-    -moz-columns: 3;
-    columns: 2;
-    -moz-column-fill: balance;
-    column-fill: balance;
-}
+        column-count: 2;
+        height: 100%;
+        -webkit-columns: 3;
+        -moz-columns: 3;
+        columns: 2;
+        -moz-column-fill: balance;
+        column-fill: balance;
+    }
+
     h4.heading-gri {
-    padding-left: 20px;
-}
+        padding-left: 20px;
+    }
+
     .caja-datos-relevantes-iconos {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    margin-top: 50px;
-    flex-direction: column;
-    align-items: center;
-}
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .bola2 {
-    background: #da9615;
-    width: 25px;
-    height: 15px;
-    border-radius: 100%;
-}
+        background: #da9615;
+        width: 25px;
+        height: 15px;
+        border-radius: 100%;
+    }
+
     .bola1 {
-    background: #0B2739;
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-}
+        background: #0B2739;
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+    }
+
     .bola {
-    width: 15px;
-    height: 15px;
-    background: #019DF4;
-    border-radius: 100%;
-}
+        width: 15px;
+        height: 15px;
+        background: #019DF4;
+        border-radius: 100%;
+    }
+
     h4.abonados-heading {
-    padding: 0 !important;
-}
+        padding: 0 !important;
+    }
+
     .caja-text-datos-relevantes2 {
-    color: #FFF;
-    padding-left: 20px;
-}
+        color: #FFF;
+        padding-left: 20px;
+    }
+
     .caja-textos-imagen-datos-columna {
-    padding-left: 15px;
-}
+        padding-left: 15px;
+    }
+
     .caja-datos-relevantes h1 {
-    color: #0B2739;
-    padding-left: 20px;
-}
+        color: #0B2739;
+        padding-left: 20px;
+    }
+
     .caja-datos-relevantes h4 {
-    color: #0B2739;
-   
-}
+        color: #0B2739;
+
+    }
+
     .caja-textos-imagen-datos:nth-of-type(5) {
-    margin-top: 36px;
-}
+        margin-top: 36px;
+    }
+
     .caja-textos-imagen-datos:nth-of-type(4) {
-    margin-top: 53px;
-}
+        margin-top: 53px;
+    }
+
     .caja-textos-imagen-datos:nth-of-type(3) {
-    margin-top: 34px;
-}
+        margin-top: 34px;
+    }
+
     .caja-textos-imagen-datos:nth-of-type(2) {
-    margin-top: 10px;
-}
+        margin-top: 10px;
+    }
+
     .caja-textos-imagen-datos:nth-of-type(1) {
-    margin-top: 20px;
-}
+        margin-top: 20px;
+    }
+
     .caja-textos-imagen-datos p {
-    color: #0B2739;
-    line-height: 13px;
-    width: 100%;
-    max-width: 261px;
-    font-size: 0.8em;
-}
+        color: #0B2739;
+        line-height: 13px;
+        width: 100%;
+        max-width: 261px;
+        font-size: 0.8em;
+    }
 
     .caja-textos-imagen-datos h4 {
-    color: #0B2739;
-    font-size: 1em;
-}
-.caja-textos-imagen-datos h3 {
-    font-family: 'Telefonica-bold';
-    color: #FFF;
-    font-size: 1.2em;
-}
-    .caja-imagen-datos-relevantes img{
-    object-fit: cover;
-    height: 463px;
-    object-position: 3px;
+        color: #0B2739;
+        font-size: 1em;
     }
+
+    .caja-textos-imagen-datos h3 {
+        font-family: 'Telefonica-bold';
+        color: #FFF;
+        font-size: 1.2em;
+    }
+
+    .caja-imagen-datos-relevantes img {
+        object-fit: cover;
+        height: 463px;
+        object-position: 3px;
+    }
+
     .columnas-caja-datos-relevantes {
-    display: flex;
-    align-items: center;
-    position: relative;
-    flex-direction: column;
-}
-    .caja-codigo-qr-datos{
-    display: none;
-}
-.caja-codigo-qr-datos2{
-    display: block;
-}
-    .columna-torta {
-    padding-left: 20px;
-}
-    .columna-listado-datos {
-    padding-left: 20px;
-}
-    .titulo-secciones-movistar {
-    padding-left: 20px;
-}
-    .caja-titulo-mision {
-    padding-left: 20px;
-}
-    .contenedor-mision-valores p{
-        margin-bottom:12px;
-    }
-    .caja-titulo-valores {
-    width: 100%;
-    max-width: 182px;
-    margin-top: 20px;
-    padding-left: 20px;
-
-}
-    .caja-datos-valores {
-    width: 100%;
-    max-width: 90%;
-    padding-left: 20px;
-    margin-left: 5px;
-    padding-right: 20px;
-}
-    .caja-abierta{
-        margin:0 auto;
-            max-width: 100%;
-    }
-    .caja-valores {
-    display: flex;
-    background: #019DF4;
-    width: 100%;
-    flex-direction: column;
-    max-width: 970px;
-    margin: 0 auto;
-    padding-bottom: 30px;
-   
-}
-    .caja-contenedor-lista h4{
-        padding-left:20px;
-    }
-    .contenedor-lista-moviles-postpago {
-    padding-left: 20px;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    max-width: 360px;
-    flex-direction: column;
-}
-    .caja-contenedor-lista h1{
-        padding-left:20px;
-    }
-    .caja-lista-grande {
-    padding: 20px;
-    width: 100%;
-    max-width: 386px;
-}
-    .titulo-secciones-gobernanza {
-    margin-top: 0px;
-    padding: 33px;
-}
-    .imagen-construccion {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-}
-    .imagen-dummy {
-    width: 100%;
-    display: block;
-    max-width: 100%;
-    background: #CCC;
-    padding: 20px;
-    height: 600px;
-}
-    .imagen-grupos-interes-mobile{
-    display: block;
-        width: 119%;
-}
-.imagen-grupos-interes-mobile img:nth-of-type(1){
+        display: flex;
+        align-items: center;
         position: relative;
-    left: -180px;
-}
-    .imagen-grupos-interes {
-    display: none;
-}
-    .caja-composicion-directiva-imagen {
-    width: 100%;
-    max-width: 444px;
-    padding: 33px;
-}
-    .caja-conflictos-intereses2{
-        padding: 33px;
+        flex-direction: column;
     }
-    .texto-intereses {
-    width: 100%;
-    max-width: 400px;
-    padding: 33px;
-}
-    .caja-composicion-directiva-texto {
-    width: 100%;
-    max-width: 400px;
-    padding: 33px;
-}
-    .caja-conflictos-intereses {
-    background: url(../img/nubes-movistar.png);
-    background-size: 76%;
-    background-repeat: no-repeat;
-    background-position: 102px -38px;
-    padding: 33px;
-}
-    .caja-conflictos-intereses h1{
 
-    padding-top: 8px;
-
+    .caja-codigo-qr-datos {
+        display: none;
     }
-    .imagen-auditoria{
-          background-position: 0px -219px;
-    height: 542px;
+
+    .caja-codigo-qr-datos2 {
+        display: block;
+    }
+
+    .columna-torta {
+        padding-left: 20px;
+    }
+
+    .columna-listado-datos {
+        padding-left: 20px;
+    }
+
+    .titulo-secciones-movistar {
+        padding-left: 20px;
+    }
+
+    .caja-titulo-mision {
+        padding-left: 20px;
+    }
+
+    .contenedor-mision-valores p {
+        margin-bottom: 12px;
+    }
+
+    .caja-titulo-valores {
+        width: 100%;
+        max-width: 182px;
+        margin-top: 20px;
+        padding-left: 20px;
 
     }
-    .texto-auditoria {
-    width: 100%;
-    max-width: 600px;
-    padding-right: 65px;
-    padding-left: 33px;
-}
-    .caja-imagenes-comite-auditoria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 60px;
-    padding-bottom: 50px;
-}
-    .container-comite-auditoria {
-    display: flex;
-    flex-wrap: wrap;
-    background: #0B2739;
-    justify-content: center;
-    align-items: center;
-   
-}
-    .caja-junta-directiva-texto{
-        padding: 33px;
-    }
-    .caja-junta-directiva {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    padding-bottom: 125px;
-}
-    .caja-junta-directiva-imagenes {
-    display: flex;
-    width: 100%;
-    max-width: 433px;
-    justify-content: space-between;
-    position: relative;
-    top: 44px;
-    left: 0px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-}
-    .caja-atencion-accionista-texto{
-        padding-left:33px;
+
+    .caja-datos-valores {
+        width: 100%;
+        max-width: 90%;
+        padding-left: 20px;
+        margin-left: 5px;
         padding-right: 20px;
     }
-    .banner-secciones-internas2{
-        margin-top: 0;
-    background: url(../img/imagen2-interna.jpg);
-    width: 100%;
-    background-position: -294px 0px;
-    background-size: 219%;
-    background-repeat: no-repeat;
+
+    .caja-abierta {
+        margin: 0 auto;
+        max-width: 100%;
     }
-    .caja-estructura-gobernanza{
-            justify-content: center;
+
+    .caja-valores {
+        display: flex;
+        background: #019DF4;
+        width: 100%;
+        flex-direction: column;
+        max-width: 970px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+
+    }
+
+    .caja-contenedor-lista h4 {
+        padding-left: 20px;
+    }
+
+    .contenedor-lista-moviles-postpago {
+        padding-left: 20px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        max-width: 360px;
+        flex-direction: column;
+    }
+
+    .caja-contenedor-lista h1 {
+        padding-left: 20px;
+    }
+
+    .caja-lista-grande {
+        padding: 20px;
+        width: 100%;
+        max-width: 386px;
+    }
+
+    .titulo-secciones-gobernanza {
+        margin-top: 0px;
+        padding: 33px;
+    }
+
+    .imagen-construccion {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .imagen-dummy {
+        width: 100%;
+        display: block;
+        max-width: 100%;
+        background: #CCC;
+        padding: 20px;
+        height: 600px;
+    }
+
+    .imagen-grupos-interes-mobile {
+        display: block;
+        width: 119%;
+    }
+
+    .imagen-grupos-interes-mobile img:nth-of-type(1) {
+        position: relative;
+        left: -180px;
+    }
+
+    .imagen-grupos-interes {
+        display: none;
+    }
+
+    .caja-composicion-directiva-imagen {
+        width: 100%;
+        max-width: 444px;
+        padding: 33px;
+    }
+
+    .caja-conflictos-intereses2 {
+        padding: 33px;
+    }
+
+    .texto-intereses {
+        width: 100%;
+        max-width: 400px;
+        padding: 33px;
+    }
+
+    .caja-composicion-directiva-texto {
+        width: 100%;
+        max-width: 400px;
+        padding: 33px;
+    }
+
+    .caja-conflictos-intereses {
+        background: url(../img/nubes-movistar.png);
+        background-size: 76%;
+        background-repeat: no-repeat;
+        background-position: 102px -38px;
+        padding: 33px;
+    }
+
+    .caja-conflictos-intereses h1 {
+
+        padding-top: 8px;
+
+    }
+
+    .imagen-auditoria {
+        background-position: 0px -219px;
+        height: 542px;
+
+    }
+
+    .texto-auditoria {
+        width: 100%;
+        max-width: 600px;
+        padding-right: 65px;
+        padding-left: 33px;
+    }
+
+    .caja-imagenes-comite-auditoria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    .container-comite-auditoria {
+        display: flex;
+        flex-wrap: wrap;
+        background: #0B2739;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .caja-junta-directiva-texto {
+        padding: 33px;
+    }
+
+    .caja-junta-directiva {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 125px;
+    }
+
+    .caja-junta-directiva-imagenes {
+        display: flex;
+        width: 100%;
+        max-width: 433px;
+        justify-content: space-between;
+        position: relative;
+        top: 44px;
+        left: 0px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .caja-atencion-accionista-texto {
+        padding-left: 33px;
+        padding-right: 20px;
+    }
+
+    .banner-secciones-internas2 {
+        margin-top: 0;
+        background: url(../img/imagen2-interna.jpg);
+        width: 100%;
+        background-position: -294px 0px;
+        background-size: 219%;
+        background-repeat: no-repeat;
+    }
+
+    .caja-estructura-gobernanza {
+        justify-content: center;
     }
 
     .caja-atencion-accionista {
-    background: url(../img/fondo-seccion-interna2.png);
-    background-size: cover;
-    background-position: 0px -153px;
-    background-repeat: no-repeat;
-    background-color: #019DF4;
-}
+        background: url(../img/fondo-seccion-interna2.png);
+        background-size: cover;
+        background-position: 0px -153px;
+        background-repeat: no-repeat;
+        background-color: #019DF4;
+    }
 
-    .caja-composicion-texto-imagen{
+    .caja-composicion-texto-imagen {
         justify-content: center;
     }
+
     .cajas-datos {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    flex-direction: column;
-}
-.banner-secciones-internas {
-    background: url(../img/imagen1-interna.jpg);
-    width: 100%;
-    background-position: 0px -1px;
-    background-size: 100%;
-    /* height: 339px; */
-    margin-top: 113px;
-    background-repeat: no-repeat;
-}
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-direction: column;
+    }
+
+    .banner-secciones-internas {
+        background: url(../img/imagen1-interna.jpg);
+        width: 100%;
+        background-position: 0px -1px;
+        background-size: 100%;
+        /* height: 339px; */
+        margin-top: 113px;
+        background-repeat: no-repeat;
+    }
+
     .caja-texto-seccion-banner h2 {
-    font-family: 'Telefonica-light';
-    color: #FFF;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size: 2em;
-    margin: 0;
-}
+        font-family: 'Telefonica-light';
+        color: #FFF;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 2em;
+        margin: 0;
+    }
+
     .texto-asuntos-materiales {
-    padding: 22px;
-}
+        padding: 22px;
+    }
+
     .caja-asuntos-materiales h1 {
-    font-family: 'Telefonica';
-    color: #019df4;
-    font-size: 2em;
-    padding-left: 27px;
-}
-     .imagen-podio h4 {
-    margin: 0;
-    font-family: 'Telefonica-bold';
-    font-size: 1em;
-}
+        font-family: 'Telefonica';
+        color: #019df4;
+        font-size: 2em;
+        padding-left: 27px;
+    }
+
+    .imagen-podio h4 {
+        margin: 0;
+        font-family: 'Telefonica-bold';
+        font-size: 1em;
+    }
 
     .imagen-lapiz h4 {
-    margin: 0;
-    font-family: 'Telefonica-bold';
-    font-size: 1em;
-}
+        margin: 0;
+        font-family: 'Telefonica-bold';
+        font-size: 1em;
+    }
+
     .flecha img {
-    width: 100%;
-    max-width: 54px;
-    display: block;
-    margin: 0 ;
-    -moz-transform: rotate(90deg);
-    -webkit-transform: rotate(
-90deg
-);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-   
-}
+        width: 100%;
+        max-width: 54px;
+        display: block;
+        margin: 0;
+        -moz-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
 
-.imagenes-podio-lapiz {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    max-width: 191px;
-}
+    }
 
-.caja-texto-invitados h4 {
-    margin: 0;
-    font-family: 'Telefonica-bold';
-    font-size: 1em;
-}
-.caja-texto-invitados h2 {
-    color: #FFF;
-    font-size: 2em;
-    margin: 0;
-    font-family: 'Telefonica-bold';
-}
+    .imagenes-podio-lapiz {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 191px;
+    }
+
+    .caja-texto-invitados h4 {
+        margin: 0;
+        font-family: 'Telefonica-bold';
+        font-size: 1em;
+    }
+
+    .caja-texto-invitados h2 {
+        color: #FFF;
+        font-size: 2em;
+        margin: 0;
+        font-family: 'Telefonica-bold';
+    }
+
     .imagen-podio img {
-    width: 100%;
-    max-width: 60px;
-    display: block;
-    margin: 0 auto;
-}
-.imagen-lapiz img {
-    width: 100%;
-    max-width: 60px;
-    display: block;
-    margin: 0 auto;
-}
+        width: 100%;
+        max-width: 60px;
+        display: block;
+        margin: 0 auto;
+    }
 
-    .caja-iconos-negocio{
+    .imagen-lapiz img {
+        width: 100%;
+        max-width: 60px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .caja-iconos-negocio {
         align-items: flex-start;
         justify-content: flex-start;
-            padding-left: 20px;
+        padding-left: 20px;
     }
 
 
-    .caja-plan-negocio-rentable h1{
+    .caja-plan-negocio-rentable h1 {
         margin-left: 0;
     }
 
-    .parrafo-hidden{
-    display: none;
-}
+    .parrafo-hidden {
+        display: none;
+    }
 
-    .caja-texto-proceso-informe2{
+    .caja-texto-proceso-informe2 {
         display: block;
     }
 
     .imagen-anualmente img {
-    width: 100%;
-    max-width: 253px;
-    display: block;
-    margin: 0;
-}
+        width: 100%;
+        max-width: 253px;
+        display: block;
+        margin: 0;
+    }
 
-    .caja-texto-anualmente-interna h2, .caja-texto-anualmente-interna p{
+    .caja-texto-anualmente-interna h2,
+    .caja-texto-anualmente-interna p {
         padding: 20px;
 
     }
-    .caja-texto-anualmente-interna p{
+
+    .caja-texto-anualmente-interna p {
         padding-top: 0;
     }
-    .caja-texto-anualmente-interna h2{
+
+    .caja-texto-anualmente-interna h2 {
         padding-bottom: 0;
     }
+
     .container.container-padding {
-    padding: 0;
+        padding: 0;
 
-}
+    }
 
-    .imagen-anualmente{
+    .imagen-anualmente {
         background: transparent;
     }
 
     .caja-texto-seccion-banner {
-    padding: 18px;
-}
+        padding: 18px;
+    }
 
-    .contenedor-banner:nth-of-type(1){
+    .contenedor-banner:nth-of-type(1) {
         padding: 0;
         width: 100%;
 
     }
 
-    .banner-secciones-internas{
+    .banner-secciones-internas {
         margin-top: 0;
     }
 
-    .texto-comunicacion{
+    .texto-comunicacion {
         padding: 40px;
         margin: 0 auto;
     }
 
     .imagen-comunicacion img {
-    width: 100%;
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-    object-fit: cover;
-    height: 100%;
-    min-height: 621px;
-}
+        width: 100%;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        object-fit: cover;
+        height: 100%;
+        min-height: 621px;
+    }
 
-.imagen-comunicacion{
-    margin: 0 auto;
-}
+    .imagen-comunicacion {
+        margin: 0 auto;
+    }
 
-    .columnas-comunicacion-seccion{
+    .columnas-comunicacion-seccion {
         flex-direction: column;
     }
-    .btn-z{
-    right: 16px;
-}
+
+    .btn-z {
+        right: 16px;
+    }
+
     .container-fluid.content-cajas {
-    padding: 0;
-}
+        padding: 0;
+    }
+
     body.home {
-    background-image: url(../img/fondo-header.jpg);
-    background-position: -48px 100px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
+        background-image: url(../img/fondo-header.jpg);
+        background-position: -48px 100px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
 
     .boton-navegador-seccion img {
-    width: 100%;
-    max-width: 80px;
-    height: auto;
-    display: block;
-    cursor: pointer;
-    display: none;
-}
+        width: 100%;
+        max-width: 80px;
+        height: auto;
+        display: block;
+        cursor: pointer;
+        display: none;
+    }
 
-  .contenido-header {
-    margin-top: 45px;
-    margin-bottom: 54px;
-}
-.caja-texto h1 {
-    font-size: 8em;
-    font-family: 'Telefonica-ExtraLight' !important;
-    color: #0B2739;
+    .contenido-header {
+        margin-top: 45px;
+        margin-bottom: 54px;
+    }
 
-    margin-bottom: 2px;
+    .caja-texto h1 {
+        font-size: 8em;
+        font-family: 'Telefonica-ExtraLight' !important;
+        color: #0B2739;
 
-}
+        margin-bottom: 2px;
 
-.caja-texto h3 {
-    color: #019df4;
-    font-weight: 400;
-    font-size: 1em;
-    font-family: 'Telefonica';
-}
+    }
 
-.caja-texto h2 {
-    font-family: 'Telefonica-ExtraLight';
-    color: #019df4;
-    font-size: 3em;
-    font-weight: 500;
-    margin-top: 0px;
-}
+    .caja-texto h3 {
+        color: #019df4;
+        font-weight: 400;
+        font-size: 1em;
+        font-family: 'Telefonica';
+    }
+
+    .caja-texto h2 {
+        font-family: 'Telefonica-ExtraLight';
+        color: #019df4;
+        font-size: 3em;
+        font-weight: 500;
+        margin-top: 0px;
+    }
+
     ul.cd-header-buttons {
-    top: 7px !important;
-    right: 46px !important;
-}
+        top: 7px !important;
+        right: 46px !important;
+    }
+
     .cd-search-trigger::after {
-    width: 9px !important;
-    bottom: 15px !important;
-    right: 7px !important;
-    height: 2px !important;
-}
-.cd-search-trigger::before {
-    width: 18px !important;
-    height: 18px !important;
-    left: 15px !important;
-    top: 10px !important;
-    border: 2px solid #4b4e53;
-}
+        width: 9px !important;
+        bottom: 15px !important;
+        right: 7px !important;
+        height: 2px !important;
+    }
+
+    .cd-search-trigger::before {
+        width: 18px !important;
+        height: 18px !important;
+        left: 15px !important;
+        top: 10px !important;
+        border: 2px solid #4b4e53;
+    }
 
     .row.caja-footer {
         flex-direction: column;
@@ -3363,16 +3656,16 @@ width: 100%;
         right: 0;
         order: 2;
         margin-top: 0px;
-    margin-bottom: 40px;
+        margin-bottom: 40px;
         padding: 31px;
     }
 
     .texto-boton-izq {
-    left: 0;
-    margin-top: 0px;
-    margin-bottom: 40px;
+        left: 0;
+        margin-top: 0px;
+        margin-bottom: 40px;
         padding: 31px;
-}
+    }
 
     .columnas-caja {
         flex-direction: column;
@@ -3423,60 +3716,64 @@ width: 100%;
 }
 
 @media screen and (max-width: 600px) {
-     .banner-secciones-internas2{
+    .banner-secciones-internas2 {
         margin-top: 0;
-    background: url(../img/imagen2-interna.jpg);
-    width: 100%;
-    background-position: -347px 0px;
-    background-size: 219%;
-    background-repeat: no-repeat;
-    }
-.caja-imagenes-comite-auditoria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
-    padding-bottom: 50px;
-    margin: 0 auto;
-}
-.caja-junta-directiva-imagenes {
-    display: flex;
-    width: 100%;
-    max-width: 433px;
-    justify-content: center;
-    position: relative;
-    top: 44px;
-    left: 0px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    margin: 0 auto;
-}
-.grafico-genero {
-    margin-top: 30px;
-}
-    }
-     @media screen and (max-width: 360px) {
-.banner-secciones-internas2{
-        margin-top: 0;
-    background: url(../img/imagen2-interna.jpg);
-    width: 100%;
-    background-position: -230px 0px;
-    background-size: 219%;
-    background-repeat: no-repeat;
+        background: url(../img/imagen2-interna.jpg);
+        width: 100%;
+        background-position: -347px 0px;
+        background-size: 219%;
+        background-repeat: no-repeat;
     }
 
+    .caja-imagenes-comite-auditoria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        padding-bottom: 50px;
+        margin: 0 auto;
     }
 
-    @media screen and (max-width: 320px) {
-.banner-secciones-internas2{
+    .caja-junta-directiva-imagenes {
+        display: flex;
+        width: 100%;
+        max-width: 433px;
+        justify-content: center;
+        position: relative;
+        top: 44px;
+        left: 0px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .grafico-genero {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .banner-secciones-internas2 {
         margin-top: 0;
-    background: url(../img/imagen2-interna.jpg);
-    width: 100%;
-    background-position: -260px 0px;
-    background-size: 219%;
-    background-repeat: no-repeat;
+        background: url(../img/imagen2-interna.jpg);
+        width: 100%;
+        background-position: -230px 0px;
+        background-size: 219%;
+        background-repeat: no-repeat;
     }
 
+}
+
+@media screen and (max-width: 320px) {
+    .banner-secciones-internas2 {
+        margin-top: 0;
+        background: url(../img/imagen2-interna.jpg);
+        width: 100%;
+        background-position: -260px 0px;
+        background-size: 219%;
+        background-repeat: no-repeat;
     }
+
+}
