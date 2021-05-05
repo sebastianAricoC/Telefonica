@@ -2913,7 +2913,13 @@ border-bottom-left-radius: 19px;
 }
 .columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos{
     min-height: 210px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 .columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3){
     border-left:solid 2px #83af37;
