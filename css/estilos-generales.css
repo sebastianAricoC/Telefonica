@@ -2882,6 +2882,7 @@ img.imagen-contexto-pacto {
     margin-bottom: 25px;
     font-weight: bold;
         padding-top: 6px;
+        font-family: 'Telefonica-bold';
 }
 
 
@@ -2942,6 +2943,7 @@ border-right: solid 2px #83af37;
 
 .columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4{
     color: #83af37;
+    padding:20px;
 }
 .columnas-iconos-pacto-reactivar4 .columnas-iconos-pacto-reactivar-inner {
     display: flex;
@@ -3154,6 +3156,7 @@ background: #cf2282;
 
 .columnas-iconos-pacto-reactivar3.reactivar-azul .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) {
     background: #019DF4;
+    min-height: 227px;
 }
 
 .columnas-iconos-pacto-reactivar3.reactivar-azul{
@@ -3166,6 +3169,38 @@ border: solid 2px #019DF4;
     border-left: solid 2px #019DF4;
     border-right: solid 2px #019DF4;
 }
+
+
+
+
+
+.columnas-iconos-pacto-reactivar3.reactivar-azul .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4{
+    color: #019DF4;
+    padding: 20px;
+}
+
+
+
+h3.titulo-internet-hogar {
+    color:  #019DF4;
+    margin: 0;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    font-family: 'Telefonica-bold';
+    padding-top: 6px;
+
+}
+
+
+h3.titulo-internet-comoaporta{
+   color:  #019DF4;
+    font-family: 'Telefonica-light' !important;
+}
+
+
+
+
+
 
 
 
