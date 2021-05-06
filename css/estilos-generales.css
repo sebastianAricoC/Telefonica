@@ -2827,10 +2827,10 @@ img.imagen-contexto-pacto {
 .caja-reactivar-iconos1-img img{
       width: 100%;
     margin: 0 auto;
-    max-width: 168px;
+    max-width: 140px;
     display: block;
     position: absolute;
-    right: 36px;
+    right: 56px;
 
 }
 .columna-reactivar-iconos1:nth-of-type(1){
@@ -2971,7 +2971,7 @@ background: #cf2282;
 
 .columnas-iconos-pacto-reactivar-inner.reactivar-fucsia .columna-reactivar-iconos1 h2 {
     margin: 0;
-        margin-right: 10px;
+  
     color: #cf2282;
 }
 
@@ -2979,10 +2979,14 @@ background: #cf2282;
 
 .columnas-iconos-pacto-reactivar-inner.reactivar-fucsia .columna-reactivar-iconos1:nth-of-type(2) {
     border-left: 3px solid  #cf2282;
+        max-width: 730px;
     padding-left: 25px;
 }
 .columnas-iconos-pacto-reactivar-inner.reactivar-fucsia .columna-reactivar-iconos1:nth-of-type(2) p{
     color: #cf2282;
+    width: 100%;
+    max-width:730px;
+            margin-top: 18px;
 }
 
 
@@ -3035,7 +3039,10 @@ background: #cf2282;
 }
 
 
-
+.columnas-iconos-pacto-reactivar3.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos1 {
+    width: 100%;
+    max-width: 727px;
+}
 
 
 
