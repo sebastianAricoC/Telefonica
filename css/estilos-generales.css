@@ -3326,6 +3326,72 @@ border-right: solid 2px #83af37;
 }
 
 @media screen and (max-width: 800px) {
+    .columnas-titulo-pacto-digital {
+    display: flex;
+    color: #FFF;
+    padding-top: 50px;
+    flex-direction: column;
+    padding: 20px;
+}
+    .five-columns .col {
+    width: 33%;
+    float: left;
+    padding: 0;
+}
+    #page-wrap {
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px;
+}
+    .contenido-contexto-sector-columnas {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+    .caja-relevancia-ecosistema-digital {
+    min-height: 1265px;
+    background: url(../img/fondo-contexto1.jpg);
+    background-size: 108%;
+    background-position: -33px -47px;
+    margin-top: 0px;
+    height: 100%;
+}
+
+    .caja-texto-inner h1{
+        right: 0;
+    }
+    .caja-texto-ecosistema .caja-texto-inner img{
+        display: none;
+    }
+    .caja-texto-inner {
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    max-width: 319px;
+}
+    .caja-texto-ecosistema {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: end;
+    position: relative;
+    align-items: center;
+}
+    .caja-relevancia-ecosistema-digital{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .banner-secciones-internas5 {
+    background: url(../img/banner-contexto.jpg);
+    width: 100%;
+    background-position: 0px 5px;
+    background-size: 125%;
+    /* height: 339px; */
+    margin-top: 0;
+    background-repeat: no-repeat;
+}
     #page-wrap>div {
     margin: 0 0 50px 0;
     min-width: 970px;
