@@ -2694,8 +2694,8 @@ img.imagen-contexto-pacto {
 
 .contenido-fondo-reactivar {
     background: url(../img/fondo-blanco-contexto.jpg);
-    background-size: cover;
-    background-position: 3px 1190px;
+   background-size: 100%;
+    background-position: 134px 1552px;
     background-repeat: no-repeat;
 }
 
@@ -3361,6 +3361,16 @@ h3.titulo-internet-comoaporta {
 @media screen and (max-width: 800px) {
 
 
+.caja-texto-inner p:nth-of-type(1) {
+     margin-top: 0px;
+}
+    .fondo-mobile-contexto-1 {
+   padding: 16px;
+    background: #0B2739;
+    margin-top: 33px;
+}
+
+
     .columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(3) img {
         width: 100%;
         max-width: 55px;
@@ -3595,6 +3605,7 @@ h3.titulo-internet-comoaporta {
 
     .caja-texto-inner h1 {
         right: 0;
+    color: #019DF4;
     }
 
     .caja-texto-ecosistema .caja-texto-inner img {
