@@ -6,9 +6,10 @@ body {
 h1 {
     font-family: 'Telefonica-light' !important;
 }
+
 h2 {
     font-family: 'Telefonica' !important;
-    }
+}
 
 p {
     font-family: 'Telefonica' !important;
@@ -20,7 +21,6 @@ body.home {
     background-size: 1048px 1499px;
     background-repeat: no-repeat;
 }
-
 
 @font-face {
     font-family: 'Telefonica';
@@ -59,18 +59,15 @@ body.home {
 }
 
 /*ul.navbar-nav li {
-  list-style: none;
-  position: relative;
-  display: inline;
+list-style: none;
+position: relative;
+display: inline;
 }
-
 ul.navbar-nav li a {
-  color: #333;
-  text-decoration: none;
+color: #333;
+text-decoration: none;
 }*/
-
 /***********************estilos que oculta el mueno hover ojo***************************/
-
 #main-menu .parent:hover>.sub {
     /* display: none !important;*/
     -webkit-animation: fadeIn .4s;
@@ -114,7 +111,6 @@ ul.navbar-nav li.parent-t a:hover {
     max-width: 1300px;
 }
 
-
 #main-menu .navbar {
     background: none;
     border: 0 none;
@@ -123,7 +119,6 @@ ul.navbar-nav li.parent-t a:hover {
     max-width: 1300px;
     /* margin: 0 auto; */
 }
-
 
 .cabezera-azul {
     width: 100%;
@@ -149,9 +144,6 @@ ul.navbar-nav li.parent-t a:hover {
     width: 100%;
     max-width: 70px;
     display: block;
-
-
-
 }
 
 #main-menu .navbar {
@@ -172,7 +164,6 @@ ul.navbar-nav li.parent-t a:hover {
     margin: 0 12px 17px 12px;
     border-bottom: 2px solid rgba(45, 78, 83, 1);
     color: #4b4e53;
-
 }
 
 #main-menu .navbar .nav>li>a {
@@ -185,7 +176,6 @@ ul.navbar-nav li.parent-t a:hover {
     font-size: 0.83em !important;
     font-family: 'Telefonica';
 }
-
 
 #main-menu .navbar .nav>li>a .main-menu-title {
     line-height: 20px;
@@ -228,22 +218,18 @@ ul.cd-header-buttons {
 .contenido-header {
     margin-top: 100px;
     margin-bottom: 300px;
-
 }
 
 .caja-texto {
     width: 100%;
     max-width: 1036px;
     margin: 0 auto;
-
 }
 
 .caja-texto h1 {
     font-size: 14em;
     font-family: 'Telefonica-ExtraLight' !important;
     color: #0B2739;
-
-
 }
 
 .caja-texto h2 {
@@ -257,7 +243,6 @@ ul.cd-header-buttons {
     color: #019df4;
     font-weight: 400;
     font-family: 'Telefonica';
-
 }
 
 .header-1 #main-menu .navbar .nav>li.current>a {
@@ -267,23 +252,18 @@ ul.cd-header-buttons {
     color: #1766e9 !important;
 }
 
-
-
 .columnas-caja {
     display: flex;
     justify-content: space-around;
     width: 100%;
     max-width: 1428px;
     margin: 0 auto;
-
 }
 
 .texto-boton-izq {
     position: relative;
     left: -100px;
-
 }
-
 
 .texto-boton-izq h3 {
     color: #019df4;
@@ -305,7 +285,6 @@ ul.cd-header-buttons {
     position: relative;
     right: -65px;
 }
-
 
 .texto-boton-der h3 {
     color: #019df4;
@@ -353,8 +332,6 @@ footer.page-section.pt-80.pb-50 {
     font-family: 'Telefonica';
 }
 
-
-
 .row.caja-footer {
     display: flex;
     justify-content: space-between;
@@ -373,14 +350,10 @@ footer.page-section.pt-80.pb-50 {
     margin: 0;
 }
 
-
-
-
 .cols-contains {
     display: flex;
     justify-content: space-between;
 }
-
 
 .col1-1 ul {
     padding: 0;
@@ -402,8 +375,6 @@ footer.page-section.pt-80.pb-50 {
     max-height: 100% !important;
 }
 
-
-
 .boton-ver-mas {
     width: 100%;
     padding: 7px;
@@ -421,8 +392,6 @@ footer.page-section.pt-80.pb-50 {
 .boton-ver-mas:hover {
     background: #019df4;
     color: #FFF;
-
-
 }
 
 .boton-ver-mas a {
@@ -450,15 +419,11 @@ footer.page-section.pt-80.pb-50 {
     cursor: pointer;
 }
 
-
-
-
 .btn-z {
     width: 30px;
     height: 30px;
     background: #0B2739;
     border: 1px solid #005bac;
-
     color: #FFF;
     padding: 15px 10px 5px;
     position: fixed;
@@ -473,7 +438,6 @@ footer.page-section.pt-80.pb-50 {
     right: 166px;
     font-family: "FontAwesome";
     content: "\f095";
-
 }
 
 .btn-z i {
@@ -491,11 +455,9 @@ footer.page-section.pt-80.pb-50 {
     -moz-border-radius-bottomleft: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
-
 }
 
 .btn-z:nth-of-type(2) {
-
     -webkit-border-top-left-radius: 50px;
     -webkit-border-top-right-radius: 50px;
     -moz-border-radius-topleft: 50px;
@@ -527,18 +489,12 @@ footer.page-section.pt-80.pb-50 {
     bottom: 260px;
 }
 
-
 .hamb-mob-icon {
     color: #019df4 !important;
     padding: 14px 17px 22px 5px !important;
 }
 
-
-
-
 /*************************************Secciones Interna 1 el informe*******************************/
-
-
 .banner-secciones-internas {
     background: url(../img/imagen1-interna.jpg);
     width: 100%;
@@ -546,30 +502,22 @@ footer.page-section.pt-80.pb-50 {
     background-size: cover;
     /*height: 339px;*/
     margin-top: 113px;
-
-
 }
-
-
-
 
 .caja-texto-seccion-banner h1 {
     font-size: 9em;
     font-family: 'Telefonica-ExtraLight' !important;
     color: #0B2739;
     margin: 0;
-
 }
 
 .caja-texto-seccion-banner h2 {
-
     font-family: 'Telefonica-light' !important;
     color: #FFF;
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 3em;
     margin: 0;
-
 }
 
 .caja-texto-seccion-banner p {
@@ -584,10 +532,7 @@ footer.page-section.pt-80.pb-50 {
     left: 80px;
 }
 
-
-
 @media (min-width: 1200px) {
-
     .contenedor-banner {
         width: 1235px !important;
     }
@@ -595,10 +540,7 @@ footer.page-section.pt-80.pb-50 {
     .contenedor-seccion {
         width: 1235px !important;
     }
-
-
 }
-
 
 .caja-anualmente {
     display: flex;
@@ -627,8 +569,6 @@ footer.page-section.pt-80.pb-50 {
 .caja-texto-anualmente-interna {
     width: 100%;
     max-width: 558px;
-
-
 }
 
 .caja-texto-anualmente-interna h2,
@@ -654,7 +594,6 @@ footer.page-section.pt-80.pb-50 {
     font-size: 1.2em;
 }
 
-
 .caja-proceso-informe {
     width: 100%;
     max-width: 970px;
@@ -664,9 +603,7 @@ footer.page-section.pt-80.pb-50 {
 .caja-proceso-informe h1 {
     font-family: 'Telefonica';
     font-size: 2.5em;
-
 }
-
 
 .columnas-proceso-informe {
     display: flex;
@@ -679,14 +616,12 @@ footer.page-section.pt-80.pb-50 {
     max-width: 500px;
 }
 
-
 .cuadros-procesos img {
     width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
-
 
 .spacer-arround {
     width: 100%;
@@ -701,7 +636,6 @@ footer.page-section.pt-80.pb-50 {
 .caja-plan-negocio-rentable {
     background: #019df4;
     padding-bottom: 65px;
-
 }
 
 .caja-iconos-negocio {
@@ -748,7 +682,6 @@ footer.page-section.pt-80.pb-50 {
 }
 
 .cajas-datos {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -757,11 +690,9 @@ footer.page-section.pt-80.pb-50 {
     padding-left: 30px;
 }
 
-
 .caja-texto-invitados h2 {
     color: #FFF;
     font-size: 3em;
-
     margin: 0;
     font-family: 'Telefonica-bold';
 }
@@ -797,7 +728,6 @@ footer.page-section.pt-80.pb-50 {
     margin-top: 28px;
 }
 
-
 .caja-asuntos-materiales {
     width: 100%;
     max-width: 970px;
@@ -825,12 +755,10 @@ footer.page-section.pt-80.pb-50 {
     margin: 0 auto;
 }
 
-
 .tabla-grande-actualizacion {
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
-
 }
 
 .tabla-grande-actualizacion h1 {
@@ -843,7 +771,6 @@ footer.page-section.pt-80.pb-50 {
     color: #019df4;
     font-family: 'Telefonica';
     font-size: 1em;
-
 }
 
 .tabla-grande-actualizacion p {
@@ -855,8 +782,6 @@ footer.page-section.pt-80.pb-50 {
     font-size: 1.2em;
 }
 
-
-
 .tabla-seccion {
     background: #0B2739;
     position: relative;
@@ -864,11 +789,7 @@ footer.page-section.pt-80.pb-50 {
     background-size: cover;
 }
 
-
-
-
 /********************tabla grande actualizacion***********************/
-
 .tg {
     border-collapse: collapse;
     border-spacing: 0;
@@ -904,9 +825,7 @@ footer.page-section.pt-80.pb-50 {
     vertical-align: middle;
     border-left-color: transparent;
     border-right-color: transparent;
-
     color: #e2e2e2;
-
 }
 
 .tg .tg-0pky {
@@ -916,11 +835,8 @@ footer.page-section.pt-80.pb-50 {
     border-left-color: transparent;
     border-right-color: transparent;
     border-bottom: 1px solid #e2e2e2;
-
     color: #e2e2e2;
-
 }
-
 
 .tg2 {
     border-collapse: collapse;
@@ -929,9 +845,7 @@ footer.page-section.pt-80.pb-50 {
     max-width: 378px;
 }
 
-
 .tg2 td {
-
     font-family: Arial, sans-serif;
     font-size: 14px;
     overflow: hidden;
@@ -962,8 +876,6 @@ footer.page-section.pt-80.pb-50 {
     border-bottom: 1px solid #afafaf;
 }
 
-
-
 .border-tabla-titulo {
     border-color: transparent;
     border-bottom: 1px solid #019df4;
@@ -985,9 +897,6 @@ th.tg-0pky.border-transparent {
     padding-bottom: 100px;
     overflow-x: auto;
 }
-
-
-
 
 .caja-construccion-del-informe {
     width: 100%;
@@ -1114,7 +1023,6 @@ p.francesa {
 .contenido-tabs-de-calidad p span:nth-of-type(1) {
     color: #019DF4;
     font-size: 1.2em;
-
 }
 
 .contenido-tabs-de-calidad p span:nth-of-type(2) {
@@ -1124,7 +1032,6 @@ p.francesa {
 .caja-plan-comunicacion {
     background: #019df4;
     margin-top: 70px;
-
 }
 
 .columnas-comunicacion-seccion {
@@ -1132,7 +1039,6 @@ p.francesa {
     justify-content: flex-start;
     align-items: flex-start;
 }
-
 
 .imagen-comunicacion {
     width: 100%;
@@ -1150,7 +1056,6 @@ p.francesa {
     width: 100%;
     max-width: 500px;
     margin-top: 45px;
-
 }
 
 .texto-comunicacion h2 {
@@ -1163,7 +1068,6 @@ p.francesa {
     font-family: 'Telefonica' !important
 }
 
-
 .imagen-grupos-interes-mobile {
     display: none;
 }
@@ -1172,25 +1076,12 @@ p.francesa {
     font-size: 1em;
 }
 
-
-
-
 .caja-vinetas {
     display: flex;
     align-items: baseline;
 }
 
-
-
-
-
-
-
-
-
 /*************************************Secciones Interna 2 Gobernanza*******************************/
-
-
 .banner-secciones-internas2 {
     background: url(../img/imagen2-interna.jpg);
     width: 100%;
@@ -1198,10 +1089,7 @@ p.francesa {
     background-size: cover;
     /*height: 339px;*/
     margin-top: 113px;
-
-
 }
-
 
 .caja-estructura-gobernanza {
     display: flex;
@@ -1211,8 +1099,6 @@ p.francesa {
     align-items: flex-start;
     margin: 0 auto;
     flex-wrap: wrap;
-
-
 }
 
 .container-seccion2 {
@@ -1230,7 +1116,6 @@ p.francesa {
 
 .titulo-secciones-gobernanza h1 {
     color: #019DF4;
-
     margin: 0;
     position: relative;
 }
@@ -1272,10 +1157,7 @@ p.francesa {
     max-width: 120px;
     height: 85px;
     padding-left: 39px;
-
 }
-
-
 
 .caja-atencion-accionista {
     background: url(../img/fondo-seccion-interna2.png);
@@ -1284,8 +1166,6 @@ p.francesa {
     background-repeat: no-repeat;
 }
 
-
-
 .caja-atencion-accionista-texto {
     width: 100%;
     max-width: 970px;
@@ -1293,7 +1173,6 @@ p.francesa {
     padding-top: 147px;
     padding-bottom: 100px;
 }
-
 
 .caja-atencion-accionista-texto h1 {
     color: #0B2739;
@@ -1309,9 +1188,6 @@ p.francesa {
     -webkit-column-count: 2;
     -moz-column-count: 2;
 }
-
-
-
 
 .caja-composicion-texto-imagen {
     width: 100%;
@@ -1357,7 +1233,6 @@ p.francesa {
     max-width: 370px;
 }
 
-
 span.nombre-titulo-lista-directivas {
     margin-left: 57px;
 }
@@ -1370,8 +1245,6 @@ span.nombre-titulo-lista-directivas-last {
     margin-left: 49px;
 }
 
-
-
 .caja-composicion-directiva-imagen {
     width: 100%;
     max-width: 444px;
@@ -1381,13 +1254,10 @@ span.nombre-titulo-lista-directivas-last {
     color: #FFF;
 }
 
-
-
 .caja-composicion-directiva-texto {
     width: 100%;
     max-width: 400px;
 }
-
 
 .caja-junta-directiva-texto h1 {
     color: #019DF4;
@@ -1417,7 +1287,6 @@ span.nombre-titulo-lista-directivas-last {
     left: 30px;
 }
 
-
 .caja-junta-directiva-imagenes .grafico-genero img {
     width: 100%;
     max-width: 194px;
@@ -1427,7 +1296,6 @@ span.nombre-titulo-lista-directivas-last {
     position: relative;
     top: 25px;
 }
-
 
 .caja-junta-directiva-texto p {
     padding-top: 50px;
@@ -1449,15 +1317,12 @@ span.nombre-titulo-lista-directivas-last {
 }
 
 .imagen-auditoria {
-
     background: url(../img/imagen2-2-interna.jpg);
     width: 100%;
     max-width: 540px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -9px;
-
-
 }
 
 .caja-imagen-genero img {
@@ -1514,17 +1379,13 @@ span.nombre-titulo-lista-directivas-last {
     padding-bottom: 50px;
 }
 
-
 .caja-imagen-genero:nth-of-type(2) {}
-
 
 .caja-imagen-genero h3 {
     font-size: 1em;
     text-align: center;
     color: #019DF4;
 }
-
-
 
 .caja-conflictos-intereses {
     background: url(../img/nubes-movistar.png);
@@ -1539,24 +1400,18 @@ span.nombre-titulo-lista-directivas-last {
     margin-top: 50px;
 }
 
-
 .caja-conflictos-intereses-columnas {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
     align-items: flex-start;
     margin-top: 70px;
-
 }
-
 
 .imagen-intereses {
     width: 100%;
     max-width: 470px;
 }
-
-
 
 .texto-intereses {
     width: 100%;
@@ -1577,13 +1432,7 @@ span.nombre-titulo-lista-directivas-last {
     column-fill: balance;
 }
 
-
-
-
-
 /*************************************Secciones Interna 3 Movistar Colombia*******************************/
-
-
 .banner-secciones-internas3 {
     background: url(../img/banner-acerca-movistar.jpg);
     width: 100%;
@@ -1591,8 +1440,6 @@ span.nombre-titulo-lista-directivas-last {
     background-size: cover;
     /*height: 339px;*/
     margin-top: 113px;
-
-
 }
 
 .titulo-secciones-movistar p {
@@ -1610,16 +1457,13 @@ span.nombre-titulo-lista-directivas-last {
 
 .titulo-secciones-movistar h1 {
     color: #019DF4;
-
     margin: 0;
     position: relative;
 }
 
-
 .caja-codigo-qr-datos2 {
     display: none;
 }
-
 
 .columnas-texto-listado {
     display: flex;
@@ -1629,7 +1473,6 @@ span.nombre-titulo-lista-directivas-last {
 }
 
 .columna-torta {
-
     width: 100%;
     max-width: 214px;
 }
@@ -1641,11 +1484,9 @@ span.nombre-titulo-lista-directivas-last {
 .caja-datos-columna1 {
     margin: 1px;
     padding: 4px;
-
     width: 100%;
     max-width: 220px;
 }
-
 
 .columna-listado-datos {
     width: 100%;
@@ -1685,7 +1526,6 @@ span.nombre-titulo-lista-directivas-last {
     font-size: 1em;
     font-family: 'Telefonica-bold';
     margin: 0;
-
 }
 
 .texto-datos-lista p {
@@ -1696,7 +1536,6 @@ span.nombre-titulo-lista-directivas-last {
     padding-left: 10px;
     padding-top: 7px;
 }
-
 
 .caja-lista-grande {
     width: 100%;
@@ -1718,7 +1557,6 @@ span.nombre-titulo-lista-directivas-last {
 
 .caja-titulo-valores h1 {
     margin: 0;
-
     color: #FFF;
 }
 
@@ -1741,7 +1579,6 @@ span.nombre-titulo-lista-directivas-last {
 }
 
 .contenedor-mision-valores {
-
     position: relative;
     overflow: visible;
 }
@@ -1792,7 +1629,6 @@ span.nombre-titulo-lista-directivas-last {
     border: 2px solid red;
 }
 
-
 .caja-imagen-valores {
     position: absolute;
     top: -23px;
@@ -1800,9 +1636,6 @@ span.nombre-titulo-lista-directivas-last {
     max-width: 523px;
     right: -106px;
 }
-
-
-
 
 .caja-titulo-mision {
     width: 100%;
@@ -1819,7 +1652,6 @@ span.nombre-titulo-lista-directivas-last {
     padding-left: 94px;
 }
 
-
 hr.linea-caja-datos {
     border-top: 1px solid #019DF4;
     margin: 22px 0 22px 0;
@@ -1827,8 +1659,6 @@ hr.linea-caja-datos {
     max-width: 775px;
     float: right;
 }
-
-
 
 .caja-contenedor-lista {
     width: 100%;
@@ -1861,7 +1691,6 @@ hr.linea-caja-datos {
     font-family: 'Telefonica' !important;
     padding-top: 10px !important;
     margin: 0;
-
 }
 
 .contenedor-productos-servicios {
@@ -1876,8 +1705,6 @@ hr.linea-caja-datos {
     max-width: 360px;
 }
 
-
-
 .caja-lista-datos-grande {
     display: flex;
     flex-wrap: wrap;
@@ -1889,20 +1716,16 @@ hr.linea-caja-datos {
     font-size: 1.2em;
     color: #FFF;
     margin-left: 3px;
-
-
 }
 
 .caja-lista-grande ul {
     padding-left: 19px;
     padding-right: 17px;
-
 }
 
 .caja-datos-lista-moviles h2 {
     color: #019DF4;
 }
-
 
 .caja-datos-relevantes-fondo {
     background: #019DF4;
@@ -1914,12 +1737,10 @@ hr.linea-caja-datos {
 
 .caja-datos-relevantes h1 {
     color: #0B2739;
-
 }
 
 .caja-datos-relevantes h4 {
     color: #0B2739;
-
 }
 
 .caja-datos-imagenes {
@@ -1927,37 +1748,28 @@ hr.linea-caja-datos {
     position: relative;
 }
 
-
-
-
-
 .caja-textos-imagen-datos {
     text-align: end;
 }
 
 .caja-textos-imagen-datos:nth-of-type(1) {
     margin-top: 40px;
-
 }
 
 .caja-textos-imagen-datos:nth-of-type(2) {
     margin-top: 60px;
-
 }
 
 .caja-textos-imagen-datos:nth-of-type(3) {
     margin-top: 72px;
-
 }
 
 .caja-textos-imagen-datos:nth-of-type(4) {
     margin-top: 70px;
-
 }
 
 .caja-textos-imagen-datos:nth-of-type(5) {
     margin-top: 70px;
-
 }
 
 .caja-textos-imagen-datos h4,
@@ -1982,7 +1794,6 @@ hr.linea-caja-datos {
     right: 0px;
 }
 
-
 .columnas-caja-datos-relevantes {
     display: flex;
     align-items: center;
@@ -2004,7 +1815,6 @@ hr.linea-caja-datos {
 .caja-text-datos-relevantes2 h4,
 .caja-text-datos-relevantes2 h5 {
     color: #FFF;
-
 }
 
 .caja-text-datos-relevantes2 h4 {
@@ -2017,13 +1827,10 @@ hr.linea-caja-datos {
     margin-top: 18px;
 }
 
-
 .icono-datos-relevantes {
     width: 100%;
     max-width: 179px;
 }
-
-
 
 .caja-datos-relevantes-iconos {
     display: flex;
@@ -2040,7 +1847,6 @@ hr.linea-caja-datos {
     margin-bottom: 49px !important;
 }
 
-
 .icono-datos-relevantes img {
     width: 100%;
     max-width: 122px;
@@ -2051,7 +1857,6 @@ hr.linea-caja-datos {
     margin-left: 21px;
     font-family: 'Telefonica-bold';
     color: #0B2739;
-
 }
 
 .icono-datos-relevantes h3 {
@@ -2062,16 +1867,11 @@ hr.linea-caja-datos {
     font-weight: 600;
 }
 
-
-
-
 .icono-datos-relevantes img:nth-of-type(1) {
     width: 100%;
     max-width: 120px;
     margin-bottom: 74px;
 }
-
-
 
 .caja-texto-datos-plan {
     display: flex;
@@ -2092,8 +1892,6 @@ hr.linea-caja-datos {
     margin-left: 21px;
 }
 
-
-
 .columna-der-parrafo-cambios {
     width: 100%;
     max-width: 377px;
@@ -2111,12 +1909,10 @@ hr.linea-caja-datos {
     font-size: 1.2em;
 }
 
-
 .columnas-caja-cambios {
     display: flex;
     justify-content: flex-end;
 }
-
 
 .columnas-iniciativas-externas {
     display: flex;
@@ -2138,7 +1934,6 @@ hr.linea-caja-datos {
     height: 30px;
     background: #019DF4;
     border-radius: 100%;
-
 }
 
 .bola-iniciativas3 {
@@ -2147,7 +1942,6 @@ hr.linea-caja-datos {
     height: 30px;
     background: #adcae9;
     border-radius: 100%;
-
 }
 
 .bola-iniciativas4 {
@@ -2156,9 +1950,7 @@ hr.linea-caja-datos {
     height: 30px;
     background: #c4c8d9;
     border-radius: 100%;
-
 }
-
 
 .caja-columna-iniciativa-externa {
     width: 100%;
@@ -2170,7 +1962,6 @@ hr.linea-caja-datos {
     font-size: 1.2em;
 }
 
-
 .caja-afiliacion-asociaciones {
     background-color: #8bc1dc;
     background: url(../img/movistar-colombia-4.jpg);
@@ -2180,8 +1971,6 @@ hr.linea-caja-datos {
     min-height: 792px;
 }
 
-
-
 .caja-columnas-asociaciones {
     display: flex;
     width: 100%;
@@ -2189,7 +1978,6 @@ hr.linea-caja-datos {
     margin: 0 auto;
     justify-content: space-between;
 }
-
 
 .caja-imagen-asociaciones {
     width: 100%;
@@ -2206,9 +1994,7 @@ hr.linea-caja-datos {
     padding-left: 18px;
     font-size: 1.2em;
     font-family: 'Telefonica';
-
 }
-
 
 .caja-certificaciones {
     background-color: #8bc1dc;
@@ -2218,7 +2004,6 @@ hr.linea-caja-datos {
     min-height: 792px;
     background-position: -329px 0px !important;
 }
-
 
 .caja-columnas-certificaciones {
     display: flex;
@@ -2245,21 +2030,14 @@ hr.linea-caja-datos {
 }
 
 .contenido-columna-opaca {
-
     width: 100%;
-
     max-width: 700px;
-
-
     column-count: 3;
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-gap: 20px;
-
     color: #FFF;
 }
-
-
 
 .contenido-columna-opaca ul {
     width: 100%;
@@ -2270,10 +2048,6 @@ hr.linea-caja-datos {
     padding-top: 22px;
 }
 
-
-
-
-
 .contenido-columna-opaca h3 {
     margin: 0;
     color: #FFF;
@@ -2281,16 +2055,9 @@ hr.linea-caja-datos {
     font-family: 'Telefonica-bold';
 }
 
-
-
-
 .contenido-columna-blanca {
     padding: 21px;
 }
-
-
-
-
 
 .contenido-columna-opaca h3 span {
     background: #0b27398c;
@@ -2318,12 +2085,7 @@ hr.linea-caja-datos {
     color: #008AFF;
 }
 
-
-
-
 /*************************************Secciones Interna 0 Carta Del Presidente*******************************/
-
-
 .banner-secciones-internas4 {
     background: url(../img/1-Home-Web-0.jpg);
     width: 100%;
@@ -2331,8 +2093,6 @@ hr.linea-caja-datos {
     background-size: cover;
     /*height: 339px;*/
     margin-top: 113px;
-
-
 }
 
 .contenido-carta-presidente {
@@ -2340,7 +2100,6 @@ hr.linea-caja-datos {
     max-width: 970px;
     margin: 0 auto;
 }
-
 
 .texto-carta {
     column-count: 2;
@@ -2350,11 +2109,9 @@ hr.linea-caja-datos {
 .texto-carta img {
     width: 100%;
     display: block;
-
     max-width: 200px;
     margin-top: 50px;
 }
-
 
 .texto-carta h3 {
     font-family: 'Telefonica-bold';
@@ -2369,28 +2126,7 @@ hr.linea-caja-datos {
     color: #019DF4;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*************************************Secciones Interna 5 Contexto*******************************/
-
-
-
 .banner-secciones-internas5 {
     background: url(../img/banner-contexto.jpg);
     width: 100%;
@@ -2398,8 +2134,6 @@ hr.linea-caja-datos {
     background-size: 100%;
     /* height: 339px; */
     margin-top: 113px;
-
-
 }
 
 .caja-relevancia-ecosistema-digital {
@@ -2408,13 +2142,8 @@ hr.linea-caja-datos {
     background-size: 108%;
     background-position: -33px -168px;
     margin-top: 45px;
-    background-repeat:all; 
+    background-repeat: all;
 }
-
-    
-
-
-
 
 .caja-texto-ecosistema {
     display: flex;
@@ -2436,7 +2165,6 @@ hr.linea-caja-datos {
 .caja-texto-inner {
     width: 100%;
     margin-top: 48px;
-
     margin-right: 106px;
     max-width: 365px;
 }
@@ -2448,16 +2176,13 @@ hr.linea-caja-datos {
 }
 
 .caja-texto-inner p {
-
     color: #FFF;
     font-size: 1.1em;
-
 }
 
 .caja-texto-inner p:nth-of-type(1) {
     margin-top: 108px;
 }
-
 
 .caja-texto-inner h3 {
     font-size: 1.2em;
@@ -2465,24 +2190,21 @@ hr.linea-caja-datos {
     font-family: 'Telefonica-bold';
 }
 
-
-
 .contexto-sector {
     background: url(../img/fondo-logo-movistar.jpg);
     background-size: 995px;
     background-position: 118px 826px;
     background-repeat: no-repeat;
-    }
-
-
+}
 
 .contenido-contexto-sector-columnas-completas {
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
-        min-height: 1463px;
+    min-height: 1463px;
 }
-.columna-titulo-sector h1{
+
+.columna-titulo-sector h1 {
     color: #019DF4;
 }
 
@@ -2491,16 +2213,12 @@ hr.linea-caja-datos {
     max-width: 600px;
 }
 
-
 .contenido-contexto-sector-columnas {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 }
-
-
-
 
 .columnas-textos-sector {
     -webkit-columns: 3 150px;
@@ -2511,9 +2229,7 @@ hr.linea-caja-datos {
     column-gap: 5em;
 }
 
-
 /**************************************columnas-diseños**********************************/
-
 #page-wrap {
     width: 100%;
     margin: 0px auto;
@@ -2538,91 +2254,64 @@ hr.linea-caja-datos {
     display: inline-block;
 }
 
-
 .five-columns .col {
     width: 33%;
     float: left;
     padding: 2%;
 }
-.five-columns .col:nth-of-type(1){
+
+.five-columns .col:nth-of-type(1) {
     padding-left: 0;
 }
-.five-columns .col:nth-of-type(3){
+
+.five-columns .col:nth-of-type(3) {
     padding-right: 0;
 }
 
-.five-columns .col:nth-of-type(3) p:nth-of-type(1){
+.five-columns .col:nth-of-type(3) p:nth-of-type(1) {
     border-left: 3px solid #0B2739;
     color: #0B2739;
-        padding-left: 6px;
-        font-family: 'Telefonica-light' !important;
-        font-size: 1.2em;
+    padding-left: 6px;
+    font-family: 'Telefonica-light' !important;
+    font-size: 1.2em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /**************************************columnas-diseños**********************************/
-
-
-
-
-.contenido-contexto-sosteniblidad{
-        background: url(../img/fondo-contexto-estrellas.jpg);
+.contenido-contexto-sosteniblidad {
+    background: url(../img/fondo-contexto-estrellas.jpg);
     min-height: 970px;
     background-size: 107%;
     background-repeat: no-repeat;
     background-position: -12px -146px;
-
 }
-
-
 
 .contenido-contexto-sostenibilidad-fondo {
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
     background: #0B2739;
-        position: relative;
+    position: relative;
     top: 75px;
-
     color: #FFF;
-
 }
-
-
 
 .caja-columnas-contexto-sostenibilidad {
     display: flex;
     width: 100%;
     padding: 5px;
     margin: 5px;
-        justify-content: center;
+    justify-content: center;
 }
 
-
-.contenido-contexto-sostenibilidad-fondo h1{
+.contenido-contexto-sostenibilidad-fondo h1 {
     padding-top: 20px;
     width: 100%;
     max-width: 225px;
     padding-left: 54px;
-        margin-bottom: 15px;
-        font-family: 'Telefonica-light' !important;
-
+    margin-bottom: 15px;
+    font-family: 'Telefonica-light' !important;
     color: #FFF;
-
-
 }
-
 
 .columna-contexto-sostenibilidad {
     width: 100%;
@@ -2632,29 +2321,25 @@ hr.linea-caja-datos {
     padding-top: 5px;
 }
 
-.columna-contexto-sostenibilidad:nth-of-type(2) p:nth-of-type(1){
-       border-left: 3px solid #019DF4;
-    color:#019DF4;
-        padding-left: 6px;
-        font-family: 'Telefonica-light' !important;
-        font-size: 1.2em;
+.columna-contexto-sostenibilidad:nth-of-type(2) p:nth-of-type(1) {
+    border-left: 3px solid #019DF4;
+    color: #019DF4;
+    padding-left: 6px;
+    font-family: 'Telefonica-light' !important;
+    font-size: 1.2em;
 }
 
-
-
-
-.contenido-fondo-pacto-digital{
+.contenido-fondo-pacto-digital {
     background: url(../img/fondo-contexto-azul.jpg);
     background-size: cover;
 }
 
-
-
 .columnas-titulo-pacto-digital {
     display: flex;
     color: #FFF;
-    padding-top:50px;
+    padding-top: 50px;
 }
+
 .columna-pacto-digital-inner1 {
     width: 100%;
     max-width: 423px;
@@ -2671,14 +2356,11 @@ hr.linea-caja-datos {
     color: #FFF;
 }
 
-
-
 .contenido-fondo-pacto-inner {
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
 }
-
 
 .columna-titulo-pacto {
     width: 100%;
@@ -2687,61 +2369,60 @@ hr.linea-caja-datos {
     margin: 5px;
 }
 
-.columna-titulo-pacto h1{
+.columna-titulo-pacto h1 {
     margin: 0;
 }
-.columna-titulo-pacto:nth-of-type(1){
+
+.columna-titulo-pacto:nth-of-type(1) {
     width: 100%;
-    max-width:209px;
+    max-width: 209px;
     padding-left: 0;
 }
 
-
-
-
-
-.columna-caja-imagen h2{
+.columna-caja-imagen h2 {
     font-family: 'Telefonica' !important;
     color: #FFF;
     font-size: 4em;
     margin: 0;
 }
-.columna-caja-imagen p{
+
+.columna-caja-imagen p {
     margin-top: 10px;
 }
-.columna-caja-imagen img{
+
+.columna-caja-imagen img {
     width: 100%;
-    max-width:55px;
+    max-width: 55px;
 }
+
 .columna-caja-imagen {
     display: flex;
     align-items: center;
-}   
+}
 
-
-
-.caja-columna-pacto-digital p{
-    margin-top:15px;
-    margin-bottom:20px;
+.caja-columna-pacto-digital p {
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .caja-columna-pacto-digital {
     margin-top: 120px;
-        width: 100%;
+    width: 100%;
     max-width: 318px;
 }
 
-
-.columna-pacto-digital-1 .caja-columna-pacto-digital:nth-of-type(1){
-    margin-top:0px;
+.columna-pacto-digital-1 .caja-columna-pacto-digital:nth-of-type(1) {
+    margin-top: 0px;
 }
-.columna-pacto-digital-inner1 .caja-columna-pacto-digital:nth-of-type(1){
-    margin-top:0px;
+
+.columna-pacto-digital-inner1 .caja-columna-pacto-digital:nth-of-type(1) {
+    margin-top: 0px;
     max-width: 438px;
     position: relative;
 }
+
 img.imagen-contexto-pacto {
-   width: 131%;
+    width: 131%;
     max-width: 631px;
     display: block;
     position: absolute;
@@ -2749,15 +2430,11 @@ img.imagen-contexto-pacto {
     right: 19px;
 }
 
-
-
 .contenido-pacto-reactivar {
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
 }
-
-
 
 .columna-pacto-reactivar {
     display: flex;
@@ -2766,15 +2443,15 @@ img.imagen-contexto-pacto {
     max-width: 444px;
 }
 
-
 .columnas-iconos-pacto-reactivar-inner {
     display: flex;
-        justify-content: space-between;
+    justify-content: space-between;
 }
+
 .columnas-iconos-pacto-reactivar-inner2 {
     display: flex;
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .columna-reactivar-iconos {
@@ -2783,62 +2460,63 @@ img.imagen-contexto-pacto {
     color: #FFF;
     text-align: center;
 }
-.columna-reactivar-iconos img{
+
+.columna-reactivar-iconos img {
     width: 100%;
-    max-width:200px;
+    max-width: 200px;
 }
-.columna-reactivar-iconos h2{
+
+.columna-reactivar-iconos h2 {
     color: #FFF;
-        font-size: 4.5em;
-            margin: 0;
+    font-size: 4.5em;
+    margin: 0;
     margin-top: 15px;
 }
+
 .caja-reactivar-iconos1-img {
     display: flex;
     width: 100%;
     justify-content: flex-end;
     position: relative;
 }
+
 .columna-reactivar-iconos1 {
     width: 100%;
     max-width: 474px;
 }
-.columna-reactivar-iconos1:nth-of-type(2){
+
+.columna-reactivar-iconos1:nth-of-type(2) {
     border-left: 3px solid #83af37;
     padding-left: 25px;
 }
 
-.columna-reactivar-iconos1 h2{
-    margin:0;
+.columna-reactivar-iconos1 h2 {
+    margin: 0;
     color: #83af37;
 }
 
-.columna-reactivar-iconos1:nth-of-type(2) p{
+.columna-reactivar-iconos1:nth-of-type(2) p {
     color: #83af37;
     width: 100%;
-    max-width:275px;
-
+    max-width: 275px;
 }
-.columna-reactivar-iconos1 .caja-reactivar-iconos1-img h2:nth-of-type(1){
+
+.columna-reactivar-iconos1 .caja-reactivar-iconos1-img h2:nth-of-type(1) {
     font-size: 4em;
-
 }
 
-.caja-reactivar-iconos1-img img{
-      width: 100%;
+.caja-reactivar-iconos1-img img {
+    width: 100%;
     margin: 0 auto;
     max-width: 140px;
     display: block;
     position: absolute;
     right: 56px;
-
-}
-.columna-reactivar-iconos1:nth-of-type(1){
-        max-width: 194px;
 }
 
-
-
+.columna-reactivar-iconos1:nth-of-type(1) {
+    max-width: 194px;
+}
 
 .columna-reactivar-iconos1:nth-of-type(3) {
     border-radius: 19px;
@@ -2846,51 +2524,47 @@ img.imagen-contexto-pacto {
     max-width: 230px;
 }
 
-.columna-reactivar-iconos1:nth-of-type(3) .caja-reactivar-iconos1{
+.columna-reactivar-iconos1:nth-of-type(3) .caja-reactivar-iconos1 {
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 15px;
 }
 
-.columna-reactivar-iconos1:nth-of-type(3) .caja-reactivar-iconos1 p{
+.columna-reactivar-iconos1:nth-of-type(3) .caja-reactivar-iconos1 p {
     line-height: 20px;
     font-size: 1.1em;
     text-align: center;
     color: #83af37;
 }
 
-.columna-reactivar-iconos1:nth-of-type(3) .caja-reactivar-iconos1 h2{
+.columna-reactivar-iconos1:nth-of-type(3) .caja-reactivar-iconos1 h2 {
     font-size: 4.5em;
 }
 
-
-
 .columnas-iconos-pacto-reactivar2 {
-        background: #83af37;
+    background: #83af37;
     border-radius: 19px;
-        padding: 30px;
+    padding: 30px;
     margin-top: 37px;
 }
 
-
-.columnas-iconos-pacto-reactivar2 h3{
+.columnas-iconos-pacto-reactivar2 h3 {
     color: #FFF;
     margin: 0;
     font-size: 1.1em;
     margin-bottom: 25px;
     font-weight: bold;
-        padding-top: 6px;
-        font-family: 'Telefonica-bold';
+    padding-top: 6px;
+    font-family: 'Telefonica-bold';
 }
-
-
 
 .columna-reactivar-iconos:nth-of-type(2) img {
     width: 100%;
     max-width: 125px;
 }
+
 .columna-reactivar-iconos:nth-of-type(3) img {
     width: 100%;
     max-width: 80px;
@@ -2902,96 +2576,88 @@ img.imagen-contexto-pacto {
 }
 
 .columnas-iconos-pacto-reactivar3 {
-    border:solid 2px #83af37;
+    border: solid 2px #83af37;
     border-radius: 19px;
-   
+
     margin-top: 37px;
 }
 
-.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1){
+.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) {
     background: #83af37;
     -webkit-border-top-left-radius: 19px;
--webkit-border-bottom-left-radius: 19px;
--moz-border-radius-topleft: 19px;
--moz-border-radius-bottomleft: 19px;
-border-top-left-radius: 19px;
-border-bottom-left-radius: 19px;
-        
+    -webkit-border-bottom-left-radius: 19px;
+    -moz-border-radius-topleft: 19px;
+    -moz-border-radius-bottomleft: 19px;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
 
     position: relative;
-
     right: 1px;
 }
-.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) h3{
+
+.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) h3 {
     color: #FFF;
     font-weight: bold;
 }
-.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos{
-    min-height: 210px;
 
+.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos {
+    min-height: 210px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-
-.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3){
-    border-left:solid 2px #83af37;
-border-right: solid 2px #83af37;
+.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3) {
+    border-left: solid 2px #83af37;
+    border-right: solid 2px #83af37;
 }
 
-.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4{
+.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
     color: #83af37;
-    padding:20px;
+    padding: 20px;
 }
+
 .columnas-iconos-pacto-reactivar4 .columnas-iconos-pacto-reactivar-inner {
     display: flex;
     justify-content: flex-start;
 }
 
-
-
 .columnas-iconos-pacto-reactivar3.reactivar-fucsia {
     border: solid 2px #cf2282;
 }
 
-.columnas-iconos-pacto-reactivar3.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1){
-background: #cf2282;
+.columnas-iconos-pacto-reactivar3.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) {
+    background: #cf2282;
 }
-.columnas-iconos-pacto-reactivar3.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3){
+
+.columnas-iconos-pacto-reactivar3.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3) {
     border-left: solid 2px #cf2282;
     border-right: solid 2px #cf2282;
-
 }
 
-
-.columnas-iconos-pacto-reactivar-inner.reactivar-fucsia .columna-reactivar-iconos1:nth-of-type(1){
+.columnas-iconos-pacto-reactivar-inner.reactivar-fucsia .columna-reactivar-iconos1:nth-of-type(1) {
     margin-right: 46px;
-    padding-bottom:100px;
+    padding-bottom: 100px;
 }
-
 
 .columnas-iconos-pacto-reactivar-inner.reactivar-fucsia .columna-reactivar-iconos1 h2 {
     margin: 0;
-  
+
     color: #cf2282;
 }
-
-
 
 .columnas-iconos-pacto-reactivar-inner.reactivar-fucsia .columna-reactivar-iconos1:nth-of-type(2) {
-    border-left: 3px solid  #cf2282;
-        max-width: 730px;
+    border-left: 3px solid #cf2282;
+    max-width: 730px;
     padding-left: 25px;
 }
-.columnas-iconos-pacto-reactivar-inner.reactivar-fucsia .columna-reactivar-iconos1:nth-of-type(2) p{
+
+.columnas-iconos-pacto-reactivar-inner.reactivar-fucsia .columna-reactivar-iconos1:nth-of-type(2) p {
     color: #cf2282;
     width: 100%;
-    max-width:730px;
-            margin-top: 18px;
+    max-width: 730px;
+    margin-top: 18px;
 }
-
 
 .columnas-iconos-pacto-reactivar5.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos {
     width: 100%;
@@ -3000,64 +2666,54 @@ background: #cf2282;
     text-align: center;
     border: 2px solid #cf2282;
     border-radius: 19px;
-    padding:40px;
+    padding: 40px;
 }
 
-.columnas-iconos-pacto-reactivar5.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h2{
+.columnas-iconos-pacto-reactivar5.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h2 {
     color: #cf2282;
 }
-
 
 .columnas-iconos-pacto-reactivar5.reactivar-fucsia {
     margin-top: 50px;
 }
 
-
-
-
-
-.columnas-iconos-pacto-reactivar3.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4{
+.columnas-iconos-pacto-reactivar3.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
     color: #cf2282;
-        padding: 20px;
+    padding: 20px;
 }
 
-
-
-.columna-imagen-ilustacion img{
+.columna-imagen-ilustacion img {
     width: 100%;
-    max-width:600px;
+    max-width: 600px;
 }
+
 .columna-imagen-ilustacion {
     display: flex;
     justify-content: flex-end;
 }
 
-
 .contenido-fondo-reactivar {
     background: url(../img/fondo-blanco-contexto.jpg);
     background-size: cover;
-       background-position: 3px 1190px;
-
-        background-repeat: no-repeat;
+    background-position: 3px 1190px;
+    background-repeat: no-repeat;
 }
-
 
 .columnas-iconos-pacto-reactivar3.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos1 {
     width: 100%;
     max-width: 727px;
 }
 
-.columnas-iconos-pacto-reactivar5.reactivar-azul-relleno .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos{
+.columnas-iconos-pacto-reactivar5.reactivar-azul-relleno .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos {
     background: #019DF4;
-        margin: 10px;
+    margin: 10px;
     border-radius: 19px;
     padding: 32px;
-
-}
-.columnas-iconos-pacto-reactivar5.reactivar-azul-relleno .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1){
-        margin-left: 0;
 }
 
+.columnas-iconos-pacto-reactivar5.reactivar-azul-relleno .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1) {
+    margin-left: 0;
+}
 
 .columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos {
     width: 100%;
@@ -3069,22 +2725,21 @@ background: #cf2282;
     padding: 40px;
 }
 
-.columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1){
-       margin-right: 123px;
-       margin-left:0;
+.columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1) {
+    margin-right: 123px;
+    margin-left: 0;
 }
 
-.columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(3){
+.columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(3) {
     border: none;
     margin: 0 !important;
-    max-width:147px;
-    padding:0 !important;
+    max-width: 147px;
+    padding: 0 !important;
 }
 
-.columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(3) img{
-        max-width: 120px;
+.columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(3) img {
+    max-width: 120px;
 }
-
 
 .columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos {
     width: 100%;
@@ -3097,44 +2752,38 @@ background: #cf2282;
     margin: 17px;
 }
 
-
-.columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h2{
+.columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h2 {
     color: #019DF4;
     margin: 0;
     font-size: 3.5em;
 }
-.columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h4{
-    margin:0;
-     color: #019DF4;
-     font-weight: bold;
-}
-.columnas-iconos-pacto-reactivar5.reactivar-azul-relleno .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos p{
-        line-height: 18px;
-}
 
-.columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner{
-    align-items: center;
-    justify-content:flex-start;
-}
-
-
-.columnas-iconos-pacto-reactivar5.reactivar-azul-relleno .columnas-iconos-pacto-reactivar-inner{
-    align-items: flex-end;
-
-}
-
-.columnas-iconos-pacto-reactivar5.reactivar-azul-relleno .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h3{
+.columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h4 {
     margin: 0;
-        font-size: 1.3em;
+    color: #019DF4;
+    font-weight: bold;
+}
+
+.columnas-iconos-pacto-reactivar5.reactivar-azul-relleno .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos p {
+    line-height: 18px;
+}
+
+.columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner {
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.columnas-iconos-pacto-reactivar5.reactivar-azul-relleno .columnas-iconos-pacto-reactivar-inner {
+    align-items: flex-end;
+}
+
+.columnas-iconos-pacto-reactivar5.reactivar-azul-relleno .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h3 {
+    margin: 0;
+    font-size: 1.3em;
     padding-bottom: 12px;
     color: #FFF;
     font-weight: bold;
 }
-
-
-
-
-
 
 .columnas-iconos-pacto-reactivar-inner.reactivar-azul .columna-reactivar-iconos1:nth-of-type(2) {
     border-left: 3px solid #019DF4;
@@ -3147,8 +2796,6 @@ background: #cf2282;
     color: #019DF4;
 }
 
-
-
 .columnas-iconos-pacto-reactivar-inner.reactivar-azul .columna-reactivar-iconos1:nth-of-type(1) {
     margin-right: 46px;
     padding-bottom: 100px;
@@ -3159,58 +2806,43 @@ background: #cf2282;
     min-height: 227px;
 }
 
-.columnas-iconos-pacto-reactivar3.reactivar-azul{
-border: solid 2px #019DF4;
+.columnas-iconos-pacto-reactivar3.reactivar-azul {
+    border: solid 2px #019DF4;
 }
-
-
 
 .columnas-iconos-pacto-reactivar3.reactivar-azul .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3) {
     border-left: solid 2px #019DF4;
     border-right: solid 2px #019DF4;
 }
 
-
-
-
-
-.columnas-iconos-pacto-reactivar3.reactivar-azul .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4{
+.columnas-iconos-pacto-reactivar3.reactivar-azul .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
     color: #019DF4;
     padding: 20px;
 }
 
-
-
 h3.titulo-internet-hogar {
-    color:  #019DF4;
+    color: #019DF4;
     margin: 0;
     font-size: 1.1em;
     margin-bottom: 25px;
     font-family: 'Telefonica-bold';
     padding-top: 50px;
-
 }
 
-
-h3.titulo-internet-comoaporta{
-   color:  #019DF4;
+h3.titulo-internet-comoaporta {
+    color: #019DF4;
     font-family: 'Telefonica-light' !important;
 }
 
+.pacto-digital-desktop {
+    display: block;
+}
 
-.pacto-digital-desktop{
-        display: block;
-    }
-
-
-
-.pacto-digital-mobile{
+.pacto-digital-mobile {
     display: none;
 }
 
-
-
-.imagen-contexto-pacto-mobile{
+.imagen-contexto-pacto-mobile {
     display: none;
 }
 
@@ -3225,13 +2857,10 @@ h3.titulo-internet-comoaporta{
     padding-left: 25px;
 }
 
-
 .columnas-iconos-pacto-reactivar-inner.reactivar-morado .columna-reactivar-iconos1:nth-of-type(1) {
     margin-right: 46px;
     padding-bottom: 100px;
 }
-
-    
 
 .columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos {
     display: flex;
@@ -3240,19 +2869,21 @@ h3.titulo-internet-comoaporta{
     align-items: center;
     width: 100%;
     max-width: 267px;
-    color: #865396;;
+    color: #865396;
+    ;
     text-align: center;
     border: 2px solid #865396;
     border-radius: 19px;
     padding: 32px;
 }
-.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h2{
+
+.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h2 {
     color: #865396;
     margin: 0;
 }
-.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos p{
-    font-size: 1.2em;
 
+.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos p {
+    font-size: 1.2em;
 }
 
 .columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner {
@@ -3260,31 +2891,13 @@ h3.titulo-internet-comoaporta{
     justify-content: flex-start;
 }
 
-.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1){
-    margin-right:45px;
+.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1) {
+    margin-right: 45px;
 }
-
-
 
 .columnas-iconos-pacto-reactivar5.reactivar-morado {
     margin-top: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .columnas-iconos-pacto-reactivar-inner.reactivar-naranja .columna-reactivar-iconos1 h2 {
     margin: 0;
@@ -3297,13 +2910,10 @@ h3.titulo-internet-comoaporta{
     padding-left: 25px;
 }
 
-
 .columnas-iconos-pacto-reactivar-inner.reactivar-naranja .columna-reactivar-iconos1:nth-of-type(1) {
     margin-right: 46px;
     padding-bottom: 100px;
 }
-
-    
 
 .columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos {
     display: flex;
@@ -3312,19 +2922,21 @@ h3.titulo-internet-comoaporta{
     align-items: center;
     width: 100%;
     max-width: 267px;
-    color: #865396;;
+    color: #865396;
+    ;
     text-align: center;
     border: 2px solid #865396;
     border-radius: 19px;
     padding: 32px;
 }
-.columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h2{
+
+.columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h2 {
     color: #865396;
     margin: 0;
 }
-.columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos p{
-    font-size: 1.2em;
 
+.columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos p {
+    font-size: 1.2em;
 }
 
 .columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner {
@@ -3332,46 +2944,33 @@ h3.titulo-internet-comoaporta{
     justify-content: flex-start;
 }
 
-.columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1){
-    margin-right:45px;
+.columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1) {
+    margin-right: 45px;
 }
-
-
 
 .columnas-iconos-pacto-reactivar5.reactivar-morado {
     margin-top: 50px;
 }
 
-
 .columnas-iconos-pacto-reactivar5.reactivar-naranja {
     margin-top: 58px;
 }
 
-
-
-
-.fondo-reactivar-2{
-         background: url(../img/ontexto-ilustracion-2-1.png);
+.fondo-reactivar-2 {
+    background: url(../img/ontexto-ilustracion-2-1.png);
     background-size: 592px;
     background-repeat: no-repeat;
     background-position: 416px -9px;
 }
 
-
-.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(2){
+.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(2) {
     background: #FFF;
 }
-
-
 
 .columnas-iconos-pacto-reactivar3.reactivar-morado .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) {
     background: #865396;
     min-height: 227px;
 }
-
-
-
-
 
 .columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
     color: #83af37;
@@ -3383,13 +2982,9 @@ h3.titulo-internet-comoaporta{
     padding: 20px;
 }
 
-
-
-
 .columnas-iconos-pacto-reactivar3.reactivar-morado {
     border: solid 2px #865396;
 }
-
 
 .columnas-iconos-pacto-reactivar3.reactivar-morado .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3) {
     border-left: solid 2px #865396;
@@ -3410,19 +3005,15 @@ h3.titulo-internet-comoaporta{
 
 
 
+
+
+
+
+
+
+
+
 /**********************************ESTILOS RESPONSIVE*****************************/
-
-
-
-
-
-
-
-
-
-
-
-
 .caja-texto-proceso-informe2 {
     display: none;
 }
@@ -3435,8 +3026,6 @@ h3.titulo-internet-comoaporta{
     float: left;
     margin-bottom: -1px;
     font-size: 1.2em;
-
-
 }
 
 @media screen and (max-width: 1270px) {
@@ -3450,7 +3039,6 @@ h3.titulo-internet-comoaporta{
         font-size: 0.83em !important;
         font-family: 'Telefonica';
     }
-
 }
 
 /*ipad*/
@@ -3469,10 +3057,7 @@ h3.titulo-internet-comoaporta{
     .imagen-grupos-interes-mobile img:nth-of-type(2) {
         width: 100%;
     }
-
 }
-
-
 
 @media screen and (max-width: 1024px) {
     .header-1 #main-menu .nav.navbar-nav {
@@ -3546,7 +3131,6 @@ h3.titulo-internet-comoaporta{
         -webkit-transform: rotate(90deg);
         -o-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
-
     }
 
     .imagenes-podio-lapiz {
@@ -3589,7 +3173,6 @@ h3.titulo-internet-comoaporta{
         padding-left: 20px;
     }
 
-
     .caja-plan-negocio-rentable h1 {
         margin-left: 0;
     }
@@ -3612,7 +3195,6 @@ h3.titulo-internet-comoaporta{
     .caja-texto-anualmente-interna h2,
     .caja-texto-anualmente-interna p {
         padding: 20px;
-
     }
 
     .caja-texto-anualmente-interna p {
@@ -3621,7 +3203,6 @@ h3.titulo-internet-comoaporta{
 
     .caja-texto-anualmente-interna h2 {
         padding-bottom: 0;
-
     }
 
     .container.container-padding {
@@ -3639,7 +3220,6 @@ h3.titulo-internet-comoaporta{
 
     .contenedor-banner:nth-of-type(1) {
         padding: 0;
-
     }
 
     .banner-secciones-internas {
@@ -3669,8 +3249,6 @@ h3.titulo-internet-comoaporta{
         flex-direction: column;
     }
 
-
-
     .columnas-proceso-informe {
         flex-direction: column;
     }
@@ -3681,16 +3259,10 @@ h3.titulo-internet-comoaporta{
         order: 2;
     }
 
-
     /********************seccion interna 1 estilos responsive******************/
-
     .caja-anualmente {
         flex-direction: column;
     }
-
-
-
-
 
     #main-menu .navbar .nav>li>a .main-menu-title {
         line-height: 20px;
@@ -3778,7 +3350,6 @@ h3.titulo-internet-comoaporta{
         margin-top: 0px;
         margin-bottom: 40px;
         padding: 31px;
-
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -3788,158 +3359,287 @@ h3.titulo-internet-comoaporta{
 }
 
 @media screen and (max-width: 800px) {
+
+
+    .columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(3) img {
+        width: 100%;
+        max-width: 55px;
+        -moz-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .columna-reactivar-iconos:nth-of-type(4) img {
+        width: 100%;
+        max-width: 55px;
+        -moz-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) {
+        -webkit-border-top-left-radius: 19px;
+        -webkit-border-top-right-radius: 19px;
+        -moz-border-radius-topleft: 19px;
+        -moz-border-radius-topright: 19px;
+        border-top-left-radius: 19px;
+        border-top-right-radius: 19px;
+        -webkit-border-bottom-right-radius: 0;
+        -webkit-border-bottom-left-radius: 0;
+        -moz-border-radius-bottomright: 0;
+        -moz-border-radius-bottomleft: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .columnas-iconos-pacto-reactivar3.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) {
+        -webkit-border-top-left-radius: 19px;
+        -webkit-border-top-right-radius: 19px;
+        -moz-border-radius-topleft: 19px;
+        -moz-border-radius-topright: 19px;
+        border-top-left-radius: 19px;
+        border-top-right-radius: 19px;
+        -webkit-border-bottom-right-radius: 0;
+        -webkit-border-bottom-left-radius: 0;
+        -moz-border-radius-bottomright: 0;
+        -moz-border-radius-bottomleft: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .columnas-iconos-pacto-reactivar3.reactivar-azul .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) {
+        -webkit-border-top-left-radius: 19px;
+        -webkit-border-top-right-radius: 19px;
+        -moz-border-radius-topleft: 19px;
+        -moz-border-radius-topright: 19px;
+        border-top-left-radius: 19px;
+        border-top-right-radius: 19px;
+        -webkit-border-bottom-right-radius: 0;
+        -webkit-border-bottom-left-radius: 0;
+        -moz-border-radius-bottomright: 0;
+        -moz-border-radius-bottomleft: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .columnas-iconos-pacto-reactivar3.reactivar-morado .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) {
+        -webkit-border-top-left-radius: 19px;
+        -webkit-border-top-right-radius: 19px;
+        -moz-border-radius-topleft: 19px;
+        -moz-border-radius-topright: 19px;
+        border-top-left-radius: 19px;
+        border-top-right-radius: 19px;
+        -webkit-border-bottom-right-radius: 0;
+        -webkit-border-bottom-left-radius: 0;
+        -moz-border-radius-bottomright: 0;
+        -moz-border-radius-bottomleft: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .columnas-iconos-pacto-reactivar5.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos {
+        margin-top: 30px;
+    }
+
+    .columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(2) {
+        margin-top: 30px;
+        background: #FFF;
+    }
+
+    .columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1) {
+        margin-right: 0px;
+    }
+
+    .columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos {
+        margin-top: 30px;
+    }
+
+    .columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1) {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+
     .columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3) {
-    border-left: none !important;
-    border-right: none !important;
-    border-top: solid 2px #83af37;
-     border-bottom: solid 2px #83af37;
-}
+        border-left: none !important;
+        border-right: none !important;
+        border-top: solid 2px #83af37;
+        border-bottom: solid 2px #83af37;
+    }
+
     .columnas-iconos-pacto-reactivar3.reactivar-azul .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3) {
-    border-left: none;
-    border-top: solid 2px #019DF4;
-    border-right: none;
-    border-bottom: solid 2px #019DF4;
-}
+        border-left: none;
+        border-top: solid 2px #019DF4;
+        border-right: none;
+        border-bottom: solid 2px #019DF4;
+    }
+
     .contenido-pacto-reactivar {
-    width: 100%;
-    max-width: 970px;
-    margin: 0 auto;
-    padding: 33px;
-}
+        width: 100%;
+        max-width: 970px;
+        margin: 0 auto;
+        padding: 33px;
+    }
+
     .columna-pacto-digital-inner1 {
-    width: 100%;
-    max-width: 423px;
-    padding: 33px;
-    margin: 5px;
-}
+        width: 100%;
+        max-width: 423px;
+        padding: 33px;
+        margin: 5px;
+    }
+
     .caja-columna-pacto-digital {
-    margin-top: 71px;
-    width: 100%;
-    max-width: 318px;
-}
-    .imagen-contexto-pacto-mobile{
-    display: block;
-}
+        margin-top: 71px;
+        width: 100%;
+        max-width: 318px;
+    }
+
+    .imagen-contexto-pacto-mobile {
+        display: block;
+    }
 
     img.imagen-contexto-pacto {
-    width: 131%;
-    max-width: 631px;
-    display: block;
-    right: 0;
-    position: relative;
-}
-    .pacto-digital-mobile{
-    display: block;
-}
-    .pacto-digital-desktop{
+        width: 131%;
+        max-width: 631px;
+        display: block;
+        right: 0;
+        position: relative;
+    }
+
+    .pacto-digital-mobile {
+        display: block;
+    }
+
+    .pacto-digital-desktop {
         display: none;
     }
-    .contenido-contexto-sosteniblidad{
+
+    .contenido-contexto-sosteniblidad {
         padding-bottom: 60px;
     }
-    .columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1) {
-    margin-right: 0;
-    margin-left: 0;
-}
-    .columna-reactivar-iconos {
-    width: 100%;
-    max-width: 100%;
-    color: #FFF;
-    text-align: center;
-}
-    .columnas-iconos-pacto-reactivar-inner2 {
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-    .columnas-iconos-pacto-reactivar-inner {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-}
-    .caja-reactivar-iconos1-img img {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 140px;
-    display: block;
-    position: relative;
-    right: 0px;
-}
-    .columnas-titulo-pacto-digital {
-    display: flex;
-    color: #FFF;
-    padding-top: 50px;
-    flex-direction: column;
-    padding: 20px;
-}
-    .five-columns .col {
-    width: 45%;
-    float: left;
-    padding: 0;
-}
-    #page-wrap {
-    width: 100%;
-    margin: 0px auto;
-    padding: 20px;
-}
-    .contenido-contexto-sector-columnas {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-}
-    .caja-relevancia-ecosistema-digital {
-    min-height: 1265px;
-    background: url(../img/fondo-contexto1.jpg);
-    background-size: 108%;
-    background-position: -33px -47px;
-    margin-top: 50px;
-    height: 100%;
-}
 
-    .caja-texto-inner h1{
+    .columnas-iconos-pacto-reactivar5.reactivar-azul .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1) {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .columna-reactivar-iconos {
+        width: 100%;
+        max-width: 100%;
+        color: #FFF;
+        text-align: center;
+    }
+
+    .columnas-iconos-pacto-reactivar-inner2 {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .columnas-iconos-pacto-reactivar-inner {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caja-reactivar-iconos1-img img {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 140px;
+        display: block;
+        position: relative;
+        right: 0px;
+    }
+
+    .columnas-titulo-pacto-digital {
+        display: flex;
+        color: #FFF;
+        padding-top: 50px;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .five-columns .col {
+        width: 45%;
+        float: left;
+        padding: 0;
+    }
+
+    #page-wrap {
+        width: 100%;
+        margin: 0px auto;
+        padding: 20px;
+    }
+
+    .contenido-contexto-sector-columnas {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .caja-relevancia-ecosistema-digital {
+        min-height: 1265px;
+        background: url(../img/fondo-contexto1.jpg);
+        background-size: 108%;
+        background-position: -33px -47px;
+        margin-top: 50px;
+        height: 100%;
+    }
+
+    .caja-texto-inner h1 {
         right: 0;
     }
-    .caja-texto-ecosistema .caja-texto-inner img{
+
+    .caja-texto-ecosistema .caja-texto-inner img {
         display: none;
     }
+
     .caja-texto-inner {
-    width: 100%;
-    margin-top: 0;
-    margin-right: 0;
-    max-width: 319px;
-}
+        width: 100%;
+        margin-top: 0;
+        margin-right: 0;
+        max-width: 319px;
+    }
+
     .caja-texto-ecosistema {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: end;
-    position: relative;
-    align-items: center;
-}
-    .caja-relevancia-ecosistema-digital{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: end;
+        position: relative;
+        align-items: center;
+    }
+
+    .caja-relevancia-ecosistema-digital {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .banner-secciones-internas5 {
-    background: url(../img/banner-contexto.jpg);
-    width: 100%;
-    background-position: 0px 5px;
-    background-size: 125%;
-    /* height: 339px; */
-    margin-top: 0;
-    background-repeat: no-repeat;
-}
+        background: url(../img/banner-contexto.jpg);
+        width: 100%;
+        background-position: 0px 5px;
+        background-size: 125%;
+        /* height: 339px; */
+        margin-top: 0;
+        background-repeat: no-repeat;
+    }
+
     #page-wrap>div {
-    margin: 0 0 50px 0;
-    min-width: 970px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
+        margin: 0 0 50px 0;
+        min-width: 970px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
     .contenido-columna-opaca h3 span {
         width: 32%;
     }
@@ -3999,7 +3699,6 @@ h3.titulo-internet-comoaporta{
         padding: 20px;
     }
 
-
     .banner-secciones-internas4 {
         background: url(../img/1-Home-Web-0.jpg);
         width: 100%;
@@ -4015,15 +3714,6 @@ h3.titulo-internet-comoaporta{
         margin: 0 auto;
         padding: 20px;
     }
-
-
-
-
-
-
-
-
-
 
     .caja-conflictos-intereses2 p {
         column-count: 2;
@@ -4089,7 +3779,6 @@ h3.titulo-internet-comoaporta{
 
     .caja-datos-relevantes h4 {
         color: #0B2739;
-
     }
 
     .caja-textos-imagen-datos:nth-of-type(5) {
@@ -4177,7 +3866,6 @@ h3.titulo-internet-comoaporta{
         max-width: 182px;
         margin-top: 20px;
         padding-left: 20px;
-
     }
 
     .caja-datos-valores {
@@ -4201,7 +3889,6 @@ h3.titulo-internet-comoaporta{
         max-width: 970px;
         margin: 0 auto;
         padding-bottom: 30px;
-
     }
 
     .caja-contenedor-lista h4 {
@@ -4292,15 +3979,12 @@ h3.titulo-internet-comoaporta{
     }
 
     .caja-conflictos-intereses h1 {
-
         padding-top: 8px;
-
     }
 
     .imagen-auditoria {
         background-position: 0px -219px;
         height: 542px;
-
     }
 
     .texto-auditoria {
@@ -4325,7 +4009,6 @@ h3.titulo-internet-comoaporta{
         background: #0B2739;
         justify-content: center;
         align-items: center;
-
     }
 
     .caja-junta-directiva-texto {
@@ -4442,7 +4125,6 @@ h3.titulo-internet-comoaporta{
         -webkit-transform: rotate(90deg);
         -o-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
-
     }
 
     .imagenes-podio-lapiz {
@@ -4485,7 +4167,6 @@ h3.titulo-internet-comoaporta{
         padding-left: 20px;
     }
 
-
     .caja-plan-negocio-rentable h1 {
         margin-left: 0;
     }
@@ -4508,7 +4189,6 @@ h3.titulo-internet-comoaporta{
     .caja-texto-anualmente-interna h2,
     .caja-texto-anualmente-interna p {
         padding: 20px;
-
     }
 
     .caja-texto-anualmente-interna p {
@@ -4521,7 +4201,6 @@ h3.titulo-internet-comoaporta{
 
     .container.container-padding {
         padding: 0;
-
     }
 
     .imagen-anualmente {
@@ -4535,7 +4214,6 @@ h3.titulo-internet-comoaporta{
     .contenedor-banner:nth-of-type(1) {
         padding: 0;
         width: 100%;
-
     }
 
     .banner-secciones-internas {
@@ -4598,9 +4276,7 @@ h3.titulo-internet-comoaporta{
         font-size: 8em;
         font-family: 'Telefonica-ExtraLight' !important;
         color: #0B2739;
-
         margin-bottom: 2px;
-
     }
 
     .caja-texto h3 {
@@ -4672,9 +4348,7 @@ h3.titulo-internet-comoaporta{
     }
 
     .main-menu-container {
-
         position: relative;
-
     }
 
     .main-menu-container {
@@ -4758,7 +4432,6 @@ h3.titulo-internet-comoaporta{
         background-size: 219%;
         background-repeat: no-repeat;
     }
-
 }
 
 @media screen and (max-width: 320px) {
@@ -4770,5 +4443,4 @@ h3.titulo-internet-comoaporta{
         background-size: 219%;
         background-repeat: no-repeat;
     }
-
 }
