@@ -3350,10 +3350,17 @@ h3.titulo-internet-comoaporta{
 
 
 
+.fondo-reactivar-2{
+         background: url(../img/ontexto-ilustracion-2-1.png);
+    background-size: 579px;
+    background-repeat: no-repeat;
+    background-position: 416px -9px;
+}
 
 
-
-
+.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(2){
+    background: #FFF;
+}
 
 
 
