@@ -3602,6 +3602,12 @@ h3.titulo-internet-comoaporta{
 }
 
 @media screen and (max-width: 800px) {
+    .contenido-pacto-reactivar {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 33px;
+}
     .columna-pacto-digital-inner1 {
     width: 100%;
     max-width: 423px;
