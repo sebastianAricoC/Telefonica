@@ -3788,6 +3788,18 @@ h3.titulo-internet-comoaporta{
 }
 
 @media screen and (max-width: 800px) {
+    .columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3) {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: solid 2px #83af37;
+     border-bottom: solid 2px #83af37;
+}
+    .columnas-iconos-pacto-reactivar3.reactivar-azul .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3) {
+    border-left: none;
+    border-top: solid 2px #019DF4;
+    border-right: none;
+    border-bottom: solid 2px #019DF4;
+}
     .contenido-pacto-reactivar {
     width: 100%;
     max-width: 970px;
