@@ -3016,6 +3016,44 @@ background: #cf2282;
 
 
 
+.columna-imagen-ilustacion img{
+    width: 100%;
+    max-width:600px;
+}
+.columna-imagen-ilustacion {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.contenido-fondo-reactivar {
+    background: url(../img/fondo-blanco-contexto.jpg);
+    background-size: cover;
+       background-position: 3px 1190px;
+
+        background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
