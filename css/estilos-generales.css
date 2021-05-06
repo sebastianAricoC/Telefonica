@@ -247,7 +247,7 @@ ul.cd-header-buttons {
 }
 
 .caja-texto h2 {
-    font-family: 'Telefonica-ExtraLight';
+    font-family: 'Telefonica-ExtraLight' !important;
     color: #019df4;
     font-size: 6em;
     font-weight: 500;
@@ -289,7 +289,7 @@ ul.cd-header-buttons {
     color: #019df4;
     font-size: 2.8em;
     font-weight: 400;
-    font-family: 'Telefonica';
+    font-family: 'Telefonica-ExtraLight';
     margin: 0;
     margin-top: 35px;
 }
@@ -311,7 +311,7 @@ ul.cd-header-buttons {
     color: #019df4;
     font-size: 2.5em;
     font-weight: 400;
-    font-family: 'Telefonica';
+    font-family: 'Telefonica-ExtraLight';
     margin: 0;
     margin-top: 50px;
 }
@@ -563,7 +563,7 @@ footer.page-section.pt-80.pb-50 {
 
 .caja-texto-seccion-banner h2 {
 
-    font-family: 'Telefonica-light';
+    font-family: 'Telefonica-light' !important;
     color: #FFF;
     font-weight: 500;
     letter-spacing: 1px;
