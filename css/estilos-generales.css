@@ -2697,6 +2697,7 @@ img.imagen-contexto-pacto {
    background-size: 100%;
     background-position: 134px 1552px;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .columnas-iconos-pacto-reactivar3.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos1 {
@@ -2901,11 +2902,11 @@ h3.titulo-internet-comoaporta {
 
 .columnas-iconos-pacto-reactivar-inner.reactivar-naranja .columna-reactivar-iconos1 h2 {
     margin: 0;
-    color: #865396;
+    color: #cf7152;
 }
 
 .columnas-iconos-pacto-reactivar-inner.reactivar-naranja .columna-reactivar-iconos1:nth-of-type(2) {
-    border-left: 3px solid #865396;
+    border-left: 3px solid #cf7152;
     max-width: 730px;
     padding-left: 25px;
 }
@@ -2922,16 +2923,16 @@ h3.titulo-internet-comoaporta {
     align-items: center;
     width: 100%;
     max-width: 267px;
-    color: #865396;
+    color: #cf7152;
     ;
     text-align: center;
-    border: 2px solid #865396;
+    border: 2px solid #cf7152;
     border-radius: 19px;
     padding: 32px;
 }
 
 .columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h2 {
-    color: #865396;
+    color: #cf7152;
     margin: 0;
 }
 
@@ -2947,6 +2948,23 @@ h3.titulo-internet-comoaporta {
 .columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1) {
     margin-right: 45px;
 }
+
+
+
+.columnas-iconos-pacto-reactivar-inner.reactivar-naranja .columna-reactivar-iconos1 h3{
+    margin: 0;
+    color: #cf7152;
+}
+.columnas-iconos-pacto-reactivar-inner.reactivar-naranja .columna-reactivar-iconos1 p{
+    margin: 0;
+    color: #cf7152;
+}
+
+
+
+
+
+
 
 .columnas-iconos-pacto-reactivar5.reactivar-morado {
     margin-top: 50px;
@@ -2966,6 +2984,13 @@ h3.titulo-internet-comoaporta {
 .columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(2) {
     background: #FFF;
 }
+
+
+
+
+
+
+
 
 .columnas-iconos-pacto-reactivar3.reactivar-morado .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) {
     background: #865396;
@@ -2989,6 +3014,42 @@ h3.titulo-internet-comoaporta {
 .columnas-iconos-pacto-reactivar3.reactivar-morado .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3) {
     border-left: solid 2px #865396;
     border-right: solid 2px #865396;
+}
+
+
+
+
+
+.columnas-iconos-pacto-reactivar3.reactivar-naranja .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) {
+    background: #cf7152;
+    min-height: 227px;
+}
+
+.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
+    color: #cf7152;
+    padding: 20px;
+}
+
+.columnas-iconos-pacto-reactivar3.reactivar-naranja .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
+    color: #cf7152;
+    padding: 20px;
+}
+
+.columnas-iconos-pacto-reactivar3.reactivar-naranja {
+    border: solid 2px #cf7152;
+}
+
+.columnas-iconos-pacto-reactivar3.reactivar-naranja .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3) {
+    border-left: solid 2px #cf7152;
+    border-right: solid 2px #cf7152;
+}
+
+.imagen-capitulo-5-reactivar {
+    position: absolute;
+    bottom: -112px;
+    right: -270px;
+    width: 75%;
+    /* max-width: 469px; */
 }
 
 
@@ -3466,6 +3527,7 @@ h3.titulo-internet-comoaporta {
 
     .columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos {
         margin-top: 30px;
+        background: #FFF;
     }
 
     .columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1) {
