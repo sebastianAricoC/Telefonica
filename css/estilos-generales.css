@@ -3214,6 +3214,151 @@ h3.titulo-internet-comoaporta{
     display: none;
 }
 
+.columnas-iconos-pacto-reactivar-inner.reactivar-morado .columna-reactivar-iconos1 h2 {
+    margin: 0;
+    color: #865396;
+}
+
+.columnas-iconos-pacto-reactivar-inner.reactivar-morado .columna-reactivar-iconos1:nth-of-type(2) {
+    border-left: 3px solid #865396;
+    max-width: 730px;
+    padding-left: 25px;
+}
+
+
+.columnas-iconos-pacto-reactivar-inner.reactivar-morado .columna-reactivar-iconos1:nth-of-type(1) {
+    margin-right: 46px;
+    padding-bottom: 100px;
+}
+
+    
+
+.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 267px;
+    color: #865396;;
+    text-align: center;
+    border: 2px solid #865396;
+    border-radius: 19px;
+    padding: 32px;
+}
+.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h2{
+    color: #865396;
+    margin: 0;
+}
+.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos p{
+    font-size: 1.2em;
+
+}
+
+.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.columnas-iconos-pacto-reactivar5.reactivar-morado .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1){
+    margin-right:70px;
+}
+
+
+
+.columnas-iconos-pacto-reactivar5.reactivar-morado {
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.columnas-iconos-pacto-reactivar-inner.reactivar-naranja .columna-reactivar-iconos1 h2 {
+    margin: 0;
+    color: #865396;
+}
+
+.columnas-iconos-pacto-reactivar-inner.reactivar-naranja .columna-reactivar-iconos1:nth-of-type(2) {
+    border-left: 3px solid #865396;
+    max-width: 730px;
+    padding-left: 25px;
+}
+
+
+.columnas-iconos-pacto-reactivar-inner.reactivar-naranja .columna-reactivar-iconos1:nth-of-type(1) {
+    margin-right: 46px;
+    padding-bottom: 100px;
+}
+
+    
+
+.columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 267px;
+    color: #865396;;
+    text-align: center;
+    border: 2px solid #865396;
+    border-radius: 19px;
+    padding: 32px;
+}
+.columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h2{
+    color: #865396;
+    margin: 0;
+}
+.columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos p{
+    font-size: 1.2em;
+
+}
+
+.columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos:nth-of-type(1){
+    margin-right:70px;
+}
+
+
+
+.columnas-iconos-pacto-reactivar5.reactivar-morado {
+    margin-top: 50px;
+}
+
+
+.columnas-iconos-pacto-reactivar5.reactivar-naranja {
+    margin-top: 58px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
