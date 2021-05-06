@@ -2878,7 +2878,10 @@ img.imagen-contexto-pacto {
 .columnas-iconos-pacto-reactivar2 h3{
     color: #FFF;
     margin: 0;
+    font-size: 1.1em;
     margin-bottom: 25px;
+    font-weight: bold;
+        padding-top: 6px;
 }
 
 
@@ -2918,6 +2921,10 @@ border-bottom-left-radius: 19px;
 
     right: 1px;
 }
+.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) h3{
+    color: #FFF;
+    font-weight: bold;
+}
 .columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos{
     min-height: 210px;
 
@@ -2933,7 +2940,9 @@ border-bottom-left-radius: 19px;
 border-right: solid 2px #83af37;
 }
 
-
+.columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4{
+    color: #83af37;
+}
 .columnas-iconos-pacto-reactivar4 .columnas-iconos-pacto-reactivar-inner {
     display: flex;
     justify-content: flex-start;
@@ -2984,6 +2993,7 @@ background: #cf2282;
     text-align: center;
     border: 2px solid #cf2282;
     border-radius: 19px;
+    padding:40px;
 }
 
 .columnas-iconos-pacto-reactivar5.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h2{
@@ -2994,6 +3004,29 @@ background: #cf2282;
 .columnas-iconos-pacto-reactivar5.reactivar-fucsia {
     margin-top: 50px;
 }
+
+
+
+
+
+.columnas-iconos-pacto-reactivar3.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4{
+    color: #cf2282;
+        padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
