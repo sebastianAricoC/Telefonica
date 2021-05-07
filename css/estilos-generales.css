@@ -3120,9 +3120,16 @@ h3.titulo-internet-comoaporta {
     background: #019DF4;
     margin-top: 60px;
     position: relative;
-    right: 19px;
+    right: 31px;
 }
-.
+
+
+.contendor-agenda-regulatoria-columnas {
+    display: flex;
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
 
 
 
