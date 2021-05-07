@@ -928,14 +928,16 @@ th.tg-0pky.border-transparent {
 }
 
 .imagen-dummy {
-    width: 100%;
+   width: 100%;
     display: flex;
     max-width: 307px;
-    background: #CCC;
+    background: url(../img/fondo-informe-2.jpg);
     padding: 20px;
-    height: 600px;
+    min-height: 600px;
     justify-content: center;
     align-items: center;
+    background-position: -23px;
+    background-size: cover;
 }
 
 .imagen-dummy p {
@@ -1302,7 +1304,7 @@ span.nombre-titulo-lista-directivas-last {
 .caja-junta-directiva-imagenes .grafico-genero img {
     width: 100%;
     max-width: 194px;
-    height: 229px;
+    
     display: block;
     margin: 0 auto;
     position: relative;
@@ -1340,9 +1342,18 @@ span.nombre-titulo-lista-directivas-last {
 .caja-imagen-genero img {
     width: 100%;
     max-width: 202px;
-    height: 233px;
+   
     display: block;
     margin: 0 auto;
+}
+
+.datos-generos-caja {
+    display: flex;
+    width: 100%;
+    max-width: 191px;
+       justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
 }
 
 .texto-auditoria {
@@ -4290,7 +4301,7 @@ img.nube-actividad-1 {
         width: 100%;
         display: block;
         max-width: 100%;
-        background: #CCC;
+        background: url(../img/fondo-informe-2.jpg);
         padding: 20px;
         height: 600px;
     }
