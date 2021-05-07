@@ -1482,6 +1482,7 @@ color: #0B2739;
 .titulo-secciones-movistar p {
     width: 100%;
     max-width: 600px;
+    color: #0B2739;
 }
 
 .titulo-secciones-movistar {
@@ -1517,6 +1518,7 @@ color: #0B2739;
 .columna-torta p {
     margin-top: 75px;
     font-size: 1.1em;
+    color: #0B2739;
 }
 
 .caja-datos-columna1 {
@@ -2184,6 +2186,7 @@ padding-left: 17px ;
     font-family: 'Telefonica-light' !important;
     margin: 0;
     color: #019DF4;
+    line-height: 18px;
 }
 
 /*************************************Secciones Interna 5 Contexto*******************************/
@@ -2755,6 +2758,7 @@ img.imagen-contexto-pacto {
 .columnas-iconos-pacto-reactivar3.reactivar-fucsia .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
     color: #cf2282;
     padding: 20px;
+    font-size: 1.2em;
 }
 
 .columna-imagen-ilustacion img {
@@ -3079,6 +3083,7 @@ h3.titulo-internet-comoaporta {
 .columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
     color: #83af37;
     padding: 20px;
+    font-size: 1.2em;
 }
 
 .columnas-iconos-pacto-reactivar3.reactivar-morado .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
@@ -4187,6 +4192,7 @@ img.nube-actividad-1 {
 
     .caja-datos-relevantes h4 {
         color: #0B2739;
+            padding-left: 20px;
     }
 
     .caja-textos-imagen-datos:nth-of-type(5) {
