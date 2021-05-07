@@ -3081,20 +3081,48 @@ h3.titulo-internet-comoaporta {
 
 
 
+.contendor-agenda-regulatoria {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
 
 
 
+.columna-agenda-regulatoria {
+    width: 100%;
+    max-width: 297px;
+   
+}
+.columna-agenda-regulatoria h1{
+    color: #FFF;
+    font-family: 'Telefonica-light' !important;
+
+}
+.columna-agenda-regulatoria p{
+    color: #FFF;
+        font-size: 1.2em;
+        font-family: 'Telefonica-light' !important;
+}
+.contenido-agenda-regulatoria-fondo{
+    background: url(../img/fondo-actividad-1.jpg);
+    margin-top:60px;
+}
 
 
 
-
-
-
-
-
-
-
+.contendor-fondo-actividad-color {
+         padding: 33px;
+    background: #019DF4;
+    margin-top: 60px;
+    position: relative;
+    right: 19px;
+}
+.
 
 
 
