@@ -1494,7 +1494,7 @@ color: #0B2739;
 }
 
 .titulo-secciones-movistar h1 {
-    color: #019DF4;
+    color: #0B2739;
     margin: 0;
     position: relative;
 }
@@ -1570,6 +1570,7 @@ color: #0B2739;
     font-size: 1em;
     font-family: 'Telefonica-bold';
     margin: 0;
+    color: #0B2739;
 }
 .texto-datos-lista p span{
     color: #019DF4;
@@ -2137,14 +2138,17 @@ padding-left: 17px ;
 
 .contenido-columna-opaca h3 span:nth-of-type(1) {
     color: #E46B00;
+    opacity: 0.6;
 }
 
 .contenido-columna-opaca h3 span:nth-of-type(2) {
     color: #DA9A00;
+     opacity: 0.6;
 }
 
 .contenido-columna-opaca h3 span:nth-of-type(3) {
     color: #008AFF;
+     opacity: 0.6;
 }
 
 /*************************************Secciones Interna 0 Carta Del Presidente*******************************/
