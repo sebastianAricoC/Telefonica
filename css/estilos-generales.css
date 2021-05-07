@@ -73,6 +73,17 @@ text-decoration: none;
     font-size: 1.1em;
 }
 
+.texto-footer-carta {
+    padding-top: 14px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 59px;
+    border-top: 3px solid #019DF4;
+}
+
+.texto-footer-carta strong{
+    color: #019DF4;
+}
 
 
 /***********************estilos que oculta el mueno hover ojo***************************/
