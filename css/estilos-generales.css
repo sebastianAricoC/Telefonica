@@ -3215,9 +3215,53 @@ img.nube-actividad-1 {
     min-height: 1220px;
 }
 
+.contenido-agenda-regulatoria-fondo-columnas-3 .contendor-agenda-regulatoria-columnas{
+    position: relative;
+
+}
 
 
+.contenido-agenda-regulatoria-fondo-columnas-3 .contendor-agenda-regulatoria-columnas .columnas-agenda-regulatoria p{
+    font-size: 1.1em;
 
+}
+
+
+.contenido-agenda-regulatoria-fondo-columnas-3 .contendor-agenda-regulatoria-columnas .columnas-agenda-regulatoria:nth-of-type(1) p:nth-of-type(1) {
+    color: #019DF4;
+    font-family: 'Telefonica-light' !important;
+    font-size: 1.3em;
+    border-left: 2px solid #019DF4;
+    padding-left: 21px;
+}
+
+.contenido-agenda-regulatoria-fondo-columnas-3 .contendor-agenda-regulatoria-columnas .columnas-agenda-regulatoria:nth-of-type(1) p:nth-of-type(2) {
+    margin-top:40px;
+}
+.contenido-agenda-regulatoria-fondo-columnas-3 .contendor-agenda-regulatoria-columnas  {
+    display: flex;
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+.contenido-agenda-regulatoria-fondo-columnas-3 .contendor-agenda-regulatoria-columnas .columnas-agenda-regulatoria:nth-of-type(3) img{
+       width: 100%;
+    max-width: 513px;
+    top: -206px;
+    right: -65px;
+    position: absolute;
+
+}
+
+.contenido-agenda-regulatoria-fondo-columnas-3 .contendor-agenda-regulatoria-columnas .columnas-agenda-regulatoria:nth-of-type(3) p:nth-of-type(1){
+    margin-top:120px;
+}
+.contenido-agenda-regulatoria-fondo-columnas-3 {
+    margin-top: 190px;
+}
 
 
 
