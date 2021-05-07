@@ -3205,6 +3205,15 @@ img.nube-actividad-1 {
 }
 
 
+.contenido-agenda-regulatoria-fondo-columnas-2 .contendor-agenda-regulatoria-columnas {
+    display: flex;
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+        justify-content: center;
+    align-items: center;
+    min-height: 1220px;
+}
 
 
 
