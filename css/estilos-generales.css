@@ -67,12 +67,24 @@ ul.navbar-nav li a {
 color: #333;
 text-decoration: none;
 }*/
+
+
+.gri-class{
+    font-size: 1.1em;
+}
+
+
+
 /***********************estilos que oculta el mueno hover ojo***************************/
 #main-menu .parent:hover>.sub {
     /* display: none !important;*/
     -webkit-animation: fadeIn .4s;
     animation: fadeIn .4s;
 }
+
+
+
+
 
 #main-menu .sub {
     background: #0B2739 !important;
@@ -1434,11 +1446,11 @@ span.nombre-titulo-lista-directivas-last {
 
 /*************************************Secciones Interna 3 Movistar Colombia*******************************/
 .banner-secciones-internas3 {
-    background: url(../img/banner-acerca-movistar.jpg);
+   background: url(../img/banner-acerca-movistar.jpg);
     width: 100%;
-    background-position: 0px -1px;
-    background-size: cover;
-    /*height: 339px;*/
+    background-position: -244px -51px;
+    background-size: 133%;
+    /* height: 339px; */
     margin-top: 113px;
 }
 
@@ -1479,6 +1491,7 @@ span.nombre-titulo-lista-directivas-last {
 
 .columna-torta p {
     margin-top: 75px;
+    font-size: 1.1em;
 }
 
 .caja-datos-columna1 {
@@ -1486,6 +1499,10 @@ span.nombre-titulo-lista-directivas-last {
     padding: 4px;
     width: 100%;
     max-width: 220px;
+}
+
+.caja-datos-columna1{
+    color: #0B2739;
 }
 
 .columna-listado-datos {
@@ -1526,6 +1543,9 @@ span.nombre-titulo-lista-directivas-last {
     font-size: 1em;
     font-family: 'Telefonica-bold';
     margin: 0;
+}
+.texto-datos-lista p span{
+    color: #019DF4;
 }
 
 .texto-datos-lista p {
@@ -1651,6 +1671,10 @@ span.nombre-titulo-lista-directivas-last {
     color: #0B2739;
     padding-left: 94px;
 }
+.caja-titulo-mision p span{
+            font-weight: bold;
+    color: #019DF4;
+    }
 
 hr.linea-caja-datos {
     border-top: 1px solid #019DF4;
@@ -1869,7 +1893,7 @@ hr.linea-caja-datos {
 
 .icono-datos-relevantes img:nth-of-type(1) {
     width: 100%;
-    max-width: 120px;
+    max-width: 90px;
     margin-bottom: 74px;
 }
 
@@ -2021,7 +2045,7 @@ hr.linea-caja-datos {
 
 .columna-opaca {
     margin: 20px;
-    background: #0b2739d1;
+    background:#0b2739fa;
     padding: 28px;
 }
 
@@ -2057,7 +2081,18 @@ hr.linea-caja-datos {
 
 .contenido-columna-blanca {
     padding: 21px;
+    color: #0b2739fa;
 }
+.contenido-columna-blanca p{
+    color: #0b2739fa;
+}
+.contenido-columna-blanca h1{
+    color: #0b2739fa;
+}
+.contenido-columna-blanca ul{
+padding-left: 17px ;
+    color: #019DF4 ;
+    }
 
 .contenido-columna-opaca h3 span {
     background: #0b27398c;
@@ -4181,9 +4216,11 @@ img.nube-actividad-1 {
         padding-left: 20px;
     }
 
+
     .contenedor-mision-valores p {
         margin-bottom: 12px;
     }
+
 
     .caja-titulo-valores {
         width: 100%;
