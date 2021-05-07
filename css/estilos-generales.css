@@ -1415,14 +1415,24 @@ span.nombre-titulo-lista-directivas-last {
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: 531px -59px;
+    color: #0B2739;
 }
-
+.caja-conflictos-intereses h1{
+    color: #0B2739;
+}
+.caja-conflictos-intereses h4{
+color: #0B2739;
+}
 .caja-conflictos-intereses p {
     width: 100%;
-    max-width: 668px;
+     max-width: 530px;
     margin-top: 50px;
+    font-size: 1.2em;
 }
-
+.caja-conflictos-intereses p span{
+    font-weight: bold;
+    font-style: italic;
+}
 .caja-conflictos-intereses-columnas {
     display: flex;
     justify-content: space-between;
@@ -1439,10 +1449,14 @@ span.nombre-titulo-lista-directivas-last {
 .texto-intereses {
     width: 100%;
     max-width: 400px;
+    color: #0B2739;
 }
-
+.texto-intereses p{
+    font-size: 1.1em;
+}
 .caja-conflictos-intereses2 {
     margin-top: 25px;
+    color: #0B2739;
 }
 
 .caja-conflictos-intereses2 p {
@@ -2234,6 +2248,11 @@ padding-left: 17px ;
     font-size: 1.2em;
     margin: 0;
     font-family: 'Telefonica-bold';
+    color:#0B2739;
+}
+
+.presidente-clase{
+    line-height: 20px;
 }
 
 .contexto-sector {
@@ -2256,7 +2275,7 @@ padding-left: 17px ;
 
 .columna-imagen-sector img {
     width: 100%;
-    max-width: 600px;
+    max-width: 423px;
 }
 
 .contenido-contexto-sector-columnas {
@@ -2384,6 +2403,7 @@ padding-left: 17px ;
     display: flex;
     color: #FFF;
     padding-top: 50px;
+    font-weight: 600;
 }
 
 .columna-pacto-digital-inner1 {
@@ -2400,6 +2420,7 @@ padding-left: 17px ;
     max-width: 890px;
     margin: 0 auto;
     color: #FFF;
+    font-weight: 600;
 }
 
 .contenido-fondo-pacto-inner {
@@ -2489,6 +2510,13 @@ img.imagen-contexto-pacto {
     max-width: 444px;
 }
 
+.columna-pacto-reactivar h1{
+    color: #019DF4;
+    font-size: 2em;
+}
+.columna-pacto-reactivar p{
+    color: #0B2739;
+}
 .columnas-iconos-pacto-reactivar-inner {
     display: flex;
     justify-content: space-between;
@@ -2496,6 +2524,7 @@ img.imagen-contexto-pacto {
 
 .columnas-iconos-pacto-reactivar-inner2 {
     display: flex;
+        height: 205px;
     justify-content: center;
     align-items: center;
 }
@@ -2850,7 +2879,7 @@ img.imagen-contexto-pacto {
 
 .columnas-iconos-pacto-reactivar3.reactivar-azul .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) {
     background: #019DF4;
-    min-height: 227px;
+    
 }
 
 .columnas-iconos-pacto-reactivar3.reactivar-azul {
@@ -2865,6 +2894,7 @@ img.imagen-contexto-pacto {
 .columnas-iconos-pacto-reactivar3.reactivar-azul .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
     color: #019DF4;
     padding: 20px;
+        font-size: 1.1em;
 }
 
 h3.titulo-internet-hogar {
@@ -2948,11 +2978,11 @@ h3.titulo-internet-comoaporta {
 
 .columnas-iconos-pacto-reactivar-inner.reactivar-naranja .columna-reactivar-iconos1 h2 {
     margin: 0;
-    color: #cf7152;
+    color: #ff4b0f;
 }
 
 .columnas-iconos-pacto-reactivar-inner.reactivar-naranja .columna-reactivar-iconos1:nth-of-type(2) {
-    border-left: 3px solid #cf7152;
+    border-left: 3px solid #ff4b0f;
     max-width: 730px;
     padding-left: 25px;
 }
@@ -2969,16 +2999,16 @@ h3.titulo-internet-comoaporta {
     align-items: center;
     width: 100%;
     max-width: 267px;
-    color: #cf7152;
+    color: #ff4b0f;
     ;
     text-align: center;
-    border: 2px solid #cf7152;
+    border: 2px solid #ff4b0f;
     border-radius: 19px;
     padding: 32px;
 }
 
 .columnas-iconos-pacto-reactivar5.reactivar-naranja .columnas-iconos-pacto-reactivar-inner .columna-reactivar-iconos h2 {
-    color: #cf7152;
+    color: #ff4b0f;
     margin: 0;
 }
 
@@ -2999,11 +3029,14 @@ h3.titulo-internet-comoaporta {
 
 .columnas-iconos-pacto-reactivar-inner.reactivar-naranja .columna-reactivar-iconos1 h3{
     margin: 0;
-    color: #cf7152;
+    color: #ff4b0f;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 7px;
 }
 .columnas-iconos-pacto-reactivar-inner.reactivar-naranja .columna-reactivar-iconos1 p{
     margin: 0;
-    color: #cf7152;
+    color: #ff4b0f;
 }
 
 
@@ -3040,7 +3073,7 @@ h3.titulo-internet-comoaporta {
 
 .columnas-iconos-pacto-reactivar3.reactivar-morado .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) {
     background: #865396;
-    min-height: 227px;
+    
 }
 
 .columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
@@ -3050,6 +3083,7 @@ h3.titulo-internet-comoaporta {
 
 .columnas-iconos-pacto-reactivar3.reactivar-morado .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
     color: #865396;
+    font-size: 1.1em;
     padding: 20px;
 }
 
@@ -3067,27 +3101,28 @@ h3.titulo-internet-comoaporta {
 
 
 .columnas-iconos-pacto-reactivar3.reactivar-naranja .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(1) {
-    background: #cf7152;
-    min-height: 227px;
+    background: #ff4b0f;
+   
 }
 
 .columnas-iconos-pacto-reactivar3 .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
-    color: #cf7152;
+    color: #83af37;
     padding: 20px;
 }
 
 .columnas-iconos-pacto-reactivar3.reactivar-naranja .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos h4 {
-    color: #cf7152;
+    color: #ff4b0f;
     padding: 20px;
+    font-size: 1.1em;
 }
 
 .columnas-iconos-pacto-reactivar3.reactivar-naranja {
-    border: solid 2px #cf7152;
+    border: solid 2px #ff4b0f;
 }
 
 .columnas-iconos-pacto-reactivar3.reactivar-naranja .columnas-iconos-pacto-reactivar-inner2 .columna-reactivar-iconos:nth-of-type(3) {
-    border-left: solid 2px #cf7152;
-    border-right: solid 2px #cf7152;
+    border-left: solid 2px #ff4b0f;
+    border-right: solid 2px #ff4b0f;
 }
 
 .imagen-capitulo-5-reactivar {
@@ -3700,6 +3735,9 @@ img.nube-actividad-1 {
 }
 
 @media screen and (max-width: 800px) {
+    .columnas-iconos-pacto-reactivar-inner2{
+        height: 100%;
+    }
     .texto-asuntos-materiales p {
     font-size: 1.2em;
     width: 100%;
@@ -4334,6 +4372,7 @@ img.nube-actividad-1 {
         width: 100%;
         max-width: 400px;
         padding: 33px;
+            color: #0B2739;
     }
 
     .caja-composicion-directiva-texto {
@@ -4348,10 +4387,12 @@ img.nube-actividad-1 {
         background-repeat: no-repeat;
         background-position: 102px -38px;
         padding: 33px;
+            color: #0B2739;
     }
 
     .caja-conflictos-intereses h1 {
         padding-top: 8px;
+        color: #0B2739;
     }
 
     .imagen-auditoria {
